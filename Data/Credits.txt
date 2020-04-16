@@ -1,0 +1,91 @@
+﻿Credits for models and textures.
+
+-- Empire Comm Station ---
+
+CREDITS:
+
+
+Model			: Warb Null
+Skin			: Warb Null
+XML			: Warb Null
+Icon			: Warb Null
+
+--- Finalizer and FO TIE---
+
+CREDITS:
+
+Finalizer:
+
+Model		: Warb Null
+Skin		: Warb Null
+XML		: Warb Null
+Icon		: Warb Null
+
+FO TIE Fighter:
+
+Model		: Arvis Taljik
+Skin		: Arvis Taljik
+XML		: Warb Null
+
+
+	-- The Ghost---
+
+CREDITS:
+
+Ghost:
+
+Model	: Warb Null
+Skin	: Warb Null
+Code	: Warb Null
+Icon	: Warb Null
+
+Hera Syndulla:
+
+Model	: Lucasarts
+Skin	: Warb Null
+
+Kanan Jarrus:
+
+Model	: Lucasarts / Sidious Invader
+Skin	: Warb Null
+
+--- Skystrike Station---
+
+CREDITS:
+
+
+Model		: Warb Null
+Skin		: Warb Null
+XML			: Warb Null
+Icon		: Warb Null
+
+--- Supremacy SSD---
+
+CREDITS:
+
+
+Model		: Warb Null
+Skin		: Warb Null
+Rigging		: Jeroenimo
+Death-Clone	: Jeroenimo
+XML			: Jeroenimo
+Icons		: Warb Null
+
+--- Profundity Cruiser---
+
+CREDITS:
+
+
+Model		: Warb Null
+Skin		: Warb Null
+XML			: Warb Null
+Icon		: Warb Null
+
+
+--- Nolanstars Torpedo Particle Pack ---
+
+CREDITS:
+
+
+Model		: Nolanstar
+

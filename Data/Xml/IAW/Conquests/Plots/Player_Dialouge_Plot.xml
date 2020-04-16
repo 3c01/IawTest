@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<Story>
+
+	<Event Name="Command_Bonuses">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Story_Dialog>Documentation_TiersAndTraits</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Story_Tag</Story_Tag>
+	</Event>
+
+</Story>

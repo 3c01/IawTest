@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+
+<Game_Object_Files>
+	
+	<File>LayerZDummy.xml</File>
+	
+	<File>TransportUnits.xml</File>
+	
+	<File>Space_Structures.xml</File>
+	<File>StarBases.xml</File>
+
+	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
+	<File>GroundBases.xml</File>
+	<File>GroundStructures.xml</File>
+	<File>GroundTurrets.xml</File>
+	
+	
+	
+	<File>GroundIndigenous.xml</File>
+	<File>GroundCompaniesIndigenous.xml</File>
+	<File>GroundBuildablesRebel.xml</File>
+	<File>GroundBuildablesEmpire.xml</File>
+	<File>GroundBuildablesPirate.xml</File>
+	<File>GroundBuildablesSkirmish.xml</File>
+	
+	<File>Units\IAW\SpaceUnitsRebel.xml</File>
+	<File>Units\IAW\SpaceUnitsEmpire.xml</File>
+	
+	<File>Units\IAW\GroundEmpire.xml</File>
+	<File>Units\IAW\GroundRebel.xml</File>
+	
+	<File>Units\IAW\HeroUnitsRebel.xml</File>
+	<File>Units\IAW\HeroUnitsEmpire.xml</File>
+	
+	<File>Units\IAW\Maldrood_Units.xml</File>
+	<File>Units\IAW\Eriadu_Units.xml</File> 
+	<File>Units\IAW\CSA_Units.xml</File>
+	
+	<File>Units\Templates_Capital.xml</File>
+	<File>Units\Templates_corvettes.xml</File>
+	<File>Units\Templates_Cruisers.xml</File>
+
+	<File>SpaceProps.xml</File>
+	
+	<File>Units\SpaceUnitsFighters.xml</File>
+	<File>Units\Squadrons.xml</File>
+	
+	
+	<File>Units\IaW\Units_Space_Finalizer.xml</File>
+	<File>IAW\PIR\Keldabe.XML</File>
+	<File>IAW\PIR\Starvipers.XML</File>
+	<File>IAW\PIR\PirateShips.XML</File>
+	
+	<File>IAW\REB\Units_Space_Rebel_Viscount.xml</File>	
+	
+	<File>SpacePrimarySkydomes.xml</File>
+	<File>SpaceSecondarySkydomes.xml</File>
+	<File>SpaceBuildablesSkirmish.xml</File>
+	
+	<File>NamedHeroUnits.xml</File>
+	<File>GenericHeroUnits.xml</File>
+	<File>HeroCompanies.xml</File>
+
+	<File>LandPrimarySkydomes.xml</File>
+	<File>LandSecondarySkydomes.xml</File>
+
+	<File>LandBombingRunUnits.xml</File>
+
+	<File>SpecialStructures.xml</File>
+	
+
+	
+
+	<File>PlanetsThree.xml</File>
+	<File>PlanetsTwo.xml</File>
+
+	<File>Projectiles\ProjectilesTwo.xml</File>
+	<File>Projectiles\Projectiles_FighterLasers.xml</File>
+	<File>Projectiles\Projectiles_Infantry.xml</File>
+	<File>Projectiles\Projectiles_IonCannons.xml</File>
+	<File>Projectiles\Projectiles_Lasers.xml</File>
+	<File>Projectiles\Projectiles_Lasers_Vehicle.xml</File>
+	<File>Projectiles\Projectiles_Masers.xml</File>
+	<File>Projectiles\Projectiles_Physical_Ground.xml</File>
+	<File>Projectiles\Projectiles_Physical_Space.xml</File>
+	<File>Projectiles\Projectiles_Turbolasers.xml</File>
+
+	<File>SpecialEffects.xml</File>
+	<File>Particles.xml</File>
+	<File>Markers.xml</File>
+	<File>UniqueUnits.xml</File> -->
+	<File>Containers.xml</File>
+	<File>ScriptMarkers.xml</File>
+	
+	<File>IAW\SkirmishUnits.xml</File>
+
+	<File>MiscObjects.xml</File>
+	<File>UpgradeObjects.xml</File>
+	<File>SecondaryStructures.xml</File>
+
+	<File>Props_Temperate.xml</File>
+	<File>Props_Swamp.xml</File>
+	<File>Props_Volcanic.xml</File>
+	<File>Props_Forest.xml</File>
+	<File>Props_Snow.xml</File>
+	<File>Props_Desert.xml</File>
+	<File>Props_Urban.xml</File>
+	<File>Props_Generic.xml</File>
+	<File>Props_Story.xml</File>	
+
+	<File>CIN_SpaceUnitsCapital.xml</File>
+	<File>CIN_SpaceUnitsFighters.xml</File>
+	<File>CIN_SpaceUnitsCorvettes.xml</File>
+	<File>CIN_SpaceUnitsFrigates.xml</File>
+	<File>CIN_GroundInfantry.xml</File>
+	<File>CIN_GroundVehicles.xml</File>
+	<File>CIN_SpaceProps.xml</File>
+	<File>CIN_TransportUnits.xml</File>
+	<File>CIN_Projectiles.xml</File>
+	<File>CIN_GroundProps.xml</File>
+	<File>CIN_GroundTurrets.xml</File>
+
+	<File>MOV_Cinematics.xml</File>
+
+	<!--
+	<File>SpecialStructures_Underworld.xml</File>
+	<File>StarBases_Underworld.xml</File> -->
+
+
+
+	<!-- Expansion Units: Neutral -->
+
+	<File>Units_Space_Neutral_Eclipse.xml</File>
+	<File>Hutt_Faction_Units.xml</File>
+	<File>GroundBuildablesHutts.xml</File>
+
+
+	<!-- Expansion General Files -->
+	
+	<File>SpaceProps_Underworld.xml</File>
+	<File>Underworld_TransportUnits.xml</File>
+	<File>Minor_Heroes_Expansion.xml</File>
+	<File>Props_Felucia.xml</File>
+	<File>GroundBuildablesUnderworld.xml</File>
+	<File>GroundStructures_Underworld.xml</File>
+	<File>Multiplayer_Structure_Markers.XML</File>
+	<File>UpgradeObjects_Underworld.XML</File>
+	<File>Corruption_Special_Units.XML</File>
+
+	<File>GroundInfantry.xml</File>
+	<File>GroundVehicles.xml</File>
+
+
+</Game_Object_Files>

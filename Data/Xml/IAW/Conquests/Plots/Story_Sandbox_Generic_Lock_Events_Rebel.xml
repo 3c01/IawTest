@@ -1,0 +1,173 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****** This story file is used to automatically set some things that would normally happen ******-->
+<!--****** in story mode for the full campaign.  This file should be generic enough to use for  ******-->
+<!--****** any sandbox campaign set.                                                           ******-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+	</Event>
+
+<!--******************************************************-->
+<!--******	Initial locks					         *****-->
+<!--******************************************************-->
+
+<!--******************************************************-->
+<!--******	Hero Release					         *****-->
+<!--******************************************************-->
+	
+	
+<!--******************************************************-->
+<!--******	Tech 2                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebel_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 3                                  *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebel_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<Event Name="R_Lock_Recusant">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Recusant</Reward_Param1>
+		<Prereq>Rebel_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Lock_Venator">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Venator_Rebel</Reward_Param1>
+		<Prereq>Rebel_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Lock_Dreadnaught">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Dreadnaught_Rebel</Reward_Param1>
+		<Prereq>Rebel_Enters_Tech_03</Prereq>
+	</Event>
+
+<!--******************************************************-->
+<!--******	Tech 4                                  *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebel_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+	<Event Name="Unlock_Voyager">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Galactic_Voyager</Reward_Param1>
+		<Prereq1>Rebel_Enters_Tech_04</Prereq1>
+	</Event>
+	
+	<Event Name="Build_Akbar_Voyager">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Galactic_Voyager</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>Rebel</Event_Param3>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Home_One</Reward_Param1>
+	</Event>
+	
+	<Event Name="R_Lock_Akbar_Voyager">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Home_One</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>0</Event_Param3>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Galactic_Voyager</Reward_Param1>
+		<Prereq>Unlock_Voyager</Prereq>
+	</Event>
+	
+	
+<!--******************************************************-->
+<!--******	Tech 5                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebel_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	<Event Name="Unlock_Lusankya">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Wedge_Lusankya</Reward_Param1>
+		<Prereq1>Rebel_Enters_Tech_05</Prereq1>
+	</Event>
+	
+	<Event Name="Build_Wedge_Lusankya">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Wedge_Lusankya</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>Rebel</Event_Param3>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+	</Event>
+	
+	<Event Name="R_Lock_Lusankya">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Rogue_Squadron_Space</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>0</Event_Param3>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Wedge_Lusankya</Reward_Param1>
+		<Prereq>Unlock_Lusankya</Prereq>
+	</Event>
+	
+	<Event Name="Unlock_Guardian">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Ackbar_Guardian</Reward_Param1>
+		<Prereq>Build_Akbar_Voyager</Prereq>
+	</Event>
+	
+	<Event Name="Build_Akbar_Guardian">
+		<Event_Type>STORY_CONSTRUCT</Event_Type>
+		<Event_Param1>Ackbar_Guardian</Event_Param1>
+		<Event_Param2>1</Event_Param2>
+		<Event_Param3>Rebel</Event_Param3>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Galactic_Voyager</Reward_Param1>
+	</Event>
+	
+	<Event Name="R_Lock_Akbar_Guardian_Galactic_Voyager">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Galactic_Voyager</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>0</Event_Param3>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Ackbar_Guardian</Reward_Param1>
+		<Prereq>Unlock_Guardian</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 6                                   *****-->
+<!--******************************************************-->
+
+</Story>

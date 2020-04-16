@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****** This story file is used to automatically set some things that would normally happen ******-->
+<!--****** in story mode for the full campaign.  This file should be generic enough to use for  ******-->
+<!--****** any sandbox campaign set.                                                           ******-->
+
+<!-- ******************************************************************* -->
+<!-- *****         SANDBOX CAMPAIGN "Outer Rim Conflict"           ***** -->
+<!-- ******************************************************************* -->
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Null</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+
+<!--******************************************************-->
+<!--******	Initial locks					         *****-->
+<!--******************************************************-->
+
+	<Event Name="Intro_Completed">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Intro_Tag</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+<!--******************************************************-->
+<!--******	Hero Release					         *****-->
+<!--******************************************************-->
+	
+<!--	<Event Name="E_Spawn_Palpatine">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event> 
+	
+	<Event Name="E_Spawn_Tarkin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sovereign_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	-->
+<!--******************************************************-->
+<!--******	Tech 1                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 2                                   *****-->
+<!--******************************************************-->
+
+<!--******************************************************-->
+<!--******	Tech 3                                  *****-->
+<!--******************************************************-->
+
+<!--******************************************************-->
+<!--******	Tech 4                                   *****-->
+<!--******************************************************-->
+
+<!--******************************************************-->
+<!--******	Tech 5                                   *****-->
+<!--******************************************************-->
+
+
+</Story>

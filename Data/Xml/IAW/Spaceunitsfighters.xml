@@ -1,0 +1,3420 @@
+<?xml version="1.0"?>
+<FighterUnits>
+
+
+	<SpaceUnit Name="Z-95_Headhunter_MP">
+		<Variant_Of_Existing_Type>Z-95_Headhunter_Rebel</Variant_Of_Existing_Type>
+		<Encyclopedia_Text>TEXT_TOOLTIP_Z95_MP</Encyclopedia_Text>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, ABILITY_COUNTDOWN, NEBULA </SpaceBehavior>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>FOW_REVEAL_PING</Type>
+				<Recharge_Seconds> 30.0 </Recharge_Seconds>
+				<Spawned_Object_Type> Proj_Special_Space_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
+				<Effective_Radius> 8000.0 </Effective_Radius>
+				<Area_Effect_Decal_Distance> 600.0 </Area_Effect_Decal_Distance> 
+				<GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Scimitar_Bomber">
+		<Text_ID>TEXT_UNIT_SCIMITAR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_SCIMITAR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Mediator_Cruiser Calamari_Cruiser Calamari_MC80 </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette E-wing A-Wing </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>ev_scimitar.alo</Space_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Select_Box_Scale>80</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.985</Mass>
+		<Max_Speed>5.5</Max_Speed>
+		<Min_Speed>4.0</Min_Speed>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Max_Lift>3</Max_Lift>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>3.5</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>35</Bank_Turn_Angle>
+		<Hyperspace>yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Begin_Turn_Towards_Distance>200.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>4</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>60</Shield_Points>
+		<Tactical_Health>80</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>bomber</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+		<Land_Bomber_Type>Scimitar_Bombing_Run</Land_Bomber_Type>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>6</Number_per_Squadron>
+		<Build_Cost_Credits>40</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior> WEAPON, HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<HardPoints>
+			HP_SCIMITAR
+		</HardPoints>
+
+		<Damage>5</Damage>
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space_Empire</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire> Unit_TIE_Bomber_Fire </SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_TIE_Bomber</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Bomber</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_TIE_Bomber</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+		<SFXEvent_Guard>Unit_Guard_TIE_Bomber</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Bomber </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Bomber </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Bomber </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Bomber </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving> Unit_TIE_Bomber_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Bomber_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_scimitar.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>100</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+		
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space_Empire</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Damage>5</Damage>
+		<Population_Value>0</Population_Value>
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+	</SpaceUnit>
+
+
+	<!-- Will be integrted with the Royal Guard (land unit) in Future  -->
+	<SpaceUnit Name="TIE_Interceptor_Red">
+		<Variant_Of_Existing_Type>TIE_Interceptor</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_TIE_INTERCEPTOR_RED</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR_RED</Encyclopedia_Text>
+		<Space_Model_Name>EV_TIEINT_GUARD.ALO</Space_Model_Name>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Damage>8</Damage>
+		<Max_Speed>6.0</Max_Speed>
+		<Min_Speed>3.0</Min_Speed>
+		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
+		<Max_Lift>3</Max_Lift>
+		<Max_Thrust>1.8</Max_Thrust>
+		<Max_Rate_Of_Roll>9.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>160</Bank_Turn_Angle>
+		<Tactical_Health>55</Tactical_Health>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Shield_Points>20</Shield_Points>
+		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
+		<Icon_Name>i_button_tie_interceptor_red.tga</Icon_Name>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>50</AI_Combat_Power>
+	</SpaceUnit>
+
+	<SpaceUnit Name="TIE_Interceptor_Elite">
+		<Variant_Of_Existing_Type>TIE_Interceptor</Variant_Of_Existing_Type>
+		<Max_Speed>6.0</Max_Speed>
+		<Min_Speed>3.0</Min_Speed>
+		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
+		<Max_Lift>3</Max_Lift>
+		<Max_Thrust>1.8</Max_Thrust>
+		<Max_Rate_Of_Roll>9.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>160</Bank_Turn_Angle>
+		<Shield_Points>20</Shield_Points>
+		<Ship_Class>bomber</Ship_Class>
+		<Land_Bomber_Type>TIE_Bomber_Bombing_Run</Land_Bomber_Type>
+		<Icon_Name>i_button_tie_interceptor_elite.tga</Icon_Name>
+	</SpaceUnit>
+
+	<SpaceUnit Name="TIE_Bomber_Elite">
+		<Variant_Of_Existing_Type>TIE_Bomber</Variant_Of_Existing_Type>
+		<Max_Speed>5.2</Max_Speed>
+		<Min_Speed>4.0</Min_Speed>
+		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+		<Max_Lift>3</Max_Lift>
+		<Max_Thrust>1.1</Max_Thrust>
+		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>
+		<Shield_Points>20</Shield_Points>
+		<Land_Bomber_Type>TIE_Bomber_Bombing_Run</Land_Bomber_Type>
+		<Icon_Name>i_button_tie_bomber_elite.tga</Icon_Name>
+	</SpaceUnit>
+
+	<SpaceUnit Name="K-Wing">
+		<No_Colorization_Color>255,255,255,255</No_Colorization_Color>
+		<Text_ID>TEXT_UNIT_K_WING</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_K_WING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Star_Destroyer Titan_Cruiser Executor_SSD </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Phantom TIE_Defender Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>rv_kwing.ALO</Space_Model_Name>
+		<Scale_Factor>0.60</Scale_Factor>
+		<Select_Box_Scale>30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.99</Mass>
+		<Fires_Forward>no</Fires_Forward>
+
+		<Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+		<Barrel_Bone_Name>MuzzleA_00</Barrel_Bone_Name>
+		<Turret_Rotate_Speed>6.0</Turret_Rotate_Speed>
+		<Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
+		<Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
+
+		<Max_Lift>0.5</Max_Lift>
+		<Max_Speed>3.7</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
+		<Max_Thrust>0.5</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>90</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+		<Hyperspace>No</Hyperspace>
+		<Hyperspace_Speed>0</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Shield_Points>20</Shield_Points>
+		<Tactical_Health>30</Tactical_Health>
+		<Shield_Refresh_Rate>6</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+		<Ship_Class>bomber</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>No</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>3</Number_per_Squadron>
+		<Build_Cost_Credits>50</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, TURRET </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Damage>10</Damage>
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Red_Heavy</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<HardPoints>
+			K-Wing_Missile, K-Wing_Turbo, K-Wing_Torpedo	
+		</HardPoints>
+		<SFXEvent_Fire>Unit_Rebel_Ship_Laser_Fire</SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_X_Wing </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_X_Wing </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<CategoryMask>bomber | AntiCapital</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_k_wing.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>220</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+			</Unit_Ability>
+			<Unit_Ability>
+				<Type>TURBO</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	0.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0f</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+		<Land_Bomber_Type>K-Wing_Bombing_Run</Land_Bomber_Type>
+	</SpaceUnit>
+
+	<SpaceUnit Name="TIE_Phantom">
+		<Text_ID>TEXT_UNIT_TIE_PHANTOM</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_PHANTOM</Encyclopedia_Text>
+		<Encyclopedia_Good_Against> X-Wing Y-Wing B-Wing </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>ev_tiephantom.ALO</Space_Model_Name>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>20</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.98</Mass>
+		<Max_Speed>5.5</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>50</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Max_Lift>4</Max_Lift>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>5</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>600</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Ship_Class>fighter</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>5</Number_per_Squadron>
+		<Build_Cost_Credits>60</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Size_Value>4</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING </SpaceBehavior>
+			
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>10</Damage>
+
+		<Hardpoints>
+			Phantom01, Phantom02, Phantom03
+		</Hardpoints>
+		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+
+		<SFXEvent_Fire> Unit_TIE_Phantom_Fire </SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_TIE_Phantom </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_TIE_Phantom </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Phantom</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_TIE_Phantom </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_TIE_Phantom </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Phantom </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Phantom </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Phantom</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Phantom </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Tie_Phantom </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Tie_Phantom </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Phantom </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Phantom </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Phantom </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Phantom </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Phantom </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Phantom </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_TIE_Phantom </SFXEvent_Attack_Hardpoint>
+
+		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
+		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_phantom.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Is_Visible_On_Enemy_Radar>No</Is_Visible_On_Enemy_Radar>
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius> <!-- 15 -->
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance> <!-- 50 -->
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>90</AI_Combat_Power>
+		<Collision_Box_Modifier>1.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+			
+			<!-- Primary ability -->
+            <Unit_Ability>
+                <Type>STEALTH</Type>
+				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
+                <GUI_Activated_Ability_Name>Stealth_Phantom</GUI_Activated_Ability_Name> 
+                <Recharge_Seconds>10.0</Recharge_Seconds>
+				<Expiration_Seconds>80.0</Expiration_Seconds>
+            <SFXEvent_GUI_Unit_Ability_Activated> Unit_Stealth_On_Tie_Phantom </SFXEvent_GUI_Unit_Ability_Activated>  				
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Stealth_Off_Tie_Phantom </SFXEvent_GUI_Unit_Ability_Deactivated> 
+            </Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Stealth_Ability Name="Stealth_Phantom">
+				<Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
+                <Stealth_Transition_Time>0.8</Stealth_Transition_Time>
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Stealth_Ability>
+			
+			<Galactic_Stealth_Ability Name="Phantom_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+		</Abilities>
+
+
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space_Empire</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>	
+	</SpaceUnit>
+
+	<SpaceUnit Name="TIE_Avenger">
+		<Text_ID>TEXT_UNIT_TIE_AVENGER</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_AVENGER</Encyclopedia_Text>
+		<Encyclopedia_Good_Against> Z-95_Headhunter_Rebel Y-Wing </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat E-Wing </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>ev_tieavenger.ALO</Space_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<Select_Box_Scale>20</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.98</Mass>
+		<Max_Speed>5.5</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>50</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Max_Lift>4</Max_Lift>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>5</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>600</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Ship_Class>fighter</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>5</Number_per_Squadron>
+		<Build_Cost_Credits>60</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Size_Value>4</Size_Value>  <!-- 8 -->
+		<SpaceBehavior>ABILITY_COUNTDOWN, HUNT, LURE, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+			
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>7</Damage>
+		
+		<Hardpoints>
+			Avenger00, Avenger01, Avenger01
+		</Hardpoints>
+		
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+
+
+		<SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_TIE_Fighter </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_TIE_Fighter </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Fighter </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Fighter</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Fighter </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+
+		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
+		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_avenger.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius> <!-- 15 -->
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance> <!-- 50 -->
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>80</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>LURE</Type>
+				
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+				     Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>350</Effective_Radius>
+				
+				<Target_Types>
+					TIE_Fighter, 
+					TIE_Fighter_Squadron, 
+					TIE_Scout, 
+					TIE_Scout_Squadron,
+					TIE_Interceptor,
+					TIE_Interceptor_Squadron,
+					Z-95_Headhunter,
+					Z95_Headhunter_Squadron,
+					Z-95_Headhunter_Rebel, 
+					Z95_Headhunter_Rebel_Squadron,
+					Z95_Headhunter_MP,
+					Z95_Headhunter_Squadron_MP, 
+					Pirate_Fighter_Squadron,
+					Pirate_Fighter,
+					VWing_Squadron_P, 
+					VWing_Squadron_R, 
+					VWing_Squadron_E,
+					X-Wing, 
+					Rebel_X-Wing_Squadron,
+					A-Wing, 
+					A_Wing_Squadron,
+					E-Wing,
+					E-Wing_Squadron.
+					TIE_Interceptor_Red,
+					TIE_Interceptor_Squadron_Red,
+					TIE_Interceptor_Elite,
+					TIE_Interceptor_Squadron_Elite,
+					TIE_Avenger,
+					TIE_Avenger_Squadron,
+					TIE_Phantom,
+					TIE_Phantom_Squadron,
+					TIE_Defender,
+					TIE_Defender_Squadron,
+					TIE_Droid,
+					TIE_Droid_Squadron
+				</Target_Types>
+
+				<Recharge_Seconds>90</Recharge_Seconds>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+				<Particle_Effect>Lure_Ability_Particle</Particle_Effect>
+	
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,	0.7f</Mod_Multiplier><!-- Invulnerable -->
+			</Unit_Ability>
+			<!-- secondary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space_Empire</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>	
+	</SpaceUnit>
+
+
+	<SpaceUnit Name="TIE_Defender">
+		<Text_ID>TEXT_UNIT_TIE_DEFENDER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> X-Wing Y-Wing Nebulon_B_Frigate </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>Ev_tie_defender.ALO</Space_Model_Name>
+		<Scale_Factor>0.43</Scale_Factor>
+		<Select_Box_Scale>20</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.985</Mass>
+		<Max_Lift>4</Max_Lift>
+		<Max_Speed>8.0</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>50</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>600.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>10</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+		<Energy_Capacity>800</Energy_Capacity>
+		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>Yes</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, HUNT </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>12</Damage>
+
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>650.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space_Empire</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire> Unit_Attack_Tie_Defender </SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_TIE_Defender </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_TIE_Defender </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Defender</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_TIE_Defender </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Tie_Defender </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Defender </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Defender </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Defender</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Defender </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Tie_Defender </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Tie_Defender </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Defender </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_TIE_Defender </SFXEvent_Attack_Hardpoint>
+
+		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
+		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber | AntiFrigate </CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_defender.tga</Icon_Name>
+		<Victory_Relevant>Yes</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Hardpoints>
+			TIE_Defender_Laser1, TIE_Defender_Laser2, TIE_Defender_Missile
+		</Hardpoints>
+
+		<!--<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>-->
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_Y_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space_Empire</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="E-Wing">
+
+		<Text_ID>TEXT_UNIT_E_WING</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Broadside_Class_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>rv_ewing.ALO</Space_Model_Name>
+		<Scale_Factor>0.32</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+
+				<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.98</Mass>
+		<Max_Speed>6.0</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Max_Thrust>2.1</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>4</Max_Lift>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Shield_Points>10</Shield_Points>
+		<Tactical_Health>15</Tactical_Health>
+		<Shield_Refresh_Rate>2</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>9</Damage>
+		<!--<Projectile_Types>Proj_Ship_Proton_Torpedo</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>20.0</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Hardpoints> HP_Ewing_00, HP_Ewing_01 </Hardpoints>
+
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_X_Wing </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_X_Wing </SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_X_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_X_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber | AntiFighter</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_ewing.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>4.14</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_E_WING</Encyclopedia_Text>
+
+			<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+
+
+
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.5</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="TIE_Droid">
+
+		<Text_ID>TEXT_UNIT_TIE_DROID</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_DROID</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> X-wing A-Wing Corellian_Corvette </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>ev_tiedroid.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Select_Box_Scale>20</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.985</Mass>
+		<Max_Speed>6.3</Max_Speed>
+		<Min_Speed>4.5</Min_Speed>
+		<Max_Rate_Of_Turn>4.3</Max_Rate_Of_Turn>
+		<Max_Lift>5</Max_Lift>
+		<Max_Thrust>2.2</Max_Thrust>
+		<Max_Rate_Of_Roll>5.5</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Hyperspace>no</Hyperspace>
+		<Hyperspace_Speed>0</Hyperspace_Speed>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>11</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>10</Number_per_Squadron>
+		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>3</Damage>
+
+        	<Damage_Type>Damage_Fighter</Damage_Type>
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.2</Projectile_Fire_Recharge_Seconds>
+		
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space_Empire</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+		<SFXEvent_Select> Tie_Droid_Select </SFXEvent_Select>
+		<SFXEvent_Move> Tie_Droid_Confirm </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Tie_Droid_Confirm </SFXEvent_Attack>
+		<SFXEvent_Guard> Tie_Droid_Confirm </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Tie_Droid_Confirm </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Tie_Droid_Confirm </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Tie_Droid_Lose </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Tie_Droid_Lose </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Tie_Droid_Win </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Tie_Droid_Win </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Tie_Droid_Confirm </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Tie_Droid_Confirm </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Tie_Droid_Confirm </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Tie_Droid_Confirm </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Tie_Droid_Shield </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Tie_Droid_Confirm </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Tie_Droid_Confirm </SFXEvent_Attack_Hardpoint>
+
+		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
+		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_droid.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>40</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<!--<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>-->
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space_Empire</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Arc-170">
+		<Text_ID>TEXT_UNIT_ARC170</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> TIE_Bomber Acclamator_Assault_Ship Victory_Destroyer </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>TIE_Interceptor TIE_Defender Tartan_Patrol_Cruiser</Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>ev_arc-170.ALO</Space_Model_Name>
+		<Scale_Factor>0.15</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+        	<Damage_Type>Damage_Fighter</Damage_Type>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.98</Mass>
+		<Max_Speed>4.5</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>2.5</Max_Rate_Of_Turn>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>3.5</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>3</Max_Lift>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Shield_Points>11</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>bomber</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>3</Number_per_Squadron>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, HUNT, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>5</Damage>
+
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Green_Heavy</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<HardPoints>
+			HP_ARC170,
+			HP_ARC170_1
+		</HardPoints>
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_X_Wing </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_X_Wing </SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_X_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_X_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>		
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber | AntiFrigate </CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>I_BUTTON_ARC_170.TGA</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>60</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ARC170</Encyclopedia_Text>
+		
+		 <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability Name="HUNT">
+        <Type>HUNT</Type>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+		
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Arc-170_E">
+		<Variant_Of_Existing_Type>Arc-170</Variant_Of_Existing_Type>
+		<Encyclopedia_Good_Against> Y-Wing Nebulon_B_Frigate Alliance_Assault_Frigate </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> A-Wing X-Wing Corellian_Corvette </Encyclopedia_Vulnerable_To>
+		<Affiliation>Empire</Affiliation>
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Green_Heavy</Projectile_Types>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Colorization_Color> 240, 15, 15, 255 </No_Colorization_Color>
+		<Land_Bomber_Type>ARC-170_Bombing_Run</Land_Bomber_Type>
+		
+		 <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability Name="HUNT">
+        <Type>HUNT</Type>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+	</SpaceUnit>
+
+
+
+	<SpaceUnit Name="B-Wing">
+
+		<Text_ID>TEXT_UNIT_B_WING</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_B_WING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> Generic_Star_Destroyer Victory_Destroyer Generic_Acclamator_Assault_Ship <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate Fighter </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>rv_bwing.alo</Space_Model_Name>
+		<Scale_Factor>0.20</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Land_Bomber_Type>B-Wing_Bombing_Run</Land_Bomber_Type>
+				<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.99</Mass>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>3</Max_Lift>
+		<Max_Speed>5.0</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>3.75</Max_Rate_Of_Turn>
+		<Max_Thrust>1.2</Max_Thrust>
+		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>70</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>20</Shield_Points>
+		<Tactical_Health>15</Tactical_Health>
+		<Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>bomber</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Build_Cost_Credits>70</Build_Cost_Credits>
+		<Build_Time_Seconds>13</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, HUNT, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>13</Damage>
+		<Projectile_Fire_Recharge_Seconds>12.0</Projectile_Fire_Recharge_Seconds>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<HardPoints>
+			HP_Bwing_01, HP_Bwing_00, HP_Bwing_02, HP_Bwing_03 
+		</HardPoints>
+
+		<SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_B_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_B_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_B_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_B_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_B_Wing</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_B_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_B_Wing </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_B_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_B_Wing </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_B_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_B_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_B_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_B_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_B_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_B_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_B_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>I_Button_Rv_Bwing.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>8.20</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+	</SpaceUnit>
+
+	<SpaceUnit Name="TIE_Interceptor">
+		<Text_ID>TEXT_UNIT_TIE_INTERCEPTOR</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Corellian_Corvette Corellian_Gunboat</Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>EV_TIEINTERCEPTOR.ALO</Space_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Select_Box_Scale>60</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.985</Mass>
+		<Max_Speed>5.5</Max_Speed>
+		<Min_Speed>4.0</Min_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Lift>3</Max_Lift>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Rate_Of_Roll>9.0<!--was 5.0--></Max_Rate_Of_Roll>
+		<Bank_Turn_Angle><!--was 40-->160</Bank_Turn_Angle>
+		<Hyperspace>no</Hyperspace>
+		<Hyperspace_Speed>0</Hyperspace_Speed>
+		<Begin_Turn_Towards_Distance><!--was 800-->300.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>50</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>10</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Build_Cost_Credits>20</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>5</Damage>
+		<Damage_Type>Damage_Fighter</Damage_Type>
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space_Empire</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_Tie_Interceptor </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_Tie_Interceptor </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Interceptor</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_Tie_Interceptor </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_Tie_Interceptor </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Tie_Interceptor </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Tie_Interceptor </SFXEvent_Move_Into_Nebula>
+
+		z<SFXEvent_Health_Low_Warning> Unit_Health_Low_Tie_Interceptor</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Tie_Interceptor </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Tie_Interceptor </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Tie_Interceptor </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+		
+		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds --><!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list --><SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_interceptor.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>35</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color><!-- Non-Hero unit abilities description --><Unit_Abilities_Data SubObjectList="Yes"><!-- Primary ability --><Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space_Empire</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<UniqueUnit Name="V-wing_Fighter">
+		<Text_ID>TEXT_UNIT_VWING_FIGHTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_V_WING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> TIE_Bomber Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Fighter A-Wing Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>NV_VWING.ALO</Space_Model_Name>
+		<Mass>0.995</Mass>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Select_Box_Scale>40</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+		<Icon_Name>i_button_V_Wing.tga</Icon_Name>
+
+		<Max_Lift>1.0</Max_Lift>
+		<Max_Speed>5.0</Max_Speed>
+		<Min_Speed>2.0</Min_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Thrust>0.1</Max_Thrust>
+		<Max_Rate_Of_Roll>4.5</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>20</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Hyperspace>No</Hyperspace>
+		<Hyperspace_Speed>0</Hyperspace_Speed>
+
+		<Affiliation>Empire,Rebel,Pirates</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+
+		<Shield_Points>8</Shield_Points>
+		<Tactical_Health>5</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+		<Ship_Class>fighter</Ship_Class>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>5</Number_per_Squadron>
+
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Damage>8</Damage>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Fires_Forward>no</Fires_Forward>
+
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+	
+		<Hardpoints>
+		Vwing_02
+		Vwing_01
+		</Hardpoints>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+
+		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+
+		<SFXEvent_Fire>Unit_TIE_Fighter_Fire</SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_V_Wing </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_V_Wing </SFXEvent_Move>
+	   	<SFXEvent_Fleet_Move>Unit_Fleet_Move_V_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_V_Wing </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_V_Wing </SFXEvent_Guard>
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_V_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_V_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_V_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_V_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_V_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_V_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_V_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_V_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_V_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_V_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_V_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+
+		<CategoryMask> Fighter | AntiFighter | AntiBomber </CategoryMask>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>40</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+	</UniqueUnit>
+
+
+	<UniqueUnit Name="V-wing_Fighter_E">
+		<Variant_Of_Existing_Type>V-Wing_Fighter</Variant_Of_Existing_Type>
+		<Encyclopedia_Good_Against> Y-Wing </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> A-Wing E-Wing Corellian_Corvette </Encyclopedia_Vulnerable_To>
+		<Victory_Relevant>no</Victory_Relevant>
+	</UniqueUnit>
+
+
+	<UniqueUnit Name="V-wing_Fighter_R">
+		<Variant_Of_Existing_Type>V-Wing_Fighter</Variant_Of_Existing_Type>
+	</UniqueUnit>
+
+
+	<UniqueUnit Name="V-wing_Fighter_P">
+		<Variant_Of_Existing_Type>V-Wing_Fighter</Variant_Of_Existing_Type>
+	</UniqueUnit>
+
+
+	<SpaceUnit Name="Z-95_Headhunter">
+
+		<Text_ID>TEXT_UNIT_Z95_HEADHUNTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_Z95_HEADHUNTER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> TIE_Bomber </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
+		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
+		<Space_Model_Name>RV_Z-95.ALO</Space_Model_Name>
+		<Mass>0.995</Mass>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Max_Lift>4</Max_Lift>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        	<Damage_Type>Damage_Fighter</Damage_Type>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Max_Speed>4.0</Max_Speed>
+		<Min_Speed>2.0</Min_Speed>
+		<Max_Rate_Of_Turn>2.5</Max_Rate_Of_Turn>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Pirates</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Shield_Points>10</Shield_Points>
+		<Tactical_Health>8</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>5</Number_per_Squadron>
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>4</Damage>
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Green</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_TIE_Fighter </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_TIE_Fighter </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Fighter </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Hardpoint> Unit_Hardpoint_TIE_Fighter </SFXEvent_Hardpoint>
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Headhunter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>40</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>			
+	</SpaceUnit>
+
+	<SpaceUnit Name="Z-95_Headhunter_Rebel">
+		<Text_ID>TEXT_UNIT_Z95_HEADHUNTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_Z95_HEADHUNTER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> TIE_Bomber </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>RV_Z-95.ALO</Space_Model_Name>
+		<Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
+
+		<Mass>0.995</Mass>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Max_Lift>4</Max_Lift>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        	<Damage_Type>Damage_Fighter</Damage_Type>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Max_Speed>4.0</Max_Speed>
+		<Min_Speed>2.0</Min_Speed>
+		<Max_Rate_Of_Turn>2.5</Max_Rate_Of_Turn>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>40</Shield_Points>
+		<Tactical_Health>40</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Surface_Bombardment_Capable>no</Surface_Bombardment_Capable>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>5</Number_per_Squadron>
+		<Build_Cost_Credits>50</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior> HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>4</Damage>
+		
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>40</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>		
+	</SpaceUnit>
+
+
+<!-- Empire at War 1.04 -->
+
+	<SpaceUnit Name="A-Wing">
+
+		<Text_ID>TEXT_UNIT_A_WING</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
+		<!--<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout TIE_Bomber <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>rv_AWing.ALO</Space_Model_Name>
+		<Scale_Factor>0.23</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+
+				<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<No_Colorization_Color> 200, 2, 2, 255 </No_Colorization_Color>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.98</Mass>
+		<Max_Speed>8.0</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
+		<Max_Thrust>2.55</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>50</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Max_Lift>4</Max_Lift>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>5</Shield_Points>
+		<Tactical_Health>8</Tactical_Health>
+		<Shield_Refresh_Rate>1</Shield_Refresh_Rate>
+		<Energy_Capacity>600</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Ship_Class>fighter</Ship_Class>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>15</Squadron_Capacity>
+		<Number_per_Squadron>15</Number_per_Squadron>
+		<Build_Cost_Credits>60</Build_Cost_Credits>
+		<Build_Time_Seconds>10</Build_Time_Seconds>
+		<Size_Value>4</Size_Value>  <!-- 8 -->
+		<SpaceBehavior>HUNT, ABILITY_COUNTDOWN, LURE, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>7</Damage>
+		<!-- <Projectile_Types>Proj_Ship_Concussion_Missile</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>15.0</Projectile_Fire_Recharge_Seconds> -->
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_A_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<HardPoints>
+			HP_Awing_00, HP_Awing_01
+		</HardPoints>
+
+		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_A_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_A_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_A_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_A_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_A_Wing</SFXEvent_Guard>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_A_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_A_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_A_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_A_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_A_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_A_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_A_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_A_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_A_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_A_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_A_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Ambient_Moving> Unit_A_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_A_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber | AntiFighter</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_a_wing.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius> <!-- 15 -->
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance> <!-- 50 -->
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>3.84</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+
+
+
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_A_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="X-Wing">
+
+		<Text_ID>TEXT_UNIT_X_WING</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Broadside_Class_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>rv_XWing.ALO</Space_Model_Name>
+		<Scale_Factor>0.23</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+
+				<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<No_Colorization_Color> 200, 2, 2, 255 </No_Colorization_Color>
+
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.98</Mass>
+		<Max_Speed>4.25</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Thrust>1.85</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>4</Max_Lift>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Shield_Points>10</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, GARRISON_UNIT, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>9</Damage>
+		<Garrison_Category> Fighter </Garrison_Category>
+
+		<!-- <Projectile_Types>Proj_Ship_Proton_Torpedo</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>30.0</Projectile_Fire_Recharge_Seconds>
+			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Hardpoints> HP_Xwing_00, HP_Xwing_01 </Hardpoints>
+
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_X_Wing </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_X_Wing </SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_X_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_X_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>3.39</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="X-wing_Red">
+	<Variant_Of_Existing_Type>X-wing</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_UNIT_X_WING</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Broadside_Class_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>rv_XWing.ALO</Space_Model_Name>
+		<Scale_Factor>0.23</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+
+				<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<No_Colorization_Color> 200, 2, 2, 255 </No_Colorization_Color>
+
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.23</Mass>
+		<Max_Speed>5.25</Max_Speed>
+		<Min_Speed>4.5</Min_Speed>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Max_Thrust>2.85</Max_Thrust>
+		<Max_Rate_Of_Roll>8.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>4</Max_Lift>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Shield_Points>30</Shield_Points>
+		<Tactical_Health>30</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, GARRISON_UNIT, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>9</Damage>
+		<Garrison_Category> Fighter </Garrison_Category>
+
+		<!-- <Projectile_Types>Proj_Ship_Proton_Torpedo</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>30.0</Projectile_Fire_Recharge_Seconds>
+			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Hardpoints> HP_Xwing_02, HP_Xwing_01 </Hardpoints>
+
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_X_Wing </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_X_Wing </SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_X_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_X_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>5.39</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="X-wing_Rouge">
+	<Variant_Of_Existing_Type>X-wing</Variant_Of_Existing_Type>
+	<Text_ID>TEXT_UNIT_X_WING</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Broadside_Class_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>rv_XWing.ALO</Space_Model_Name>
+		<Scale_Factor>0.23</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+
+				<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<No_Colorization_Color> 96, 96, 96, 255 </No_Colorization_Color>
+
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.23</Mass>
+		<Max_Speed>5.25</Max_Speed>
+		<Min_Speed>4.5</Min_Speed>
+		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Max_Thrust>2.85</Max_Thrust>
+		<Max_Rate_Of_Roll>8.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>4</Max_Lift>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Shield_Points>30</Shield_Points>
+		<Tactical_Health>30</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, GARRISON_UNIT, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>9</Damage>
+		<Garrison_Category> Fighter </Garrison_Category>
+
+		<!-- <Projectile_Types>Proj_Ship_Proton_Torpedo</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.4</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>30.0</Projectile_Fire_Recharge_Seconds>
+			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Hardpoints> HP_Xwing_02, HP_Xwing_01 </Hardpoints>
+
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_X_Wing </SFXEvent_Assist_Move>
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_X_Wing </SFXEvent_Assist_Attack>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_X_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_X_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>5.39</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="TIE_Fighter">
+
+		<Text_ID>TEXT_UNIT_TIE_FIGHTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> Y-Wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing A-Wing </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>ev_TieFighter.ALO</Space_Model_Name>
+		<Scale_Factor>0.21</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+				<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.985</Mass>
+		<Max_Speed>5.0</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>3.75</Max_Rate_Of_Turn>
+		<Max_Lift>4</Max_Lift>
+		<Max_Thrust>1.85</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Hyperspace>no</Hyperspace>
+		<Hyperspace_Speed>0</Hyperspace_Speed>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>Yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>5</Damage>
+
+        <Hardpoints> HP_TIE_Fighter_00 </Hardpoints>
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_TIE_Fighter </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_TIE_Fighter </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Fighter </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Fighter</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Fighter </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+
+		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
+		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_fighter.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>2.15</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+	<SpaceUnit Name="TIE_Fighter_E3">
+		<Variant_Of_Existing_Type>TIE_Fighter</Variant_Of_Existing_Type>
+		<Tactical_Health>150</Tactical_Health>
+	</SpaceUnit>
+
+	<SpaceUnit Name="TIE_Bomber_E3">
+		<Variant_Of_Existing_Type>TIE_Bomber</Variant_Of_Existing_Type>
+		<Tactical_Health>150</Tactical_Health>
+	</SpaceUnit>
+
+
+
+	<SpaceUnit Name="TIE_Bomber">
+
+		<Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> Calamari_Cruiser Alliance_Assault_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing A-Wing </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>EV_TIEBOMBER.ALO</Space_Model_Name>
+		<Scale_Factor>0.19</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+				<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.985</Mass>
+		<Max_Speed>4.0</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+		<Max_Rate_Of_Turn>2.25</Max_Rate_Of_Turn>
+		<Max_Lift>3</Max_Lift>
+		<Max_Thrust>2.19</Max_Thrust>
+		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>
+		<Hyperspace>no</Hyperspace>
+		<Hyperspace_Speed>0</Hyperspace_Speed>
+		<Begin_Turn_Towards_Distance>200.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>bomber</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+		<Land_Bomber_Type>TIE_Bomber_Bombing_Run</Land_Bomber_Type>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<HardPoints>
+			HP_BOMBER_00, HP_BOMBER_02, HP_BOMBER_06
+		</HardPoints>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire> Unit_TIE_Bomber_Fire </SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_TIE_Bomber</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Bomber</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_TIE_Bomber</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+		<SFXEvent_Guard>Unit_Guard_TIE_Bomber</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Bomber </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Bomber </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Bomber </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Bomber </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving> Unit_TIE_Bomber_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Bomber_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>3.95</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Damage>6</Damage>
+		<Population_Value>0</Population_Value>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		
+	</SpaceUnit>
+	
+	<SpaceUnit Name="TIE_Punisher">
+
+		<Text_ID>TEXT_UNIT_TIE_PUNISHER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_PUNISHER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> Calamari_Cruiser Alliance_Assault_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing A-Wing </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>Ev_Tie_Interdictor.alo</Space_Model_Name>
+		<Scale_Factor>0.19</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.985</Mass>
+		<Max_Speed>3.5</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Max_Lift>3</Max_Lift>
+		<Max_Thrust>2.19</Max_Thrust>
+		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>
+		<Hyperspace>no</Hyperspace>
+		<Hyperspace_Speed>0</Hyperspace_Speed>
+		<Begin_Turn_Towards_Distance>200.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>bomber</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+		<Land_Bomber_Type>TIE_Bomber_Bombing_Run</Land_Bomber_Type>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<HardPoints>
+			HP_Punisher_00, HP_Punisher_01, HP_Punisher_02, HP_Punisher_03, HP_Punisher_04
+		</HardPoints>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire> Unit_TIE_Bomber_Fire </SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_TIE_Bomber</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Bomber</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_TIE_Bomber</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+		<SFXEvent_Guard>Unit_Guard_TIE_Bomber</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Bomber </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Bomber </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Bomber </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Bomber </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving> Unit_TIE_Bomber_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Bomber_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>3.95</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Damage>6</Damage>
+		<Population_Value>0</Population_Value>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Tie_Heavy_Bomber">
+
+		<Text_ID>TEXT_UNIT_TIE_Heavy_Bomber</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_Heavy_Bomber</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<!--<Encyclopedia_Good_Against> Calamari_Cruiser Alliance_Assault_Frigate Nebulon_B_Frigate </Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Corellian_Corvette X-wing A-Wing </Encyclopedia_Vulnerable_To>-->
+		<Space_Model_Name>Ev_Tie_Hvy_Bomber.alo</Space_Model_Name>
+		<Scale_Factor>0.19</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		
+		<Mouse_Collide_Override_Sphere_Radius> 5.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.985</Mass>
+		<Max_Speed>4.0</Max_Speed>
+		<Min_Speed>1.5</Min_Speed>
+		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+		<Max_Lift>3</Max_Lift>
+		<Max_Thrust>2.59</Max_Thrust>
+		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>
+		<Hyperspace>no</Hyperspace>
+		<Hyperspace_Speed>0</Hyperspace_Speed>
+		<Begin_Turn_Towards_Distance>200.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>bomber</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+		<Land_Bomber_Type>TIE_Bomber_Bombing_Run</Land_Bomber_Type>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>12</Squadron_Capacity>
+		<Number_per_Squadron>12</Number_per_Squadron>
+		<Build_Cost_Credits>30</Build_Cost_Credits>
+		<Build_Time_Seconds>5</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<HardPoints>
+			HP_HVY_00, HP_HVY_01, HP_HVY_02
+		</HardPoints>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Tiny_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire> Unit_TIE_Bomber_Fire </SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_TIE_Bomber</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Bomber</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_TIE_Bomber</SFXEvent_Attack>
+		<SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+		<SFXEvent_Guard>Unit_Guard_TIE_Bomber</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Bomber </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Bomber </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Bomber </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Bomber </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving> Unit_TIE_Bomber_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Bomber_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_Heavy_bomber.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>3.95</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Tiny_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Damage>6</Damage>
+		<Population_Value>0</Population_Value>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		
+	</SpaceUnit>
+
+	<SpaceUnit Name="Y-Wing">
+
+		<Text_ID>TEXT_UNIT_Y_WING</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate Fighter </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>rv_ywing.alo</Space_Model_Name>
+		<Scale_Factor>0.4</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.99</Mass>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>3</Max_Lift>
+		<Max_Speed>4.0</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>70</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Shield_Points>10</Shield_Points>
+		<Tactical_Health>12</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>bomber</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>yes</Is_Bomber>
+		<Land_Bomber_Type>Y-Wing_Bombing_Run</Land_Bomber_Type>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>3</Number_per_Squadron>
+		<Build_Cost_Credits>70</Build_Cost_Credits>
+		<Build_Time_Seconds>13</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, HUNT, SELECTABLE, TARGETING, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, REVEAL, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>5</Damage>
+		<Projectile_Fire_Recharge_Seconds>12.0</Projectile_Fire_Recharge_Seconds>
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<HardPoints>
+			HP_BOMBER_01, HP_BOMBER_03
+		</HardPoints>
+
+		<SFXEvent_Fire> Unit_Y_Wing_Fire </SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Y_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Y_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Y_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Y_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Y_Wing</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Y_Wing </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Y_Wing </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Y_Wing </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Y_Wing </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Y_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Y_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Y_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Y_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Y_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Y_Wing </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Y_Wing </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Y_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Bomber | AntiCapital</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_y_wing.tga</Icon_Name>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Min_Speed_Fraction_For_Turn>0.6</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>75</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+ 		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+
+	</SpaceUnit>
+
+
+
+
+	<SpaceUnit Name="TIE_Scout">
+
+		<Text_ID>TEXT_UNIT_TIE_SCOUT</Text_ID>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_SCOUT</Encyclopedia_Text>
+		<Encyclopedia_Good_Against> Y-wing Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> A-Wing </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>EV_TIESCOUT.ALO</Space_Model_Name>
+		<Mass>0.995</Mass>
+		<Scale_Factor>0.4</Scale_Factor>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Max_Lift>4</Max_Lift>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        <Damage_Type>Damage_Fighter</Damage_Type>
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Max_Speed>7.0</Max_Speed>
+		<Min_Speed>2.0</Min_Speed>
+		<Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
+		<Max_Lift>4</Max_Lift>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>30</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Begin_Turn_Towards_Distance>100.0</Begin_Turn_Towards_Distance>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Empire</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Shield_Points>10</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>3</Number_per_Squadron>
+		<Build_Cost_Credits>80</Build_Cost_Credits>
+		<Build_Time_Seconds>15</Build_Time_Seconds>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, ABILITY_COUNTDOWN, NEBULA, HUNT </SpaceBehavior>
+		<Avoid_Enemy_Exclusion_Range>500.0</Avoid_Enemy_Exclusion_Range>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>3</Damage>
+
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Green_Heavy</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.75</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space_Empire</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire>Unit_TIE_Scout_Fire</SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_TIE_Scout </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_TIE_Scout </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Scout</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_TIE_Scout </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_TIE_Scout </SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Scout </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Scout </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Scout </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Scout </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Icon_Name>i_button_tie_scout.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>25</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+	
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space_Empire</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+		
+		<Unit_Ability>
+		<Type>HUNT</Type>
+		</Unit_Ability>
+		
+		</Unit_Abilities_Data>
+				
+	</SpaceUnit>
+
+
+	<SpaceUnit Name="Pirate_Fighter">
+
+		<Text_ID>TEXT_UNIT_PIRATE_FIGHTER</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_PIRATE_FIGHTER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Good_Against> Y-wing TIE_Bomber Z-95_Headhunter_Rebel </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> A-Wing Tartan_Patrol_Cruiser Corellian_Corvette </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>NV_black_sun_fighter.alo</Space_Model_Name>
+		<Icon_Name>i_button_black_sun_fighter.tga</Icon_Name>
+		
+		<Scale_Factor>0.9</Scale_Factor>
+		<Select_Box_Scale>70</Select_Box_Scale>
+		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+        <Damage_Type>Damage_Fighter</Damage_Type>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Mass>0.98</Mass>
+		<Max_Speed>4.3</Max_Speed>
+		<Min_Speed>2.5</Min_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Max_Thrust>1.0</Max_Thrust>
+		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>40</Bank_Turn_Angle>
+		<Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+		<Fires_Forward>no</Fires_Forward>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Max_Lift>4</Max_Lift>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+		<Affiliation>Pirates</Affiliation>
+		<Shield_Points>10</Shield_Points>
+		<Tactical_Health>5</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+		<Ship_Class>fighter</Ship_Class>
+		<Armor_Type> ArmourS_Fighter </Armor_Type>
+		<Shield_Armor_Type> ShieldS_Fighter </Shield_Armor_Type>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>5</Number_per_Squadron>
+		<Size_Value>8</Size_Value>
+		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Damage>4</Damage>
+
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+		<Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>450.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<SFXEvent_Select>Unit_Select_Pirate_Fighter</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Pirate_Fighter</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pirate_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Pirate_Fighter</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Pirate_Fighter</SFXEvent_Guard>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Pirate_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Pirate_Fighter </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Pirate_Fighter </SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Pirate_Fighter </SFXEvent_Health_Critical_Warning>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Pirate_Fighter </SFXEvent_Attack_Hardpoint>
+
+		<CategoryMask> Fighter | AntiBomber</CategoryMask>
+		<Property_Flags> SmallShip </Property_Flags>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Custom_Footprint_Radius> 7.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>2</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>25.0</Minimum_Follow_Distance>
+		<Create_Team>Yes</Create_Team>
+		<AI_Combat_Power>60</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Strafe_Distance>500.0</Strafe_Distance>
+		<Population_Value>0</Population_Value>
+	</SpaceUnit>
+
+</FighterUnits>

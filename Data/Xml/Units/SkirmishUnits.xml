@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<SkirmishUnits>
+	<SpaceUnit Name="Skirmish_Allegiance">
+	<Variant_Of_Existing_Type>Generic_Allegiance</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Arquitens">
+	<Variant_Of_Existing_Type>Arquitens</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Acclamator">
+	<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Escort_Carrier">
+	<Variant_Of_Existing_Type>Template_Escort_Carrier</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+
+	<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+	<Starting_Spawned_Units_Tech_0>Tie_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+	<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
+	
+	
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Executor">
+	<Variant_Of_Existing_Type>Template_Generic_Executor</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>8000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Skirmish_Acclamator">
+	<Variant_Of_Existing_Type>Acclamator_Assault_Ship</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Skirmish_Interdictor">
+	<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Star_Destroyer">
+	<Variant_Of_Existing_Type>Generic_Star_Destroyer</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Star_Destroyer_Two">
+	<Variant_Of_Existing_Type>Generic_Star_Destroyer_Two</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Victory_II">
+	<Variant_Of_Existing_Type>Victory_II_Destroyer</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Lancer">
+	<Variant_Of_Existing_Type>Lancer_Frigate</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Victory_Destroyer">
+	<Variant_Of_Existing_Type>Victory_Destroyer</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Procursator">
+	<Variant_Of_Existing_Type>Generic_Procursator</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Tector">
+	<Variant_Of_Existing_Type>Generic_Tector</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Titan">
+	<Variant_Of_Existing_Type>Titan_Cruiser</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Tyrant">
+	<Variant_Of_Existing_Type>Tyrant_Cruiser</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Venator_Empire">
+	<Variant_Of_Existing_Type>Venator_Empire</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Skirmish_Dreadnaught">
+	<Variant_Of_Existing_Type>Dreadnaught</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Dreadnaught_Rebel">
+	<Variant_Of_Existing_Type>Dreadnaught_Rebel</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_AF_Mk1">
+	<Variant_Of_Existing_Type>Assault_Frigate_Mk1</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_AF_Mk2">
+	<Variant_Of_Existing_Type>Alliance_Assault_Frigate</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Calamari_Cruiser">
+	<Variant_Of_Existing_Type>Calamari_Cruiser</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Corellian_Corvette">
+	<Variant_Of_Existing_Type>Corellian_Corvette</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_GR75"> <!-- Why would you ever use this one? -->
+	<Variant_Of_Existing_Type>Gr75</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Hammerhead_Corvette">
+	<Variant_Of_Existing_Type>Hammerhead_Corvette</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Dauntless">
+	<Variant_Of_Existing_Type>Dauntless_Cruiser</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Corellian_Gunboat">
+	<Variant_Of_Existing_Type>Corellian_Gunboat</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Home_One_Type">
+	<Variant_Of_Existing_Type>Home_One_Type</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Liberator">
+	<Variant_Of_Existing_Type>Liberator_Cruiser</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Marauder">
+	<Variant_Of_Existing_Type>Marauder_Missile_Cruiser</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_MC40a">
+	<Variant_Of_Existing_Type>MC40a</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Calamari_MC80">
+	<Variant_Of_Existing_Type>Calamari_MC80</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_MC75">
+	<Variant_Of_Existing_Type>Mc75</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_MC90">
+	<Variant_Of_Existing_Type>MC90</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Mediator">
+	<Variant_Of_Existing_Type>Mediator_Cruiser</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>8000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Nebulon_B">
+	<Variant_Of_Existing_Type>Nebulon_B_Frigate</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Quasar_Fire">
+	<Variant_Of_Existing_Type>Quasar_Fire</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	
+	<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+	<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+	<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+	
+	<Starting_Spawned_Units_Tech_1>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_1>
+	<Starting_Spawned_Units_Tech_1>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_1>
+	<Starting_Spawned_Units_Tech_1>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_1>
+	
+	<Starting_Spawned_Units_Tech_2>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+	<Starting_Spawned_Units_Tech_2>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+	<Starting_Spawned_Units_Tech_2>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_2>
+	
+	<Starting_Spawned_Units_Tech_3>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+	<Starting_Spawned_Units_Tech_3>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+	<Starting_Spawned_Units_Tech_3>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+	
+	<Starting_Spawned_Units_Tech_4>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
+	<Starting_Spawned_Units_Tech_4>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
+	<Starting_Spawned_Units_Tech_4>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_4>
+	
+	<Starting_Spawned_Units_Tech_5>Rebel_X-Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
+	<Starting_Spawned_Units_Tech_5>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
+	<Starting_Spawned_Units_Tech_5>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_5>
+	
+	<Population_Value>4</Population_Value>
+	
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Venator_Rebel">
+	<Variant_Of_Existing_Type>Venator_Rebel</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Republic_Destroyer">
+	<Variant_Of_Existing_Type>Republic_Destroyer</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Recusant">
+	<Variant_Of_Existing_Type>Recusant</Variant_Of_Existing_Type>
+	<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Kedalbe">
+	<Variant_Of_Existing_Type>Kedalbe_Battleship</Variant_Of_Existing_Type>
+	<Affiliation>Empire, Rebel </Affiliation>
+	<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_StarViper_Squadron">
+	<Variant_Of_Existing_Type>StarViper_Squadron</Variant_Of_Existing_Type>
+	<Affiliation>Empire, Rebel </Affiliation>
+	<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Finalizer_Star_Destroyer">
+	<Variant_Of_Existing_Type>Finalizer_Star_Destroyer</Variant_Of_Existing_Type>
+	<Affiliation>Empire, Rebel </Affiliation>
+	<Space_FOW_Reveal_Range>2600.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Skirmish_Supremacy">
+	<Variant_Of_Existing_Type>Supremacy</Variant_Of_Existing_Type>
+	<Affiliation>Empire, Rebel </Affiliation>
+	<Space_FOW_Reveal_Range>90600.0</Space_FOW_Reveal_Range>
+	<Tech_Level>99</Tech_Level>
+	</SpaceUnit>
+	
+</SkirmishUnits>
+
+
+

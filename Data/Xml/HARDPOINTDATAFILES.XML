@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<Hard_Point_Files>
+	<File>HARDPOINTS\HardPoints.xml</File>
+	<File>HARDPOINTS\ImperialHardpoints.xml</File>
+	<File>HARDPOINTS\HardPointsGround.xml</File>
+	<File>HARDPOINTS\HardPoints_Weapons.xml</File>
+	<File>HARDPOINTS\Hardpoints_Executor_Imperial.xml</File>
+	<File>HARDPOINTS\Hardpoints_Bellator.xml</File>
+	<File>HARDPOINTS\Hardpoints_Eclipse.xml</File>
+	<File>HARDPOINTS\Hardpoints_Secutor.xml</File>
+	<File>Units\IaW\Units_Space_Finalizer.xml</File>
+	<File>HARDPOINTS\HardPoints_Viscount.xml</File>
+	<File>CIN_HardPoints.xml</File>
+</Hard_Point_Files>

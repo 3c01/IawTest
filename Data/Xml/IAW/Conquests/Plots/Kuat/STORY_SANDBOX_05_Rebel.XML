@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--****** This story file is used to automatically set some things that would normally happen ******-->
+<!--****** in story mode for the full campaign.  This file should be generic enough to use for  ******-->
+<!--****** any sandbox campaign set.                                                           ******-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Null</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+	
+	
+<!--******************************************************-->
+<!--******	Initial locks					         *****-->
+<!--******************************************************-->
+	<Event Name="Reveal_All_Planets">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Intro_Completed">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Intro_Tag</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+<!--******************************************************-->
+<!--******	Hero Release					         *****-->
+<!--******************************************************-->
+	
+	<Event Name="R_Spawn_Mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Droids">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Droids_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Kenobi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Luke">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Antillies">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	
+<!--******************************************************-->
+<!--******	Tech 2                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+	<Event Name="R_Spawn_Kanan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Param1>Kanan_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Hera">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Param1>Hera_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Leia">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Param1>Princess_Leia_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Sato">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>1</Event_Param1>
+		<Reward_Param1>Phoenix_Home</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_02</Prereq>
+	</Event>
+	
+	
+<!--******************************************************-->
+<!--******	Tech 3                                  *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<Event Name="R_Spawn_Lando">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Param1>Lando_Calrissian_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Raddus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Param1>MC_Profundity</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Akbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Param1>Home_One</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+		<Story_Tag>Akbar_Exists</Story_Tag>
+	</Event>
+	
+	<Event Name="R_Spawn_Katarn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Param1>Katarn_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="E_Lock_Recusant">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Recusant</Reward_Param1>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="E_Lock_Venator">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Venator_Rebel</Reward_Param1>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 4                                  *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+	<Event Name="R_Spawn_Nantz">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Param1>Nantz_Independence</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_04</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Iblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Param1>Iblis_Peregrine</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_04</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Wedge">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_04</Prereq>
+		<Story_Tag>Wedge_Exists</Story_Tag>
+	</Event>
+	
+	
+<!--******************************************************-->
+<!--******	Tech 5                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	<Event Name="R_Spawn_Falast">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Param1>Moff_Falast_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Yoda">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>4</Event_Param1>
+		<Reward_Param1>Yoda_Team</Reward_Param1>
+		<Reward_Param2>Taris</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="E_Unlock_Viscount">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Viscount_Star_Defender</Reward_Param1>
+		<Prereq>Rebellion_Enters_Tech_05</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 6                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_06">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+	
+	
+	
+</Story>

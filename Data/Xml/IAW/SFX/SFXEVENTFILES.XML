@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+
+<SFXEvent_Files>
+
+    <!-- Presets must go first -->
+
+    <File> IAW\SFX\SFXEventPresets.xml </File>
+
+    <!-- Non-Preset Events come after presets -->
+
+	<File> IAW\IAW\SFX\SFXEventsGUI.xml </File>
+	<File> IAW\SFX\SFXEventsHUD.xml </File>
+	<File> IAW\SFX\SFXEvents.xml </File>
+	<File> IAW\SFX\SFXEventsUnits.xml </File>
+	<File> IAW\SFX\SFXEventsCinematics.xml </File>
+
+	<File> IAW\SFX\SFXEventsAmbient.xml </File>
+	<File> IAW\SFX\SFXEventsBuildings.xml </File>
+
+	<File> IAW\SFX\SFXEventsUnitsCapital.xml </File>
+	<File> IAW\SFX\SFXEventsUnitsCorvettes.xml </File>
+	<File> IAW\SFX\SFXEventsUnitsFighters.xml </File>
+	<File> IAW\SFX\SFXEventsUnitsFrigates.xml </File>
+	<File> IAW\SFX\SFXEventsUnitsTransports.xml </File>
+	<File> IAW\SFX\SFXEventsUnitsGround.xml </File>
+
+	<File> IAW\SFX\SFXEventsUnitsRebelHeroes.xml </File>
+	<File> IAW\SFX\SFXEventsUnitsEmpireHeroes.xml </File>
+
+	<File> IAW\SFX\SFXEventsDeaths.xml </File>
+	<File> IAW\SFX\SFXEventsWeapons.xml </File>
+	<File> IAW\SFX\SFXEventsEngines.xml </File>
+	<File> IAW\SFX\SFXEventsFootsteps.xml </File>
+
+	<File> IAW\SFX\SFXEvents_EXP_UnitsGround.xml </File>
+	<File> IAW\SFX\SFXEvents_EXP_UnitsHeroes.xml </File>
+	<File> IAW\SFX\SFXEvents_EXP_UnitsSpace.xml </File>
+	<File> IAW\SFX\SFXEvents_EXP_HUD.xml </File>
+	<File> IAW\SFX\SFXEvents_EXP.xml </File>
+
+	
+
+
+
+
+</SFXEvent_Files>

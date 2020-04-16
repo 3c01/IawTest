@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****** This story file is used to automatically set some things that would normally happen ******-->
+<!--****** in story mode for the full campaign.  This file should be generic enough to use for  ******-->
+<!--****** any sandbox campaign set.                                                           ******-->
+
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Initial locks					         *****-->
+<!--******************************************************-->
+	<Event Name="Reveal_All_Planets">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Intro_Completed">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Intro_Tag</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+</Story>

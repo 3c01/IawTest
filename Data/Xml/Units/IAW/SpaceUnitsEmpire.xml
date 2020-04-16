@@ -1,0 +1,665 @@
+<?xml version="1.0"?>
+<SpaceUnitsEmpire>
+
+	<!-- Acclamator-->
+	
+	<SpaceUnit Name="Acclamator_Assault_Ship">
+		<Variant_Of_Existing_Type>Acclamator_Assault_Ship_No_Fighters</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 1 </GUI_Row>
+		
+		<Build_Cost_Credits>1500</Build_Cost_Credits>
+		<Build_Time_Seconds>20</Build_Time_Seconds>
+		
+		<Starting_Spawned_Units_Tech_0> Arc-170_Squadron_E_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0> Arc-170_Squadron_E_Double, 2</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_1> Arc-170_Squadron_E_Double, 1</Starting_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1> Arc-170_Squadron_E_Double, 2</Reserve_Spawned_Units_Tech_1>
+		
+		<Starting_Spawned_Units_Tech_2> Tie_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2> Tie_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_2>
+		
+		<Starting_Spawned_Units_Tech_2> Tie_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2> Tie_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_2>
+		
+		<Starting_Spawned_Units_Tech_3> Tie_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3> Tie_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_3>
+		
+		<Starting_Spawned_Units_Tech_3> Tie_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3> Tie_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_3>
+		
+		<Starting_Spawned_Units_Tech_4> Tie_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4> Tie_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_4>
+		
+		<Starting_Spawned_Units_Tech_4> Tie_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4> Tie_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_4>
+		
+		<Starting_Spawned_Units_Tech_5> Tie_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5> Tie_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_5>
+		
+		<Starting_Spawned_Units_Tech_5> Tie_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5> Tie_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_5>
+		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
+		<Tech_Level>0</Tech_Level>
+
+		<Tactical_Build_Prerequisites />
+	</SpaceUnit>
+
+	<!-- Allegiance -->
+	<SpaceUnit Name="Generic_Allegiance">
+		<Variant_Of_Existing_Type>Template_Allegiance</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	</SpaceUnit>
+
+	<!-- Arquitens-->
+	<SpaceUnit Name="Arquitens">
+		<Variant_Of_Existing_Type>Template_Arquitens</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	</SpaceUnit>
+
+	<!-- Carrack-->
+	<SpaceUnit Name="Carrack">
+		<Variant_Of_Existing_Type>Template_Carrack_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	</SpaceUnit>
+
+	<!-- Cottus -->
+
+	<SpaceUnit Name="Cottus_Battlecruiser">
+		<Variant_Of_Existing_Type>Template_Cottus</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
+
+	</SpaceUnit>
+	
+	<!-- Vindicator -->
+	
+	<SpaceUnit Name="Vindicator_Cruiser">
+		<Variant_Of_Existing_Type>Template_Vindicator</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+
+		
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
+		<Tech_Level>1</Tech_Level>
+
+		<Tactical_Build_Prerequisites />
+	</SpaceUnit>
+	
+	<!-- Vic 2 Frigate -->
+	
+	<SpaceUnit Name="Victory_II_Frigate">
+		<Variant_Of_Existing_Type>Template_Victory_II_Frigate</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+
+		
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
+		<Tech_Level>1</Tech_Level>
+
+		<Tactical_Build_Prerequisites />
+	</SpaceUnit>
+	
+	<!-- Dreadnaught -->
+	
+	<SpaceUnit Name="Dreadnaught_Empire">
+		<Variant_Of_Existing_Type>Dreadnaught</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<GUI_Row> 1 </GUI_Row>
+		
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0> Tie_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
+		<Tech_Level>1</Tech_Level>
+
+		<Tactical_Build_Prerequisites />
+	</SpaceUnit>
+
+	<SpaceUnit Name="Katana_Dreadnaught_Empire">
+		<Variant_Of_Existing_Type>Template_Katana_Dreadnaught</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		
+		<Required_Orbiting_Units>Chiamera</Required_Orbiting_Units>
+		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship </Encyclopedia_Good_Against>-->
+		<Tech_Level>99</Tech_Level>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Tactical_Build_Prerequisites />
+	</SpaceUnit>
+	
+	<!-- Eclipse -->
+
+	<UniqueUnit Name="Eclipse_Super_Star_Destroyer">
+		<Variant_Of_Existing_Type>Template_Eclipse</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Elite_Double, 5</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Droid_Squadron_Double, 5</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Elite_Double, 10</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_1>TIE_Interceptor_Squadron_Elite_Double, 5</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>TIE_Droid_Squadron_Double, 5</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron_Elite_Double, 5</Reserve_Spawned_Units_Tech_1>
+		
+	</UniqueUnit>
+
+	<!-- Escort Carrier -->
+	<Spaceunit Name="Escort_Carrier">
+		<Variant_Of_Existing_Type>Template_Escort_Carrier</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Tie_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+	</Spaceunit>
+
+	<!-- Executor -->
+	<SpaceUnit Name="Generic_Executor">
+		<Variant_Of_Existing_Type>Template_Generic_Executor</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 10</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 10</Starting_Spawned_Units_Tech_0>
+        <Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 5</Starting_Spawned_Units_Tech_0>
+        <Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
+        <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 20</Reserve_Spawned_Units_Tech_0> 
+        <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 20</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 15</Reserve_Spawned_Units_Tech_0>
+
+	</SpaceUnit>
+
+	<!-- Interdictor -->
+	
+	<SpaceUnit Name="Interdictor_Cruiser">
+		<Variant_Of_Existing_Type>Template_Interdictor_Cruiser</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+
+	</SpaceUnit>
+
+	<!-- Imperial I star destroyer-->
+
+	<SpaceUnit Name="Generic_Star_Destroyer">
+		<Variant_Of_Existing_Type>Template_ISD_I</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+	</SpaceUnit>
+	
+	<!-- Xyston star destroyer-->
+
+	<SpaceUnit Name="Generic_Xyston">
+		<Variant_Of_Existing_Type>Template_Xyston</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Generic_Xyston_MIssiles">
+		<Variant_Of_Existing_Type>Template_Xyston</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron_Double, 6</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_1>TIE_Defender_Squadron_Double, 6</Reserve_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+		<Icon_Name>I_button_Xyston_M.tga</Icon_Name>
+		
+		<HardPoints>
+			HP_Star_Xyston_Weapon_00, HP_Star_Xyston_Weapon_01, HP_Star_Xyston_Weapon_02, HP_Star_Xyston_Weapon_03, HP_Star_Xyston_Weapon_04, HP_Star_Xyston_Weapon_05,
+			HP_Star_Xyston_Weapon_06, HP_Star_Xyston_Weapon_07, HP_Star_Xyston_Weapon_08, HP_Star_Xyston_Weapon_09, HP_Star_Xyston_Weapon_10, HP_Star_Xyston_Weapon_11,
+			HP_Star_Xyston_Weapon_12, HP_Star_Xyston_Weapon_13, HP_Star_Xyston_Weapon_14, HP_Star_Xyston_Weapon_15, HP_Star_Xyston_Weapon_16, HP_Star_Xyston_Weapon_17,
+			HP_Xyston_Turret_1, HP_Xyston_Turret_2, HP_Xyston_Turret_3, HP_Xyston_Turret_4,
+			HP_Xyston_Turret_5, HP_Xyston_Turret_6, HP_Xyston_Turret_7, HP_Xyston_Turret_8,
+			HP_Star_Destroyer_Shield_Generator, HP_Star_Destroyer_Engines, HP_Star_Destroyer_Fighter_Bay
+		</HardPoints>
+		
+	</SpaceUnit>
+
+	<!-- Star Destroyer 2-->
+	<SpaceUnit Name="Generic_Star_Destroyer_Two">
+		<Variant_Of_Existing_Type>Template_ISD_II</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_1>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+	</SpaceUnit>
+
+	<!--Lancer -->
+	<SpaceUnit Name="Lancer_Frigate">
+		<Variant_Of_Existing_Type>Template_Lancer</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	</SpaceUnit>
+
+	<!-- Victory II -->
+	<SpaceUnit Name="Victory_II_Destroyer">
+		<Variant_Of_Existing_Type>Template_Victory_Destroyer_Two</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+	</SpaceUnit>
+
+	<!-- Victory -->
+	
+	<SpaceUnit Name="Victory_Destroyer">
+		<Variant_Of_Existing_Type>Template_Victory_Destroyer</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		
+
+
+	</SpaceUnit>
+
+	<!-- Procusator Class-->
+	<SpaceUnit Name="Generic_Procursator">
+       <Variant_Of_Existing_Type>Template_Procursator</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+    </SpaceUnit>
+
+	
+	<!-- Tector Destroyer-->
+	<SpaceUnit Name="Generic_Tector">
+		<Variant_Of_Existing_Type>Template_Tector</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	</SpaceUnit>
+
+	<!-- Titan -->
+	<SpaceUnit Name="Titan_Cruiser">
+		<Variant_Of_Existing_Type>Template_Titan</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+	</SpaceUnit>
+
+	<!-- Tyrant -->
+	<SpaceUnit Name="Tyrant_Cruiser">
+		<Variant_Of_Existing_Type>Template_Tyrant</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+	</SpaceUnit>
+
+	<!-- Venator -->
+	
+	<SpaceUnit Name="Venator_Empire">
+		<Variant_Of_Existing_Type>Template_Venator</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 1 </GUI_Row>
+		<Build_Cost_Credits>3950</Build_Cost_Credits>
+		
+		<Starting_Spawned_Units_Tech_0>Arc-170_Squadron_E_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>VWing_Squadron_E_Double, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Arc-170_Squadron_E_Double, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>VWing_Squadron_E_Double, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Z95_Headhunter_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_1>Arc-170_Squadron_E_Double, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>VWing_Squadron_E_Double, 1</Starting_Spawned_Units_Tech_1>
+		<Starting_Spawned_Units_Tech_1>Z95_Headhunter_Squadron_Double, 1</Starting_Spawned_Units_Tech_1>
+		
+		<Reserve_Spawned_Units_Tech_1>Arc-170_Squadron_E_Double, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>VWing_Squadron_E_Double, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>Z95_Headhunter_Squadron_Double, 1</Reserve_Spawned_Units_Tech_1>
+		
+		<Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_2>
+		
+		<Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron_Double, 2</Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron_Double, 1</Reserve_Spawned_Units_Tech_2>
+		
+		<Starting_Spawned_Units_Tech_3>TIE_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_3>
+		
+		<Reserve_Spawned_Units_Tech_3>TIE_Bomber_Squadron_Double, 2</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>TIE_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_3>
+		<Reserve_Spawned_Units_Tech_3>TIE_Interceptor_Squadron_Double, 1</Reserve_Spawned_Units_Tech_3>
+		
+		<Starting_Spawned_Units_Tech_4>TIE_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_4>
+		<Starting_Spawned_Units_Tech_4>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_4>
+		
+		<Reserve_Spawned_Units_Tech_4>TIE_Bomber_Squadron_Double, 2</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>TIE_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_4>
+		<Reserve_Spawned_Units_Tech_4>TIE_Interceptor_Squadron_Double, 1</Reserve_Spawned_Units_Tech_4>
+		
+		<Starting_Spawned_Units_Tech_5>TIE_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_5>
+		<Starting_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_5>
+		
+		<Reserve_Spawned_Units_Tech_5>TIE_Bomber_Squadron_Double, 2</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>TIE_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_5>
+		<Reserve_Spawned_Units_Tech_5>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_5>
+		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
+		<Tech_Level>0</Tech_Level>
+
+		<Tactical_Build_Prerequisites />
+	</SpaceUnit>
+	
+	<SpaceUnit Name="Venator_Fleet_Tender">
+		<Variant_Of_Existing_Type>Template_Venator</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Select_Box_Scale>0</Select_Box_Scale>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 0 </GUI_Row>
+		<Build_Cost_Credits>4600</Build_Cost_Credits>
+		
+		<Text_ID>TEXT_UNIT_VENATOR_TENDER </Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VENATOR_TENDER </Encyclopedia_Text>
+		
+		<Icon_Name>i_button_jedi_Cruiser_Tender.tga</Icon_Name>
+		<SpaceBehavior>ABILITY_COUNTDOWN, BARRAGE, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		<HardPoints>
+		HP_Venator_01_Tender, HP_Venator_02_Tender, HP_Venator_03_Tender, HP_Venator_04_Tender, 
+		HP_Venator_Turret_01, HP_Venator_Turret_02, HP_Venator_Turret_03, HP_Venator_Turret_04,
+		HP_Venator_Turret_05, HP_Venator_Turret_06, HP_Venator_Turret_07, HP_Venator_Turret_08,
+		Venator_Bay, Venator_Shield, Venator_Engines, HP_Venator_05_Tender, HP_Venator_06_Tender
+        </HardPoints>
+		
+		<Starting_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		<Starting_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_2>
+		
+		<Reserve_Spawned_Units_Tech_2>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_2>
+		<Reserve_Spawned_Units_Tech_2>TIE_Interceptor_Squadron, 1</Reserve_Spawned_Units_Tech_2>
+		
+		
+		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
+		<Tech_Level>0</Tech_Level>
+	
+		<Tactical_Build_Prerequisites />
+		
+		<Abilities SubObjectList="Yes">
+
+			<Force_Healing_Ability Name="Fleet_Tender_Facility_Healing">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Heal_Range>850.0</Heal_Range>
+				<Heal_Percent> 0.05 </Heal_Percent>
+                <Blob_Color>0, 255, 0, 255</Blob_Color>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+				<!-- We can heal the following unit types: -->
+				<Applicable_Unit_Categories>Fighter, Transport, Bomber, Corvette, Frigate, Capital, Super, SuperCapital Hero</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+				<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+				<Target_Particle_Bone_Name>B_TURRET, TURRET_00, B_TURRET_BASE</Target_Particle_Bone_Name>
+				<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+				<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+				<Target_Light_Effect_Color2 />
+				<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+				<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+				<Owner_Particle_Bone_Name>Hangar</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+				<!--<Lightning_Effect_Name>Repair_Facility_Effect</Lightning_Effect_Name>-->
+			</Force_Healing_Ability>
+		</Abilities>
+	</SpaceUnit>
+	
+	
+	
+	
+	<SpaceUnit Name="Generic_Aggressor">
+		<Variant_Of_Existing_Type>Template_Aggressor</Variant_Of_Existing_Type>
+		<Affiliation>Empire</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_1>
+		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_1>
+
+	</SpaceUnit>
+	
+	<!-- Praetor -->
+	
+	<SpaceUnit Name="Generic_Praetor">
+		<Variant_Of_Existing_Type>Template_Praetor</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Reserve_Spawned_Units_Tech_0>
+
+	</SpaceUnit>
+	<!-- Secutor -->
+	
+	<UniqueUnit Name="Secutor">
+		<Variant_Of_Existing_Type>Secutor_Template</Variant_Of_Existing_Type>
+		<Moniker>Neutral_Venator.txt</Moniker>
+		
+		<Space_Model_Name>Empire_Secutor.ALO</Space_Model_Name>
+
+		<Text_ID>TEXT_UNIT_SECUTOR</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_SECUTOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+
+		<Affiliation>Empire, Warlords</Affiliation>
+
+		<Tech_Level>2</Tech_Level>
+
+			<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 5</Reserve_Spawned_Units_Tech_0> 
+
+			<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 5</Reserve_Spawned_Units_Tech_0>
+			
+			<Starting_Spawned_Units_Tech_0>TIE_Punisher_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Punisher_Squadron_Double, 5</Reserve_Spawned_Units_Tech_0>
+			
+			<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Elite_Double, 1</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Elite_Double, 1</Reserve_Spawned_Units_Tech_0>
+			
+			<Starting_Spawned_Units_Tech_0>Tie_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>Tie_Interceptor_Squadron_Double, 5</Reserve_Spawned_Units_Tech_0>
+			<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
+
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Special_Structures />
+	
+
+		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
+		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
+		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+        <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+        <SFXEvent_Build_Complete>Unit_Complete_Jedi_Cruiser</SFXEvent_Build_Complete>
+        <SFXEvent_Ambient_Loop>Unit_Acclamator_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+        <SFXEvent_Select>Unit_Select_Jedi_Cruiser</SFXEvent_Select>
+        <SFXEvent_Move>Unit_Move_Jedi_Cruiser</SFXEvent_Move>
+        <SFXEvent_Fleet_Move>Unit_Fleet_Move_Jedi_Cruiser</SFXEvent_Fleet_Move>
+        <SFXEvent_Attack>Unit_Attack_Jedi_Cruiser</SFXEvent_Attack>
+        <SFXEvent_Guard>Unit_Guard_Jedi_Cruiser</SFXEvent_Guard>
+        <SFXEvent_Stop>Unit_Stop_Jedi_Cruiser</SFXEvent_Stop>
+        <SFXEvent_Barrage>Unit_Barrage_Jedi_Cruiser</SFXEvent_Barrage>
+        <SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Jedi_Cruiser </SFXEvent_Move_Into_Asteroid_Field>
+        <SFXEvent_Move_Into_Nebula> Unit_Nebula_Jedi_Cruiser </SFXEvent_Move_Into_Nebula>
+        <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Jedi_Cruiser </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Jedi_Cruiser </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Jedi_Cruiser </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Jedi_Cruiser </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Jedi_Cruiser </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+        <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+        <SFXEvent_Engine_Idle_Loop> Unit_Acclamator_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+        <SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+        <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+        <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+	</UniqueUnit>
+
+</SpaceUnitsEmpire>

@@ -1,0 +1,143 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****** This story file is used to automatically set some things that would normally happen ******-->
+<!--****** in story mode for the full campaign.  This file should be generic enough to use for  ******-->
+<!--****** any sandbox campaign set.                                                           ******-->
+
+<!-- ************************************************ -->
+<!-- ***** SANDBOX CAMPAIGN "Empire Surrounded" ***** -->
+<!-- ************************************************ -->
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Dialog_E_Empire_Surrounded</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+	
+	<!--******************************************************-->
+	<!--******	Tech Timer						         *****-->
+	<!--******************************************************-->
+	
+	<!-- Note Event params were at 2080 aka 26 weeks -->
+	<Event Name="Tech_Timer_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Tag>Tech_Tag</Story_Tag>
+	</Event>
+	
+	<Event Name="Trigger_Tech_Four">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2000</Event_Param1>
+		<Prereq>Tech_Timer_Start</Prereq>
+	</Event>
+	
+	<Event Name="E_Tech_Four">
+  		<Event_Type>STORY_TRIGGER</Event_Type>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>	
+		<Prereq>Trigger_Tech_Four</Prereq>
+	</Event> 
+	
+	<Event Name="M_Tech_Four">
+  		<Event_Type>STORY_TRIGGER</Event_Type>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Maldrood</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>	
+		<Prereq>Trigger_Tech_Four</Prereq>
+	</Event> 
+	
+	<Event Name="C_Tech_Four">
+  		<Event_Type>STORY_TRIGGER</Event_Type>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Corporate_Sector</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>	
+		<Prereq>Trigger_Tech_Four</Prereq>
+	</Event> 
+
+	<Event Name="R_Tech_Four">
+  		<Event_Type>STORY_TRIGGER</Event_Type>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>	
+		<Prereq>Trigger_Tech_Four</Prereq>	
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Initial locks					         *****-->
+<!--******************************************************-->
+	<Event Name="Reveal_All_Planets">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Intro_Completed">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Intro_Tag</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	
+<!--******************************************************-->
+<!--******	Hero Release					         *****-->
+<!--******************************************************-->
+
+
+
+<!--******************************************************-->
+<!--******	Tech 1                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Maldrood_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 2                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Maldrood_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 3                                  *****-->
+<!--******************************************************-->
+
+	<Event Name="Maldrood_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+	
+<!--******************************************************-->
+<!--******	Tech 4                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Maldrood_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	<!--******************************************************-->
+<!--******	Tech 5                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Maldrood_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+	
+
+</Story>

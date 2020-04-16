@@ -1,0 +1,411 @@
+<?xml version="1.0"?>
+<Projectiles>
+
+<!-- Most of these had a damage of 0.5 Might change them back later for balance -->
+
+<!-- ************************************************************************************** -->
+<!-- ****** Purple Stuff, Used by the Ssi-Ruuvi: Quads, Duals, Singles ************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Purple">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>2.5</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_PURPLE.ALO</Space_Model_Name>
+	</Projectile>
+	
+<!-- ************************************************************************************** -->
+<!-- ****** Blue Stuff, Used by the Galactic Republic: Quads, Duals, Singles ************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Blue">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>2.5</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_MASER_BLUE_F.ALO</Space_Model_Name>
+	</Projectile>
+		<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Blue_Heavy">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>3.75</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_MASER_BLUE_F.ALO</Space_Model_Name>
+	</Projectile>
+
+<!-- ************************************************************************************** -->
+<!-- ****** Green Stuff, Used by the Empire: Quads, Duals, Singles ************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Green">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>2.5</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_GREEN.ALO</Space_Model_Name>
+	</Projectile>
+
+
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Green_Heavy"> <!-- Preybird -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>3.75</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_GREEN.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Green_Dual_Heavy">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>7.5</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>W_DUAL_GREEN.ALO</Space_Model_Name>
+	</Projectile>
+
+
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Green_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>5</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>W_DUAL_GREEN.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Green_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>W_Quad_Green.ALO</Space_Model_Name>
+	</Projectile>
+
+
+
+
+
+
+<!-- ************************************************************************************** -->
+<!-- ********** Red Stuff, Used by the Rebellion: Quads, Duals, Singles ******************* -->
+<!-- ************************************************************************************** -->
+
+
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Red">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Red</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>2.5</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_RED.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Red_Heavy"> <!-- B-Wing -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>3.75</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_RED.ALO</Space_Model_Name>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Red_Squadron">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Red</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>7.5</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>PROJ_LASER_RED.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Red_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>5</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>W_Dual_Red.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Fighter_Laser_Cannon_Red_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.015</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>10</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>W_Quad_Red.ALO</Space_Model_Name>
+	</Projectile>
+
+	<!-- ************************************************************************************** -->
+	<!-- ****************** Red Stuff, Used by the K-Wing: Quads, Duals *********************** -->
+	<!-- ************************************************************************************** -->
+
+
+
+	<Projectile Name="Proj_Ship_K-Wing_Laser_Cannon_Red_Dual">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>300.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>5</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>W_Dual_laser_R.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_K-Wing_Laser_Cannon_Red_Quad">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>95</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>300.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Damage_Space_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Space_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Damage>10</Projectile_Damage>
+		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Space_Model_Name>W_Quad_laser_R.ALO</Space_Model_Name>
+	</Projectile>
+
+
+</Projectiles>

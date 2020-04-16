@@ -1,0 +1,1814 @@
+<?xml version="1.0" ?>
+<Structures>
+	
+	<SpecialStructure Name="Generic_Golan_One">
+		<Text_ID>TEXT_GOLAN_ONE_STATION</Text_ID>
+		<Space_Model_Name>GE_GOLAN_ONE.alo</Space_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale> 90</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>No</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet> 2 </Build_Max_Instances_Per_Planet>
+		<Size_Value>1</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Shield_Points>4620</Shield_Points>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets />
+		<Autoresolve_Health>8000</Autoresolve_Health>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Affiliation>Empire, Rebel</Affiliation>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Tactical_Health>4620</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_golan_one.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<Scale_Factor>6.96</Scale_Factor>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<AI_Combat_Power>1600</AI_Combat_Power>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<Sabotage_Cost_Credits>5000</Sabotage_Cost_Credits>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Gravity_Control_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Gravity_Control_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Station </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+
+		<CategoryMask> Space_Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.1</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_golanone.tga</Radar_Icon_Name>
+
+		<HardPoints>
+			HP_Golan_One_One,
+			HP_Golan_One_Two,
+			HP_Golan_One_Three,
+			HP_Golan_One_Four,
+			HP_Golan_One_Five,
+			HP_Golan_One_Six,
+			HP_Golan_One_Seven,
+			HP_Golan_One_Eight,
+			HP_Golan_One_Nine,
+			HP_Golan_One_Ten,
+			HP_Golan_One_Fighter_Bay,
+			HP_Golan_One_Shield_Generator,
+			Generic_Untargetable_Tractor_Beam
+		</HardPoints>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GOLAN_ONE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 30 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Layer_Z_Adjust> -150 </Layer_Z_Adjust>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Damage>200</Damage>
+		<Death_Clone>Damage_Normal, Friggin_Huge_Explosion_Space</Death_Clone>
+
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+				<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+
+				<Recharge_Seconds>60</Recharge_Seconds>
+				
+				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
+				 <!-- The actual radius of ability is in projectile XML -->
+				 <Effective_Radius>8000.0 </Effective_Radius>
+		         <Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>  
+               <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
+                <Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
+
+			</Unit_Ability>
+			
+			
+	   </Unit_Abilities_Data>
+	   
+	  <Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Station_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.25</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>20</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Station_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="Trade_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+    </SpecialStructure>
+
+	<SpecialStructure Name="Generic_Golan_Two">
+		<Text_ID>TEXT_GOLAN_TWO_STATION</Text_ID>
+		<Space_Model_Name>GE_GOLAN_TWO.alo</Space_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale>90</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>No</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>3500</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Build_Max_Instances_Per_Planet> 2 </Build_Max_Instances_Per_Planet>
+		<Size_Value>2</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Autoresolve_Health>12000</Autoresolve_Health>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Affiliation>Empire, Rebel</Affiliation>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Shield_Points>6930</Shield_Points>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Planets />
+        <Tactical_Health>6930</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_golan_two.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<Scale_Factor>13.75</Scale_Factor>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<AI_Combat_Power>2450</AI_Combat_Power>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<Sabotage_Cost_Credits>5000</Sabotage_Cost_Credits>
+		<Damage>200</Damage>
+		<Shield_Refresh_Rate>30</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Gravity_Control_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Gravity_Control_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Station </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+
+		<CategoryMask> Space_Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.1</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_golantwo.tga</Radar_Icon_Name>
+
+
+		<HardPoints>
+			HP_Golan_One_One,
+			HP_Golan_One_Two,
+			HP_Golan_Two_One,
+			HP_Golan_Two_Two,
+			HP_Golan_One_Five,
+			HP_Golan_One_Six,
+			HP_Golan_Two_Three,
+			HP_Golan_Two_Four,
+			HP_Golan_Two_Five,
+			HP_Golan_Two_Six,
+			HP_Golan_Two_Seven,
+			HP_Golan_Two_Eight,
+			HP_Golan_Two_Nine,
+			HP_Golan_Two_Ten,
+			HP_Golan_Two_Eleven,
+			HP_Golan_Two_Twelve,
+			HP_Golan_One_Fighter_Bay,
+			HP_Golan_One_Shield_Generator,
+			Generic_Untargetable_Tractor_Beam
+		</HardPoints>
+
+
+
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GOLAN_TWO </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 30 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+
+		<Death_Clone>Damage_Normal, Friggin_Huge_Explosion_Space</Death_Clone>
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		
+			<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+
+				<Recharge_Seconds>60</Recharge_Seconds>
+				
+				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
+				 <!-- The actual radius of ability is in projectile XML -->
+				 <Effective_Radius>8000.0 </Effective_Radius>
+		         <Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>  
+               <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
+                <Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
+
+			</Unit_Ability>
+			
+	    </Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Station_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.25</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>20</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Station_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="Trade_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+    </SpecialStructure>
+
+	<SpecialStructure Name="Generic_Golan_Two_Strategic">
+		<Variant_Of_Existing_Type>Generic_Golan_Two</Variant_Of_Existing_Type>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets> Honoghr, Kessel </Required_Planets>
+
+	</SpecialStructure>
+
+	<SpecialStructure Name="Golan2_Death_Clone">
+		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
+		<Space_Model_Name>GE_GOLAN2_DIE.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<Affiliation>Empire</Affiliation>
+		<Scale_Factor>10</Scale_Factor>
+		<Ship_Class>capital_ship</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Generic_Golan_Three">
+		<Text_ID>TEXT_GOLAN_THREE_STATION</Text_ID>
+		<Space_Model_Name>GE_GOLAN_THREE.alo</Space_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale>90</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>No</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Build_Max_Instances_Per_Planet> 2 </Build_Max_Instances_Per_Planet>
+		<Size_Value>2</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Autoresolve_Health>16000</Autoresolve_Health>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Affiliation>Empire</Affiliation>
+
+
+		<Shield_Points>10010</Shield_Points>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Tech_Level>0</Tech_Level>
+		<AI_Combat_Power>3870</AI_Combat_Power>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Planets />
+        <Tactical_Health>10010</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_golan_three.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<Scale_Factor>15.3</Scale_Factor>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<Sabotage_Cost_Credits>5000</Sabotage_Cost_Credits>
+
+
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Gravity_Control_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Gravity_Control_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Station </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+		<Damage>200</Damage>
+		<CategoryMask> Space_Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.1</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_golanthree.tga</Radar_Icon_Name>
+
+
+		<HardPoints>
+			HP_Golan_One_One,
+			HP_Golan_One_Two,
+			HP_Golan_Two_One,
+			HP_Golan_Two_Two,
+			HP_Golan_One_Five,
+			HP_Golan_One_Six,
+			HP_Golan_Two_Three,
+			HP_Golan_Two_Four,
+			HP_Golan_Two_Five,
+			HP_Golan_Two_Six,
+			HP_Golan_Two_Seven,
+			HP_Golan_Two_Eight,
+			HP_Golan_Two_Nine,
+			HP_Golan_Two_Ten,
+			HP_Golan_Two_Eleven,
+			HP_Golan_Two_Twelve,
+			HP_Golan_Three_Twelve
+			HP_Golan_Three_Eleven,
+			HP_Golan_Three_Ten,
+			HP_Golan_Three_Nine,
+			HP_Golan_Three_Eight,
+			HP_Golan_Three_Seven,
+			HP_Golan_Three_Six,
+			HP_Golan_Three_Five,
+			HP_Golan_Three_Four,
+			HP_Golan_Three_Three,
+			HP_Golan_Three_Two,
+			HP_Golan_Three_One,
+			HP_Golan_One_Fighter_Bay,
+			HP_Golan_One_Shield_Generator,
+			Generic_Untargetable_Tractor_Beam
+		</HardPoints>
+
+
+		<Death_Clone>Damage_Normal, Friggin_Huge_Explosion_Space</Death_Clone>
+
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GOLAN_THREE_STATION </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 30 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+
+				<Recharge_Seconds>60</Recharge_Seconds>
+				
+				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
+				 <!-- The actual radius of ability is in projectile XML -->
+				 <Effective_Radius>8000.0 </Effective_Radius>
+		         <Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>  
+               <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
+                <Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
+
+			</Unit_Ability>
+			
+	    </Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Station_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.25</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>20</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Station_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="Trade_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+    </SpecialStructure>
+
+	<SpecialStructure Name="Generic_Golan_Three_Strategic">
+		<Variant_Of_Existing_Type>Generic_Golan_Three</Variant_Of_Existing_Type>
+
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets>Coruscant, Muunilinst, Bastion, Centares</Required_Planets>
+
+	</SpecialStructure>
+
+	<SpecialStructure Name="Golan3_Death_Clone">
+		<Text_ID>TEXT_GRAVITY_WELL_STATION</Text_ID>
+		<Space_Model_Name>GE_GOLAN3_DIE.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<Affiliation>Empire</Affiliation>
+		<Scale_Factor>15</Scale_Factor>
+		<Ship_Class>capital_ship</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Generic_TradeStation">
+		<Text_ID>TEXT_UNIT_TRADESTATION</Text_ID>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Space_Model_Name>UB_TradeStation.ALO</Space_Model_Name>
+		<Select_Box_Scale>330</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Affiliation>Empire, Rebel, Corporate_Sector, Maldrood, Warlords, Eriadu</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>210</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Build_Limit_Current_Per_Player>15</Build_Limit_Current_Per_Player>
+		<Size_Value>30</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets />
+
+		<Shield_Points>3010</Shield_Points>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<AI_Combat_Power>1000</AI_Combat_Power>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+
+        <Tactical_Health>3010</Tactical_Health>
+ 		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+ 		<SpaceBehavior>SPACE_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED,UNIT_AI, ABILITY_COUNTDOWN, POWERED, SHIELDED, TARGETING, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT 		</SpaceBehavior>
+		<Space_FOW_Reveal_Range>40000.0</Space_FOW_Reveal_Range>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Friggin_Huge_Explosion_Space</Death_Explosions>
+		<Icon_Name>i_button_tradestation.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+
+		<GUI_Model_Name>NV_LRS.ALO</GUI_Model_Name>
+		<GUI_Distance>1000</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+		<Sabotage_Cost_Credits>500</Sabotage_Cost_Credits>
+
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Armor_Type> Armor_Satellite </Armor_Type>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Station_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>1</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>20</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Station_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="Trade_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Encyclopedia_Text> TEXT_TOOLTIP_TRADESTATION  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 21000 </Score_Cost_Credits>
+		<Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Layer> StaticObject </Space_Layer>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+	</SpecialStructure>
+
+	<SpecialStructure Name="NewRep_XQ">
+		<Text_ID>TEXT_XQ_STATION</Text_ID>
+		<Space_Model_Name>NR_XQ.alo</Space_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale> 30</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>No</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Max_Instances_Per_Planet> 2 </Build_Max_Instances_Per_Planet>
+		<Size_Value>1</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Shield_Points>3500</Shield_Points>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets />
+		<Autoresolve_Health>8000</Autoresolve_Health>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Tactical_Health>2400</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SIMPLE_SPACE_LOCOMOTOR </SpaceBehavior>
+		
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+		
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_xq_platform.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<Scale_Factor>0.5</Scale_Factor>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<AI_Combat_Power>530</AI_Combat_Power>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<Sabotage_Cost_Credits>5000</Sabotage_Cost_Credits>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Gravity_Control_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Gravity_Control_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Station </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+
+		<CategoryMask> Space_Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.1</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_golanone.tga</Radar_Icon_Name>
+		
+		<Affiliation>Rebel</Affiliation>
+
+		<HardPoints>
+			HP_XQ_Hangar_01,
+			HP_XQ_Hangar_02,
+			HP_XQ_Hangar_03,
+			HP_XQ_Laser01,
+			HP_XQ_Laser02,
+			HP_XQ_Laser03,
+			HP_XQ_Laser04,
+			HP_XQ_Laser05,
+			HP_XQ_Laser06,
+			HP_XQ_Turbo01,
+			HP_XQ_Turbo02,
+			HP_XQ_Turbo03,
+		</HardPoints>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_XQ  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 30 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Layer_Z_Adjust> -150 </Layer_Z_Adjust>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Damage>200</Damage>
+		<Death_Clone>Damage_Normal, Large_Explosion_Space</Death_Clone>
+
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+				<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+
+				<Recharge_Seconds>60</Recharge_Seconds>
+				
+				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
+				 <!-- The actual radius of ability is in projectile XML -->
+				 <Effective_Radius>8000.0 </Effective_Radius>
+		         <Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>  
+               <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
+                <Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
+
+			</Unit_Ability>
+	   </Unit_Abilities_Data>
+	   
+	   <Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Station_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.25</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>20</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Station_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="Trade_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+    </SpecialStructure>
+	
+	<SpecialStructure Name="Empire_Golan_Three">
+	<Variant_Of_Existing_Type>Generic_Golan_Three</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		
+		<Affiliation>Empire, Corporate_Sector, Maldrood, Warlords, Eriadu</Affiliation>
+		<Spawned_Squadron_Delay_Seconds>0.2</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_0>Tie_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Tie_Interceptor_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+	
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Empire_Golan_Two">
+	<Variant_Of_Existing_Type>Generic_Golan_Two</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		
+		<Affiliation>Empire, Corporate_Sector, Maldrood, Warlords, Eriadu</Affiliation>
+		<Spawned_Squadron_Delay_Seconds>0.2</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_0>Tie_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Tie_Interceptor_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+	
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Empire_Golan_One">
+	<Variant_Of_Existing_Type>Generic_Golan_One</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		
+		<Affiliation>Empire, Corporate_Sector, Maldrood, Warlords, Eriadu</Affiliation>
+		<Spawned_Squadron_Delay_Seconds>0.2</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_0>Tie_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Tie_Interceptor_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+	
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Rebel_Golan_Three">
+	<Variant_Of_Existing_Type>Generic_Golan_Three</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		
+		<Affiliation>Rebel</Affiliation>
+		<Spawned_Squadron_Delay_Seconds>0.2</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+		
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Rebel_Golan_Two">
+	<Variant_Of_Existing_Type>Generic_Golan_Two</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		
+		<Affiliation>Rebel</Affiliation>
+		<Spawned_Squadron_Delay_Seconds>0.2</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+	
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Rebel_Golan_One">
+	<Variant_Of_Existing_Type>Generic_Golan_One</Variant_Of_Existing_Type>
+		
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		
+		<Affiliation>Rebel</Affiliation>
+		<Spawned_Squadron_Delay_Seconds>0.2</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+	
+	</SpecialStructure>
+	
+	<!-- Skystrike Station and Empire Comms Station was made by Warb_Null, God Bless the man -->
+	
+
+	<SpecialStructure Name="Empire_Skystrike_Station_Death_Clone">
+		<Text_ID>TEXT_EMPIRE_STAR_BASE_2</Text_ID>
+		<Space_Model_Name>Imperial_Skystrike_Station_D.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Scale_Factor>1</Scale_Factor>
+		<Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
+		<CategoryMask> Capital </CategoryMask>
+		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
+		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
+	</SpecialStructure>
+	
+	<SpecialStructure Name="Skystrike_Station">
+		<Text_ID>TEXT_SKYSTRIKE</Text_ID>
+		<Space_Model_Name>Imperial_Skystrike_Station.alo</Space_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale> 90</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>No</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>1600</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>1</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Shield_Points>4620</Shield_Points>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Planets />
+		<Autoresolve_Health>8000</Autoresolve_Health>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Affiliation>Empire, Eriadu, Maldrood</Affiliation>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Tactical_Health>8750</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_skystrike_station.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<Scale_Factor>1</Scale_Factor>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<AI_Combat_Power>1600</AI_Combat_Power>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<Sabotage_Cost_Credits>5000</Sabotage_Cost_Credits>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Gravity_Control_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Gravity_Control_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Station </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+
+		<CategoryMask> Space_Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.1</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_station1_e.tga</Radar_Icon_Name>
+		
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+	
+		<Starting_Spawned_Units_Tech_0>Tie_Interceptor_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Tie_Interceptor_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>TIE_Avenger_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Avenger_Squadron, -1</Reserve_Spawned_Units_Tech_0>		
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		
+		<Starting_Spawned_Units_Tech_0>Scimitar_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Scimitar_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		
+		<Spawned_Squadron_Delay_Seconds>0.2</Spawned_Squadron_Delay_Seconds>
+
+		<HardPoints>
+			HP_Imperial_Skystrike_Station_Shield_Generator_01,
+			HP_Imperial_Skystrike_Station_Shield_Generator_02,
+			HP_Imperial_Skystrike_Station_Turbolaser_01,
+			HP_Imperial_Skystrike_Station_Turbolaser_02,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_01,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_02,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_03,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_04,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_05,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_06,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_07,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_08,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_09,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_10,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_11,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_12,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_13,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_14,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_15,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_16,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_17,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_18,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_19,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_20,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_21,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_22,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_23,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_24,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_25,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_26,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_26,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_27,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_28,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_29,
+			HP_Imperial_Skystrike_Station_Fighter_Bay_30
+		</HardPoints>
+		
+		<Encyclopedia_Text> TEXT_TOOLTIP_SKYSTRIKE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 30 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Layer_Z_Adjust> -150 </Layer_Z_Adjust>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Damage>200</Damage>
+		<Death_Clone>Damage_Normal, Friggin_Huge_Explosion_Space</Death_Clone>
+
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+				<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+
+				<Recharge_Seconds>60</Recharge_Seconds>
+				
+				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
+				 <!-- The actual radius of ability is in projectile XML -->
+				 <Effective_Radius>8000.0 </Effective_Radius>
+		         <Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>  
+               <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
+                <Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
+
+			</Unit_Ability>
+	   </Unit_Abilities_Data>
+	   
+	   <Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Station_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.25</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>20</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Station_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="Trade_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	
+    </SpecialStructure>
+	
+	<SpecialStructure Name="Imperial_Comms_Station">
+		<Text_ID>TEXT_EMPIRE_COMM_STAR_BASE_1</Text_ID>
+		<Space_Model_Name>Empire_Comm_Station.alo</Space_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale> 90</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Is_Dummy>No</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>2250</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>1</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Shield_Points>4620</Shield_Points>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Planets />
+		<Autoresolve_Health>8000</Autoresolve_Health>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+		<Affiliation>Empire, Corporate_Sector, Maldrood, Warlords</Affiliation>
+
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Tactical_Health>4620</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON </SpaceBehavior>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_empire_Comm_Station.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<Scale_Factor>1</Scale_Factor>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<AI_Combat_Power>1600</AI_Combat_Power>
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+		<Is_Interdictor>Yes</Is_Interdictor>
+
+		<Sabotage_Cost_Credits>5000</Sabotage_Cost_Credits>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Gravity_Control_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Gravity_Control_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Station </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+
+		<CategoryMask> Space_Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.1</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_Empire_Comm_Station.tga</Radar_Icon_Name>
+		
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		
+		
+		<Spawned_Squadron_Delay_Seconds>0.2</Spawned_Squadron_Delay_Seconds>
+
+		<HardPoints>
+			HP_Empire_Comm_Station_Fighter_Bay_01,
+			HP_Empire_Comm_Station_Fighter_Bay_02,
+			HP_Empire_Comm_Station_Fighter_Bay_03,
+			HP_Empire_Comm_Station_Shield_Gen_01,
+			HP_Empire_Comm_Station_Shield_Gen_02,
+			HP_Empire_Comm_Station_Shield_Gen_03,
+			HP_Empire_Comm_Station_Shield_Gen_04,
+			HP_Empire_Comm_Station_Shield_Gen_05,
+			HP_Empire_Comm_Station_Shield_Gen_06,
+			HP_Empire_Comm_Station_Turbolaser_01,
+			HP_Empire_Comm_Station_Turbolaser_02,
+			HP_Empire_Comm_Station_Turbolaser_03,
+			HP_Empire_Comm_Station_Turbolaser_04,
+			HP_Empire_Comm_Station_Turbolaser_05,
+			HP_Empire_Comm_Station_Turbolaser_06,
+			HP_Empire_Comm_Station_Missile_01,
+			HP_Empire_Comm_Station_Missile_02,
+			HP_Empire_Comm_Station_Missile_03,
+			HP_Empire_Comm_Station_Missile_04,
+			HP_Empire_Comm_Station_Missile_05,
+			HP_Empire_Comm_Station_Missile_06,
+			HP_Empire_Comm_Station_Laser_Cannon_01,
+			HP_Empire_Comm_Station_Laser_Cannon_02
+			HP_Empire_Comm_Station_Laser_Cannon_03,
+			HP_Empire_Comm_Station_Laser_Cannon_04,
+			HP_Empire_Comm_Station_Laser_Cannon_05,
+			HP_Empire_Comm_Station_Laser_Cannon_06
+		</HardPoints>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_GRAVITY_WELL_STATION_00  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 30 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Layer_Z_Adjust> -150 </Layer_Z_Adjust>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Damage>200</Damage>
+		<Death_Clone>Damage_Normal, Friggin_Huge_Explosion_Space</Death_Clone>
+
+
+		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+		<Max_Thrust>1.5</Max_Thrust>
+		<Max_Speed>0.00001</Max_Speed>
+		<Max_Rate_Of_Roll>0.0</Max_Rate_Of_Roll>
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+            <Unit_Ability>
+                <Type>INTERDICT</Type>
+                <Disable_Movement>Yes</Disable_Movement>
+                <Active_By_Default>Yes</Active_By_Default>
+
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+                <SFXEvent_GUI_Unit_Ability_Deactivated />
+            </Unit_Ability>
+			
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+
+				<Recharge_Seconds>60</Recharge_Seconds>
+				
+				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
+				 <!-- The actual radius of ability is in projectile XML -->
+				 <Effective_Radius>8000.0 </Effective_Radius>
+		         <Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>  
+               <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
+                <Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
+
+			</Unit_Ability>
+	   </Unit_Abilities_Data>
+	   
+	   <Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Station_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.25</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>20</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Station_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="Trade_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+	
+    </SpecialStructure>
+	
+	
+	<SpecialStructure Name="Empire_Comm_Station_Death_Clone">
+		<Text_ID>TEXT_PIRATE_STAR_BASE_1</Text_ID>
+		<Space_Model_Name>Empire_Comm_Station_D.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<CategoryMask> Capital </CategoryMask>
+		<Death_Persistence_Duration> 40 </Death_Persistence_Duration>
+		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
+	</SpecialStructure>
+	
+	
+	<SpecialStructure Name="Cardan_V">
+		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
+		<Text_ID>TEXT_EMPIRE_STAR_BASE_5</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION5</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Space_Model_Name>EB_STATION_05.ALO</Space_Model_Name>
+		<Galactic_Model_Name>I_EB_STATION_LEVEL5.ALO</Galactic_Model_Name>
+		<Select_Box_Scale>1800</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Affiliation>Empire</Affiliation>
+		<AI_Combat_Power>35000</AI_Combat_Power>
+		<Build_Cost_Credits>6000</Build_Cost_Credits>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Tech_Level>4</Tech_Level>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SIMPLE_SPACE_LOCOMOTOR </SpaceBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Base_Position>Orbital</Base_Position>
+		<Next_Level_Base />
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<CategoryMask> Space_Structure </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Autoresolve_Health>2750</Autoresolve_Health>
+		<Damage>75</Damage>
+		<Shield_Points>9000</Shield_Points>
+		<Tactical_Health>7000</Tactical_Health>
+		<Shield_Refresh_Rate>160</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<Armor_Type> Armor_Station </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 6</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 6</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		
+		<Starting_Spawned_Units_Tech_0>Acclamator_Assault_Ship, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Acclamator_Assault_Ship, 1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		
+		<Spawned_Squadron_Delay_Seconds>0.2</Spawned_Squadron_Delay_Seconds>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+		
+		<HardPoints>
+			HP_Empire_Station_One_00,
+			HP_Empire_Station_One_01,
+			HP_Empire_Station_One_02,
+			HP_Empire_Station_One_Fighter_Bay,
+			HP_Empire_Station_One_Comm_Array_Dummy,
+			HP_Empire_Station_Two_00,
+			HP_Empire_Station_Two_01,
+			HP_Empire_Station_Two_02,
+			HP_Empire_Station_Three_00,
+			HP_Empire_Station_Three_01,
+			HP_Empire_Station_Three_02,
+			HP_Empire_Station_Four_00,
+			HP_Empire_Station_Four_01,
+			HP_Empire_Station_Four_02,
+			HP_Empire_Station_Four_03,
+			HP_Empire_Station_Five_00,
+			HP_Empire_Station_Five_01,
+			HP_Empire_Station_Five_02,
+			HP_Empire_Station_Five_03,
+			HP_Empire_Station_One_Supply_Dock_Dummy
+		</HardPoints>
+
+<!-- Comm array and supply dock should be replaced by dummy hard points -->
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Empire_Space_Station</SFXEvent_Select>
+		<SFXEvent_Attack>Unit_Attack_Empire_Space_Station</SFXEvent_Attack>
+		<SFXEvent_Barrage>Unit_Barrage_Empire_Space_Station</SFXEvent_Barrage>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Unit_Under_Attack> EHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Custom_Soft_Footprint_Radius> 250 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Name>i_radar_station5_e.tga</Radar_Icon_Name>
+		<Radar_Icon_Scale_Land>1.3</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.3</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.16  0.16</Radar_Icon_Size>
+		<Radar_Rotate_Icon>Yes</Radar_Rotate_Icon>
+		
+		<Icon_Name>i_button_imperial_station.tga</Icon_Name>
+		<Score_Cost_Credits> 24000</Score_Cost_Credits>
+		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_5_Empire</Retreat_Self_Destruct_Explosion>
+
+		<Death_Clone>Damage_Normal, Cardan_V_Death_Clone</Death_Clone>
+		<Additional_Population_Capacity>17</Additional_Population_Capacity>
+		
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Station_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_TRADE_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.25</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>20</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Station_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="Trade_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+		
+	</SpecialStructure>
+
+	<SpecialStructure Name="Cardan_V_Death_Clone">
+		<Text_ID>TEXT_EMPIRE_STAR_BASE_5</Text_ID>
+		<Space_Model_Name>EB_station_break_break_05.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<CategoryMask> Capital </CategoryMask>
+		<Death_Persistence_Duration> 34 </Death_Persistence_Duration>
+		<Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
+	</SpecialStructure>
+
+	<SpecialStructure Name="Empress_Station">
+		<Text_ID>TEXT_UNIT_EMPRESS</Text_ID>
+		<Space_Model_Name>NR_Empress.alo</Space_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+		<Select_Box_Scale>90</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Is_Dummy>No</Is_Dummy>
+		<Political_Control>0</Political_Control>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
+		<Build_Time_Seconds>75</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet> 2 </Build_Max_Instances_Per_Planet>
+		<Size_Value>2</Size_Value>
+		<Base_Position>Orbital</Base_Position>
+		<Autoresolve_Health>9005</Autoresolve_Health>
+
+		<Shield_Points>9000</Shield_Points>
+		<Shield_Refresh_Rate>35</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+		<Tech_Level>0</Tech_Level>
+		<AI_Combat_Power>4880</AI_Combat_Power>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Planets />
+        <Tactical_Health>9005</Tactical_Health>
+		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE, SHIELDED</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>B-Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>A_Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 8</Reserve_Spawned_Units_Tech_0>
+		
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Icon_Name>i_button_empress.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<Scale_Factor>8.3</Scale_Factor>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<Sabotage_Cost_Credits>5000</Sabotage_Cost_Credits>
+
+		<Affiliation>Rebel, Corporate_Sector</Affiliation>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Gravity_Control_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Gravity_Control_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Armor_Type> Armor_Station </Armor_Type>
+
+		<Modifies_Reveal_Range>no</Modifies_Reveal_Range>
+		<Reveal_Range_Modifier>-.50</Reveal_Range_Modifier>
+		<Damage>200</Damage>
+		<CategoryMask> Space_Structure </CategoryMask>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>0.1</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.1</Radar_Icon_Scale_Space>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_golanthree.tga</Radar_Icon_Name>
+
+
+		<HardPoints>
+			HP_Empress_Hangar_01,
+			HP_Empress_Hangar_02,
+			HP_Empress_Hangar_03,
+			HP_Empress_Proton01,
+			HP_Empress_Proton02,
+			HP_Empress_Proton03,
+			HP_Empress_Proton04,
+			HP_Empress_Proton05,
+			HP_Empress_Proton06,
+			HP_Empress_Proton07,
+			HP_Empress_Proton08,
+			HP_Empress_Proton09,
+			HP_Empress_Proton10,
+			HP_Empress_Proton11,
+			HP_Empress_Proton12,
+			HP_Empress_Turbo01,
+			HP_Empress_Turbo02,
+			HP_Empress_Turbo03,
+			HP_Empress_Turbo04,
+			HP_Empress_Turbo05,
+			HP_Empress_Turbo06,
+			HP_Empress_Turbo07,
+			HP_Empress_Turbo08,
+			HP_Empress_Turbo09,
+			HP_Empress_Turbo10,
+			HP_Empress_Turbo11,
+			HP_Empress_Turbo12,
+			HP_Empress_Turbo13,
+			HP_Empress_Turbo14,
+			HP_Empress_Turbo15,
+			HP_Empress_Turbo16,
+			HP_Empress_Turbo17,
+			HP_Empress_Turbo18,
+			Generic_Untargetable_Tractor_Beam
+		</HardPoints>
+
+
+		<Death_Clone>Damage_Normal, Friggin_Huge_Explosion_Space</Death_Clone>
+
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_EMPRESS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 1500 </Score_Cost_Credits>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Custom_Soft_Footprint_Radius> 30 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Layer> StaticObject </Space_Layer>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+					<Type>TRACTOR_BEAM</Type>
+					<Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+					<GUI_Activated_Ability_Name>Empress_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+					<Recharge_Seconds>30</Recharge_Seconds>
+					<SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+					<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+			</Unit_Ability>
+			
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+
+				<Recharge_Seconds>60</Recharge_Seconds>
+				
+				 <!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
+				 <!-- The actual radius of ability is in projectile XML -->
+				 <Effective_Radius>8000.0 </Effective_Radius>
+		         <Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>  
+               <SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability> 
+                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+                <!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
+                <Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
+
+			</Unit_Ability>
+       </Unit_Abilities_Data>
+		
+	   <Abilities SubObjectList="Yes">
+			<Planet_Income_Bonus_Ability Name="Station_Income_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMY_MINING_FACILITIES</Specific_Mod_Source_Text>
+				<!-- 3% bonus to base planetary income -->
+				<Percentage_Income_Modifier>0.20</Percentage_Income_Modifier>
+				<!-- plus an absolute 0 credits to planetary income -->
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<!-- net effect of +( (base income * 0%) + 20) credits -->
+				<!-- <Additional_Multiplier_On_Mining_Colonies>1.5</Additional_Multiplier_On_Mining_Colonies> -->
+				<!-- net result above multiplied by 2.0 if the affected planet is a mining colony -->
+			</Planet_Income_Bonus_Ability>
+			<Income_Stream_Ability Name="Station_Income_Stream">
+				<!-- Income streams only exist in tactical modes that are not spawned from galatic, so this will not affect campaign play. -->
+				<Base_Income_Value>125</Base_Income_Value>
+				<Base_Interval_In_Secs>5</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Force_Healing_Ability Name="Trade_Facility_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.003</Heal_Percent>  <!-- Change from .025 to .003 for MP-->
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>2.0</Heal_Interval_In_Secs> <!-- change from 5.0 to 2.0 for MP-->
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+			
+			<Tractor_Beam_Attack_Ability Name="Empress_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+
+				<Activation_Min_Range>2</Activation_Min_Range>
+	            <Activation_Max_Range>1500</Activation_Max_Range>
+
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>.98</Target_Speed_Decrease_Percent>
+				<Stacking_Category>0</Stacking_Category>
+			</Tractor_Beam_Attack_Ability>
+		</Abilities>
+
+
+       </SpecialStructure>
+</Structures>

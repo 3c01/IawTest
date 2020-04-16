@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+
+<Story_Mode_Plots>
+	<Lua_Script></Lua_Script>
+	<Active_Plot>IAW\Conquests\Plots\Player_Dialouge_Plot.xml</Active_Plot>
+	<Active_Plot>IAW\Conquests\Plots\Generic.xml</Active_Plot>
+	
+	<Active_Plot>IAW\Conquests\Plots\Story_Sandbox_Generic_Lock_Events_Empire.xml</Active_Plot>
+	<Active_Plot>IAW\Conquests\Plots\Story_Sandbox_Generic_Lock_Events_Rebel.xml</Active_Plot> 
+</Story_Mode_Plots>

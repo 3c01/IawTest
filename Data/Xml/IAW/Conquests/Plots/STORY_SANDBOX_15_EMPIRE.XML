@@ -1,0 +1,349 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****** This story file is used to automatically set some things that would normally happen ******-->
+<!--****** in story mode for the full campaign.  This file should be generic enough to use for  ******-->
+<!--****** any sandbox campaign set.                                                           ******-->
+
+<!-- ******************************************************************* -->
+<!-- *****         SANDBOX CAMPAIGN "Outer Rim Conflict"           ***** -->
+<!-- ******************************************************************* -->
+
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Dialog_E_Outer_Rim</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+	
+	<!--******************************************************-->
+	<!--******	Tech Timer						         *****-->
+	<!--******************************************************-->
+	
+	<!-- Note Event params were at 2080 aka 26 weeks -->
+<!--	<Event Name="Tech_Timer_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Tag>Tech_Tag</Story_Tag>
+	</Event>
+	
+	<Event Name="Trigger_Tech_Four">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2000</Event_Param1>
+		<Prereq>Tech_Timer_Start</Prereq>
+	</Event>
+	
+	<Event Name="E_Tech_Four">
+  		<Event_Type>STORY_TRIGGER</Event_Type>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Empire</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>	
+		<Prereq>Trigger_Tech_Four</Prereq>
+	</Event> 
+	
+	<Event Name="M_Tech_Four">
+  		<Event_Type>STORY_TRIGGER</Event_Type>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Maldrood</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>	
+		<Prereq>Trigger_Tech_Four</Prereq>
+	</Event> 
+	
+	<Event Name="C_Tech_Four">
+  		<Event_Type>STORY_TRIGGER</Event_Type>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Corporate_Sector</Reward_Param1>
+		<Reward_Param2>4</Reward_Param2>	
+		<Prereq>Trigger_Tech_Four</Prereq>
+	</Event> 
+
+	<Event Name="R_Tech_Four">
+  		<Event_Type>STORY_TRIGGER</Event_Type>
+ 		<Reward_Type>SET_TECH_LEVEL</Reward_Type>
+  		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>3</Reward_Param2>	
+		<Prereq>Trigger_Tech_Four</Prereq>	
+	</Event>
+
+-->
+<!--******************************************************-->
+<!--******	Initial locks					         *****-->
+<!--******************************************************-->
+	<Event Name="Reveal_All_Planets">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Intro_Completed">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Intro_Tag</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Kaine">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Sovereign_Star_Destroyer</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>0</Event_Param3>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kaine_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+		
+	<Event Name="E_Spawn_Pestage">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>0</Event_Param3>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Pestage_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Isard">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Pestage_Team</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>0</Event_Param3>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Isard_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>E_Spawn_Pestage</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Palpatine2">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Isard_Team</Event_Param1>
+		<Event_Param2></Event_Param2>
+		<Event_Param3>0</Event_Param3>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>E_Spawn_Isard</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Hero Release					         *****-->
+<!--******************************************************-->
+	
+	<Event Name="E_Spawn_Palpatine">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Tarkin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sovereign_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Vader">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 1                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Empire_Enters_Tech_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 2                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Empire_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<Event Name="Unlock_Acclamator_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Acclamator_Assault_Ship_2</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="Lock_Acclamator_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Acclamator_Assault_Ship_1</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Moc">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Arc_Hammer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Boba">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>2</Event_Param1>
+		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+	
+	
+	
+<!--******************************************************-->
+<!--******	Tech 3                                  *****-->
+<!--******************************************************-->
+
+	<Event Name="Empire_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+	<Event Name="E_Lock_Victory">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Victory_Destroyer</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="Unlock_Venator_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Venator_Empire_2</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="E_Lock_Venator_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Venator_Empire_1</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="E_Lock_Arquitens">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>3</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Arquitens</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Mara">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mara_Jade_Team</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+
+	<Event Name="E_Spawn_Piett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+		<Story_Tag>Piett_Exists</Story_Tag>
+	</Event>
+	
+	<Event Name="E_Spawn_Needa">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Avenger_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_03</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 4                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Empire_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	<Event Name="E_Spawn_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Chimera</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_181_Stele">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>181st_Stele</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_04</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 5                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Empire_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+	
+	<Event Name="E_Spawn_Rogriss">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Agonizer_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="E_Spawn_Haarsk">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Shockwave_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Bastion</Reward_Param2>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="E_Lock_Venator_2_Tech_5">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Venator_Empire_2</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+	<Event Name="E_Lock_Acclamator_2_Tech_5">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>5</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Acclamator_Assault_Ship_2</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
+	</Event>
+	
+</Story>

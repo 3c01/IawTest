@@ -1,0 +1,415 @@
+<?xml version="1.0"?>
+<Projectiles>
+
+<!--Normal x1
+	Light x0.75
+	Heavy x1.5
+	Medium x1.25
+
+	Dual x2
+	Tripple x3
+	Quad x4
+	Octuple x8-->
+
+<!-- ************************************************************************************** -->
+<!-- ****** Blue Stuff, Used by the Galactic Republic: Quads, Duals, Singles ************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Ship_Turbolaser_Blue">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.30</Scale_Factor>
+		<Damage_Type> DamageS_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>10.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Turbohit_Green </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>PROJ_MEGAMASER.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Medium">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Blue</Variant_of_Existing_Type>
+		<Projectile_Damage>12.5</Projectile_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Blue</Variant_of_Existing_Type>
+		<Projectile_Damage>15.0</Projectile_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Dual">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Blue</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_MEGAMASER_DUAL.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>20.0</Projectile_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Dual_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Blue</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_MEGAMASER_DUAL.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>30.0</Projectile_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Quad">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Blue</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_MEGAMASER_QUAD.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>40.0</Projectile_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Blue_Quad_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Blue</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_MEGAMASER_QUAD.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>60.0</Projectile_Damage>
+	</Projectile>
+
+
+<!-- ************************************************************************************** -->
+<!-- ****** Green Stuff, Used by the Empire: Octuples, Quads, Duals, Singles ************** -->
+<!-- ************************************************************************************** -->
+
+	<Projectile Name="Proj_Ship_Turbolaser_Green">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.30</Scale_Factor>
+		<Damage_Type> DamageS_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>10.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Turbohit_Green </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Green</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Green</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>PROJ_TURBO_GREEN.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Medium">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Projectile_Damage>12.5</Projectile_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Projectile_Damage>15.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Light">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Projectile_Damage>7.5</Projectile_Damage>
+	</Projectile>
+	
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Dual">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_DUAL.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>20.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Dual_Medium">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_DUAL.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>25</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Dual_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_DUAL.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>30.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Light_Dual">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_DUAL.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>15.0</Projectile_Damage>
+	</Projectile>
+
+	
+
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Quad">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_QUAD.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>40.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Quad_Medium">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_QUAD.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>50.0</Projectile_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Quad_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_QUAD.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>60.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Quad_Light">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_QUAD.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>30.0</Projectile_Damage>
+	</Projectile>
+	
+	
+
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Octuple">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_OCTA.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>80.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Octuple_Medium">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_OCTA.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>100.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Octuple_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_OCTA.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>120.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Green_Octuple_Light">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_GREEN_OCTA.ALO</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>60.0</Projectile_Damage>
+	</Projectile>
+	
+	
+	
+	
+	
+	<Projectile Name="Proj_Sov_Superlaser">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>PROJ_TURBO_GREEN.ALO</Space_Model_Name>
+		<Projectile_Custom_Render>2</Projectile_Custom_Render>
+		<Projectile_Width>7</Projectile_Width>
+		<Projectile_Length>240</Projectile_Length>
+		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
+		<Projectile_Laser_Color>45,250,180,255</Projectile_Laser_Color>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Damage_Type> Damage_Default </Damage_Type>
+		<Projectile_Blast_Area_Damage> 850 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 800 </Projectile_Blast_Area_Range>
+		<Max_Speed>150.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		<Projectile_Damages_Random_Hard_Points>yes</Projectile_Damages_Random_Hard_Points>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>15000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>100000.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>100</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Friggin_Huge_Explosion_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle> Self_Destruct_Effect </Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle> Projectile_Shield_Absorb_Large </Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>5000</AI_Combat_Power>
+	</Projectile>
+
+
+
+
+
+<!-- ************************************************************************************** -->
+<!-- ********** Red Stuff, Used by the Rebellion: Quads, Duals, Singles ******************* -->
+<!-- ************************************************************************************** -->
+
+
+	<Projectile Name="Proj_Ship_Turbolaser_Red">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>0.30</Scale_Factor>
+		<Damage_Type> DamageS_Turbolaser </Damage_Type>
+		<Max_Speed>80</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>10.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Turbohit_Red </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle/>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Red</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Space_Model_Name>PROJ_TURBO_RED.ALO</Space_Model_Name>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Medium">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Projectile_Damage>12.5</Projectile_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Projectile_Damage>15.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Light">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Projectile_Damage>7.5</Projectile_Damage>
+	</Projectile>
+
+
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Dual">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_RED_DUAL.alo</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>20.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Dual_Medium">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_RED_DUAL.alo</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>25.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Dual_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_RED_DUAL.alo</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>30.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Dual_Light">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_RED_DUAL.alo</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>15</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Dual_Heavy_Recusant">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_RED_DUAL.alo</Space_Model_Name>
+		<Scale_Factor>0.345</Scale_Factor>
+		<Projectile_Object_Detonation_Particle> Turbohit_Large </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Large</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Large</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>40.0</Projectile_Damage>
+	</Projectile>
+
+	
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Quad">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_RED_QUAD.alo</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>40.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Quad_Medium">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_RED_QUAD.alo</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>50.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Quad_Heavy">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_RED_QUAD.alo</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>60.0</Projectile_Damage>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Turbolaser_Red_Quad_Light">
+		<Variant_of_Existing_Type>Proj_Ship_Turbolaser_Red</Variant_of_Existing_Type>
+		<Space_Model_Name>PROJ_TURBO_RED_QUAD.alo</Space_Model_Name>
+		<Projectile_Object_Detonation_Particle> Turbohit_Larger </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Turbohit_Larger</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Turbohit_Larger</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Damage>30.0</Projectile_Damage>
+	</Projectile>
+
+
+	
+</Projectiles>

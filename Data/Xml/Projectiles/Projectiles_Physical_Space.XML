@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<Projectiles>
+
+	<Projectile Name="Proj_Ship_Proton_Torpedo">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Projectile_Custom_Render>2</Projectile_Custom_Render>
+		<Projectile_Width>5</Projectile_Width>
+		<Projectile_Length>10</Projectile_Length>
+		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
+		<Projectile_Laser_Color>238,71,54,255</Projectile_Laser_Color>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Damage_Type> DamageS_Proton </Damage_Type>
+		<Max_Speed>8</Max_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance> <!-- was 1200 -->
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>no</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle> Small_Explosion_Space </Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle />
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Bomb">
+		<Variant_Of_Existing_Type>Proj_Ship_Proton_Torpedo</Variant_Of_Existing_Type>
+		<Projectile_Damage>80.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 40 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 80 </Projectile_Blast_Area_Range>
+	</Projectile>
+	
+	<Projectile Name="Proj_Heavy_Torpedo">
+		<Variant_Of_Existing_Type>Proj_Ship_Proton_Torpedo</Variant_Of_Existing_Type>
+		<Projectile_Damage>40.0</Projectile_Damage>
+		<Max_Speed>10</Max_Speed>
+	</Projectile>
+		
+	<!-- Split off from Proton Torpedo to avoid 5x damage vs. cap ships, etc. -->
+	<Projectile Name="Proj_Ship_Proton_Torpedo_Light">
+		<Variant_Of_Existing_Type>Proj_Ship_Proton_Torpedo</Variant_Of_Existing_Type>
+		<Projectile_Damage>10.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Concussion_Missile">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>p_rocket.alo</Space_Model_Name>
+		<Scale_Factor>.075</Scale_Factor>
+		<Damage_Type> DamageS_Concussion </Damage_Type>
+		<Max_Speed>20.0</Max_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+		<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>30.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Space</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
+		<AI_Combat_Power>300</AI_Combat_Power>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Assault_Concussion_Missile">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>p_rocket.alo</Space_Model_Name>
+		<Scale_Factor>.15</Scale_Factor>
+		<Damage_Type> DamageS_Concussion </Damage_Type>
+		<Max_Speed>25.0</Max_Speed>
+		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+		<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Space</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Executor_Concussion_Missile">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>p_rocket.alo</Space_Model_Name>
+		<Scale_Factor>.45</Scale_Factor>
+		<Damage_Type> DamageS_Concussion </Damage_Type>
+		<Max_Speed>18.0</Max_Speed>
+		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>6000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+		<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>250.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Space</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
+		<AI_Combat_Power>300</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Concussion_Missile_Dummy">
+		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
+		<Projectile_Damage>0.0</Projectile_Damage>
+	</Projectile>
+
+
+	<Projectile Name="Proj_Ship_Concussion_Missile_Satellite">
+		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
+		<Max_Speed>7.5</Max_Speed>
+		<Scale_Factor>1.5</Scale_Factor>
+		<Projectile_Damage>25.0</Projectile_Damage>
+	
+	</Projectile>
+	<Projectile Name="Proj_Rhazer_Missile">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>p_rocket_green.alo</Space_Model_Name>
+		<Scale_Factor>.075</Scale_Factor>
+		<Damage_Type> DamageS_Concussion </Damage_Type>
+		<Max_Speed>20.0</Max_Speed>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>
+		<!-- was 750, changed so it doesn't reacquire targets -->
+		<Projectile_Damage>60.0</Projectile_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Explosion_Space</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Small_Explosion_Space</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Explosion_Space</Projectile_Lifetime_Detonation_Particle>
+		<AI_Combat_Power>300</AI_Combat_Power>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Concussion_Missile_Prec">
+		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
+		<Max_Speed>14.0</Max_Speed>
+	</Projectile>
+
+	<Projectile Name="Proj_Ship_Concussion_Missile_Bossk">
+		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
+		<Max_Speed>10.0</Max_Speed>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Projectile_Damage>23.0</Projectile_Damage>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Concussion_Missile_SSD">
+		<Variant_Of_Existing_Type>Proj_Ship_Assault_Concussion_Missile</Variant_Of_Existing_Type>
+		<Projectile_Damage>30.0</Projectile_Damage>
+		<Projectile_Max_Flight_Distance>3500.0</Projectile_Max_Flight_Distance>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ship_Diamond_Boron_Missile">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_concussion_missile.alo</Space_Model_Name>
+		<Scale_Factor>0.055</Scale_Factor>
+		<Damage_Type> Damage_Diamond_Missile </Damage_Type>
+		<Max_Speed>7.5</Max_Speed>
+		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Rocket_Curve_Distance>500</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>0</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>500</Projectile_Rocket_Straight_Distance>
+		<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>2000.0</Projectile_Max_Scan_Range>
+		<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+		<Projectile_Damage>150</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 200 </Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>DB_Missile_Explosion</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>DB_Missile_Explosion</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>DB_Missile_Explosion</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>DB_Missile_Explosion</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>
+	<Projectile Name="Proj_Ship_Diamond_Boron_Missile_Barrage">
+		<Variant_Of_Existing_Type>Proj_Ship_Diamond_Boron_Missile</Variant_Of_Existing_Type>
+		<!-- Scatter radius and damage -->
+		<Projectile_Blast_Area_Damage> 150 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 200 </Projectile_Blast_Area_Range>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+		<!-- determines the range of barrage mode -->
+		<Projectile_Max_Flight_Distance>3000.0</Projectile_Max_Flight_Distance>
+		<!-- Make it fly faster so that the barrage mode is more dynamic and has more effect -->
+		<Max_Speed>12.0</Max_Speed>
+	</Projectile>
+
+</Projectiles>
