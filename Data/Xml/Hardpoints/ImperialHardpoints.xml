@@ -1029,11 +1029,9 @@
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Engines</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
-            <Collision_Mesh>HP_E_COLL</Collision_Mesh>
+            <Attachment_Bone>ENG</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>ENG</Collision_Mesh>
             <Damage_Decal />
-            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
-            <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_Mark1_Shield_Generator">
@@ -1049,10 +1047,8 @@
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Shield</Attachment_Bone>
-            <Collision_Mesh>HP_S_COLL</Collision_Mesh>
-            <Damage_Decal>HP_S_BLAST</Damage_Decal>
-            <Damage_Particles>HP_S_EMITDAMAGE</Damage_Particles>
+            <Attachment_Bone>SG_03</Attachment_Bone>
+            <Collision_Mesh>SG_03</Collision_Mesh>
     </HardPoint>
 
     <HardPoint Name="HP_Mark1_Weap05">
@@ -1067,15 +1063,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap7</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_05</Collision_Mesh>
-            <Damage_Decal>Weap7</Damage_Decal>
-            <Damage_Particles>Weap7</Damage_Particles>
+            <Attachment_Bone>HP01</Attachment_Bone>
+            <Collision_Mesh>HP01</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap7</Fire_Bone_A>
-            <Fire_Bone_B>Weap7</Fire_Bone_B>
+            <Fire_Bone_A>HP01</Fire_Bone_A>
+            <Fire_Bone_B>HP01</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
@@ -1108,15 +1102,14 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap8</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_06</Collision_Mesh>
-            <Damage_Decal>Weap8</Damage_Decal>
-            <Damage_Particles>Weap8</Damage_Particles>
+            <Attachment_Bone>HP02</Attachment_Bone>
+            <Collision_Mesh>HP02</Collision_Mesh>
+
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap8</Fire_Bone_A>
-            <Fire_Bone_B>Weap8</Fire_Bone_B>
+            <Fire_Bone_A>HP02</Fire_Bone_A>
+            <Fire_Bone_B>HP02</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
@@ -1149,15 +1142,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap9</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_09</Collision_Mesh>
-            <Damage_Decal>Weap9</Damage_Decal>
-            <Damage_Particles>Weap9</Damage_Particles>
+            <Attachment_Bone>HP07</Attachment_Bone>
+            <Collision_Mesh>HP07</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap9</Fire_Bone_A>
-            <Fire_Bone_B>Weap9</Fire_Bone_B>
+            <Fire_Bone_A>HP07</Fire_Bone_A>
+            <Fire_Bone_B>HP07</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
@@ -1190,15 +1181,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap10</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_10</Collision_Mesh>
-            <Damage_Decal>Weap10</Damage_Decal>
-            <Damage_Particles>Weap10</Damage_Particles>
+            <Attachment_Bone>HP08</Attachment_Bone>
+            <Collision_Mesh>HP08</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap10</Fire_Bone_A>
-            <Fire_Bone_B>Weap10</Fire_Bone_B>
+            <Fire_Bone_A>HP08</Fire_Bone_A>
+            <Fire_Bone_B>HP08</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
@@ -1231,15 +1220,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap11</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_11</Collision_Mesh>
-            <Damage_Decal>Weap11</Damage_Decal>
-            <Damage_Particles>Weap11</Damage_Particles>
+            <Attachment_Bone>HP19</Attachment_Bone>
+            <Collision_Mesh>HP19</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap11</Fire_Bone_A>
-            <Fire_Bone_B>Weap11</Fire_Bone_B>
+            <Fire_Bone_A>HP19</Fire_Bone_A>
+            <Fire_Bone_B>HP19</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
@@ -1272,15 +1259,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap12</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_12</Collision_Mesh>
-            <Damage_Decal>Weap12</Damage_Decal>
-            <Damage_Particles>Weap12</Damage_Particles>
+            <Attachment_Bone>HP20</Attachment_Bone>
+            <Collision_Mesh>HP20</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap12</Fire_Bone_A>
-            <Fire_Bone_B>Weap12</Fire_Bone_B>
+            <Fire_Bone_A>HP20</Fire_Bone_A>
+            <Fire_Bone_B>HP20</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
@@ -1312,15 +1297,13 @@
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap1</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_13</Collision_Mesh>
-            <Damage_Decal>Weap1</Damage_Decal>
-            <Damage_Particles>Weap1</Damage_Particles>
+            <Attachment_Bone>HP25</Attachment_Bone>
+            <Collision_Mesh>HP25</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap1</Fire_Bone_A>
-            <Fire_Bone_B>Weap3</Fire_Bone_B>
+            <Fire_Bone_A>HP25</Fire_Bone_A>
+            <Fire_Bone_B>HP13</Fire_Bone_B>
 			<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
 
             <Fire_Cone_Width>45</Fire_Cone_Width>
@@ -1346,15 +1329,13 @@
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap2</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_14</Collision_Mesh>
-            <Damage_Decal>Weap2</Damage_Decal>
-            <Damage_Particles>Weap2</Damage_Particles>
+            <Attachment_Bone>HP26</Attachment_Bone>
+            <Collision_Mesh>HP26</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap2</Fire_Bone_A>
-            <Fire_Bone_B>Weap4</Fire_Bone_B>
+            <Fire_Bone_A>HP26</Fire_Bone_A>
+            <Fire_Bone_B>HP14</Fire_Bone_B>
 			<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
 
             <Fire_Cone_Width>45</Fire_Cone_Width>
@@ -1380,15 +1361,13 @@
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap5</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_17</Collision_Mesh>
-            <Damage_Decal>Weap5</Damage_Decal>
-            <Damage_Particles>Weap5</Damage_Particles>
+            <Attachment_Bone>HP09</Attachment_Bone>
+            <Collision_Mesh>HP09</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap3</Fire_Bone_A>
-            <Fire_Bone_B>Weap5</Fire_Bone_B>
+            <Fire_Bone_A>HP09</Fire_Bone_A>
+            <Fire_Bone_B>HP11</Fire_Bone_B>
 			<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
             <Fire_Cone_Width>45</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
@@ -1413,15 +1392,13 @@
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap6</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_18</Collision_Mesh>
-            <Damage_Decal>Weap6</Damage_Decal>
-            <Damage_Particles>Weap6</Damage_Particles>
+            <Attachment_Bone>HP10</Attachment_Bone>
+            <Collision_Mesh>HP10</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap4</Fire_Bone_A>
-            <Fire_Bone_B>Weap6</Fire_Bone_B>
+            <Fire_Bone_A>HP10</Fire_Bone_A>
+            <Fire_Bone_B>HP12</Fire_Bone_B>
 			<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
             <Fire_Cone_Width>45</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
@@ -1434,6 +1411,8 @@
                 <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
     </HardPoint>
+	
+
 
   
 
@@ -1450,11 +1429,9 @@
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Engines</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
-            <Collision_Mesh>HP_E_COLL</Collision_Mesh>
+            <Attachment_Bone>ENG</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>ENG</Collision_Mesh>
             <Damage_Decal />
-            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
-            <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
     </HardPoint>
 
     <HardPoint Name="HP_Mark2_Shield_Generator">
@@ -1470,10 +1447,8 @@
             <Death_Breakoff_Prop> </Death_Breakoff_Prop>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Shield</Attachment_Bone>
-            <Collision_Mesh>HP_S_COLL</Collision_Mesh>
-            <Damage_Decal>HP_S_BLAST</Damage_Decal>
-            <Damage_Particles>HP_S_EMITDAMAGE</Damage_Particles>
+            <Attachment_Bone>SG_03</Attachment_Bone>
+            <Collision_Mesh>SG_03</Collision_Mesh>
     </HardPoint>
 
     <HardPoint Name="HP_Mark2_Weap01">
@@ -1487,13 +1462,11 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>weap11</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_11</Collision_Mesh>
-            <Damage_Decal>Weap11</Damage_Decal>
-            <Damage_Particles>Weap11</Damage_Particles>
+            <Attachment_Bone>HP01</Attachment_Bone>
+            <Collision_Mesh>HP01</Collision_Mesh>
 
-            <Fire_Bone_A>weap11</Fire_Bone_A>
-            <Fire_Bone_B>weap11</Fire_Bone_B>
+            <Fire_Bone_A>HP01</Fire_Bone_A>
+            <Fire_Bone_B>HP01</Fire_Bone_B>
             <Fire_Cone_Width>120.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
@@ -1525,13 +1498,11 @@
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>weap12</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_12</Collision_Mesh>
-            <Damage_Decal>Weap12</Damage_Decal>
-            <Damage_Particles>Weap12</Damage_Particles>
-
-            <Fire_Bone_A>weap12</Fire_Bone_A>
-            <Fire_Bone_B>weap12</Fire_Bone_B>
+            <Attachment_Bone>HP02</Attachment_Bone>
+            <Collision_Mesh>HP02</Collision_Mesh>
+			
+            <Fire_Bone_A>HP02</Fire_Bone_A>
+            <Fire_Bone_B>HP02</Fire_Bone_B>
             <Fire_Cone_Width>120.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
@@ -1564,15 +1535,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap7</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_07</Collision_Mesh>
-            <Damage_Decal>Weap7</Damage_Decal>
-            <Damage_Particles>Weap7</Damage_Particles>
+            <Attachment_Bone>HP07</Attachment_Bone>
+            <Collision_Mesh>HP07</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap7</Fire_Bone_A>
-            <Fire_Bone_B>Weap7</Fire_Bone_B>
+            <Fire_Bone_A>HP07</Fire_Bone_A>
+            <Fire_Bone_B>HP07</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
@@ -1605,15 +1574,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap8</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_08</Collision_Mesh>
-            <Damage_Decal>Weap8</Damage_Decal>
-            <Damage_Particles>Weap8</Damage_Particles>
+            <Attachment_Bone>HP08</Attachment_Bone>
+            <Collision_Mesh>HP08</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap8</Fire_Bone_A>
-            <Fire_Bone_B>Weap8</Fire_Bone_B>
+            <Fire_Bone_A>HP08</Fire_Bone_A>
+            <Fire_Bone_B>HP08</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
@@ -1646,15 +1613,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap9</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_09</Collision_Mesh>
-            <Damage_Decal>Weap9</Damage_Decal>
-            <Damage_Particles>Weap9</Damage_Particles>
+            <Attachment_Bone>Hp19</Attachment_Bone>
+            <Collision_Mesh>Hp19</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap9</Fire_Bone_A>
-            <Fire_Bone_B>Weap9</Fire_Bone_B>
+            <Fire_Bone_A>Hp19</Fire_Bone_A>
+            <Fire_Bone_B>Hp19</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
@@ -1687,15 +1652,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap10</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_10</Collision_Mesh>
-            <Damage_Decal>Weap10</Damage_Decal>
-            <Damage_Particles>Weap10</Damage_Particles>
+            <Attachment_Bone>Hp20</Attachment_Bone>
+            <Collision_Mesh>Hp20</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap10</Fire_Bone_A>
-            <Fire_Bone_B>Weap10</Fire_Bone_B>
+            <Fire_Bone_A>Hp20</Fire_Bone_A>
+            <Fire_Bone_B>Hp20</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
@@ -1728,15 +1691,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap1</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_13</Collision_Mesh>
-            <Damage_Decal>Weap1</Damage_Decal>
-            <Damage_Particles>Weap1</Damage_Particles>
+            <Attachment_Bone>HP25</Attachment_Bone>
+            <Collision_Mesh>HP25</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap1</Fire_Bone_A>
-            <Fire_Bone_B>Weap1</Fire_Bone_B>
+            <Fire_Bone_A>HP25</Fire_Bone_A>
+            <Fire_Bone_B>HP13</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Heavy</Fire_Projectile_Type>
@@ -1769,15 +1730,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap2</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_14</Collision_Mesh>
-            <Damage_Decal>Weap2</Damage_Decal>
-            <Damage_Particles>Weap2</Damage_Particles>
+            <Attachment_Bone>HP26</Attachment_Bone>
+            <Collision_Mesh>HP26</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap2</Fire_Bone_A>
-            <Fire_Bone_B>Weap2</Fire_Bone_B>
+            <Fire_Bone_A>HP26</Fire_Bone_A>
+            <Fire_Bone_B>HP14</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Heavy</Fire_Projectile_Type>
@@ -1810,15 +1769,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap5</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_21</Collision_Mesh>
-            <Damage_Decal>Weap5</Damage_Decal>
-            <Damage_Particles>Weap5</Damage_Particles>
+            <Attachment_Bone>HP09</Attachment_Bone>
+            <Collision_Mesh>HP09</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap5</Fire_Bone_A>
-            <Fire_Bone_B>Weap5</Fire_Bone_B>
+            <Fire_Bone_A>HP09</Fire_Bone_A>
+            <Fire_Bone_B>HP11</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Heavy</Fire_Projectile_Type>
@@ -1851,15 +1808,13 @@
 
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap6</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_22</Collision_Mesh>
-            <Damage_Decal>Weap6</Damage_Decal>
-            <Damage_Particles>Weap6</Damage_Particles>
+            <Attachment_Bone>HP10</Attachment_Bone>
+            <Collision_Mesh>HP10</Collision_Mesh>
 
             <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
 
-            <Fire_Bone_A>Weap6</Fire_Bone_A>
-            <Fire_Bone_B>Weap6</Fire_Bone_B>
+            <Fire_Bone_A>HP10</Fire_Bone_A>
+            <Fire_Bone_B>HP12</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Heavy</Fire_Projectile_Type>
@@ -1880,160 +1835,6 @@
 
     </HardPoint>
 	
-	<HardPoint Name="HP_Crimson_2">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap3</Attachment_Bone>
-            <Collision_Mesh>HP_13_11</Collision_Mesh>
-            <Damage_Decal></Damage_Decal>
-            <Damage_Particles></Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap3</Fire_Bone_A>
-            <Fire_Bone_B>Weap3</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2100.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 7.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Crimson_1">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap4</Attachment_Bone>
-            <Collision_Mesh>HP_13_12</Collision_Mesh>
-            <Damage_Decal></Damage_Decal>
-            <Damage_Particles></Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap4</Fire_Bone_A>
-            <Fire_Bone_B>Weap4</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2100.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-            <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 7.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-	<HardPoint Name="HP_Crimson_3">
-               <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
-
-			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>weap11</Attachment_Bone>
-            <Collision_Mesh>HP_13_13</Collision_Mesh>
-            <Damage_Decal></Damage_Decal>
-            <Damage_Particles></Damage_Particles>
-
-            <Fire_Bone_A>weap11</Fire_Bone_A>
-            <Fire_Bone_B>weap11</Fire_Bone_B>
-            <Fire_Cone_Width>120.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2100.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Crimson_4">
-            <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-            <Is_Targetable>no</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
-
-			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>weap12</Attachment_Bone>
-            <Collision_Mesh>HP_13_14</Collision_Mesh>
-            <Damage_Decal></Damage_Decal>
-            <Damage_Particles></Damage_Particles>
-
-            <Fire_Bone_A>weap12</Fire_Bone_A>
-            <Fire_Bone_B>weap12</Fire_Bone_B>
-            <Fire_Cone_Width>120.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2100.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
 	<HardPoint Name="HP_Lucrehulk_Face">
             <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>No</Is_Targetable>
@@ -10419,882 +10220,6 @@
 		<Collision_Mesh>SPAWN_01</Collision_Mesh>
 	</HardPoint>
 	
-	
-    <!-- Victory Destroyer Mark 1 Hardpoints -->
-
-	<HardPoint Name="HP_Victory_Destroyer_Fighter_Bay">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Attachment_Bone>Spawn_00</Attachment_Bone>
-		<Collision_Mesh>SPAWN_00</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Health>245.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-	</HardPoint>
-
-    <HardPoint Name="HP_Mark1_Engines">
-            <Type> HARD_POINT_ENGINE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Engines</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
-            <Collision_Mesh>HP_E_COLL</Collision_Mesh>
-            <Damage_Decal />
-            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
-            <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark1_Shield_Generator">
-            <Type> HARD_POINT_SHIELD_GENERATOR </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Shield</Attachment_Bone>
-            <Collision_Mesh>HP_S_COLL</Collision_Mesh>
-            <Damage_Decal>HP_S_BLAST</Damage_Decal>
-            <Damage_Particles>HP_S_EMITDAMAGE</Damage_Particles>
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark1_Weap05">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap7</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_05</Collision_Mesh>
-            <Damage_Decal>Weap7</Damage_Decal>
-            <Damage_Particles>Weap7</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap7</Fire_Bone_A>
-            <Fire_Bone_B>Weap7</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark1_Weap06">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap8</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_06</Collision_Mesh>
-            <Damage_Decal>Weap8</Damage_Decal>
-            <Damage_Particles>Weap8</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap8</Fire_Bone_A>
-            <Fire_Bone_B>Weap8</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark1_Weap09">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap9</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_09</Collision_Mesh>
-            <Damage_Decal>Weap9</Damage_Decal>
-            <Damage_Particles>Weap9</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap9</Fire_Bone_A>
-            <Fire_Bone_B>Weap9</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark1_Weap10">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap10</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_10</Collision_Mesh>
-            <Damage_Decal>Weap10</Damage_Decal>
-            <Damage_Particles>Weap10</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap10</Fire_Bone_A>
-            <Fire_Bone_B>Weap10</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-	<HardPoint Name="HP_Mark1_Weap11">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap11</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_11</Collision_Mesh>
-            <Damage_Decal>Weap11</Damage_Decal>
-            <Damage_Particles>Weap11</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap11</Fire_Bone_A>
-            <Fire_Bone_B>Weap11</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-	<HardPoint Name="HP_Mark1_Weap12">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_QUAD</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap12</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_12</Collision_Mesh>
-            <Damage_Decal>Weap12</Damage_Decal>
-            <Damage_Particles>Weap12</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap12</Fire_Bone_A>
-            <Fire_Bone_B>Weap12</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Quad</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark1_Weap13">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILE</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap1</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_13</Collision_Mesh>
-            <Damage_Decal>Weap1</Damage_Decal>
-            <Damage_Particles>Weap1</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap1</Fire_Bone_A>
-            <Fire_Bone_B>Weap3</Fire_Bone_B>
-			<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
-
-            <Fire_Cone_Width>45</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark1_Weap14">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILE</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap2</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_14</Collision_Mesh>
-            <Damage_Decal>Weap2</Damage_Decal>
-            <Damage_Particles>Weap2</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap2</Fire_Bone_A>
-            <Fire_Bone_B>Weap4</Fire_Bone_B>
-			<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
-
-            <Fire_Cone_Width>45</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-    </HardPoint>
-
-	<HardPoint Name="HP_Mark1_Weap17">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILE</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap5</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_17</Collision_Mesh>
-            <Damage_Decal>Weap5</Damage_Decal>
-            <Damage_Particles>Weap5</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap3</Fire_Bone_A>
-            <Fire_Bone_B>Weap5</Fire_Bone_B>
-			<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
-            <Fire_Cone_Width>45</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark1_Weap18">
-            <Type> HARD_POINT_WEAPON_MISSILE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_A_CONCUSSIONMISSILE</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap6</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_1_18</Collision_Mesh>
-            <Damage_Decal>Weap6</Damage_Decal>
-            <Damage_Particles>Weap6</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap4</Fire_Bone_A>
-            <Fire_Bone_B>Weap6</Fire_Bone_B>
-			<Randomize_Between_Fire_Bones> Yes </Randomize_Between_Fire_Bones>
-            <Fire_Cone_Width>45</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
-    </HardPoint>
-
-  
-
-    <!-- Victory Destroyer Mark 2 Hardpoints -->
-
-    <HardPoint Name="HP_Mark2_Engines">
-            <Type> HARD_POINT_ENGINE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Engines</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
-            <Collision_Mesh>HP_E_COLL</Collision_Mesh>
-            <Damage_Decal />
-            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
-            <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Shield_Generator">
-            <Type> HARD_POINT_SHIELD_GENERATOR </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
-            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Death_Breakoff_Prop> </Death_Breakoff_Prop>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Shield</Attachment_Bone>
-            <Collision_Mesh>HP_S_COLL</Collision_Mesh>
-            <Damage_Decal>HP_S_BLAST</Damage_Decal>
-            <Damage_Particles>HP_S_EMITDAMAGE</Damage_Particles>
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Weap01">
-               <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
-            <Health>245.0</Health>
-
-			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>weap11</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_11</Collision_Mesh>
-            <Damage_Decal>Weap11</Damage_Decal>
-            <Damage_Particles>Weap11</Damage_Particles>
-
-            <Fire_Bone_A>weap11</Fire_Bone_A>
-            <Fire_Bone_B>weap11</Fire_Bone_B>
-            <Fire_Cone_Width>120.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Weap02">
-            <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
-            <Health>245.0</Health>
-
-			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>weap12</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_12</Collision_Mesh>
-            <Damage_Decal>Weap12</Damage_Decal>
-            <Damage_Particles>Weap12</Damage_Particles>
-
-            <Fire_Bone_A>weap12</Fire_Bone_A>
-            <Fire_Bone_B>weap12</Fire_Bone_B>
-            <Fire_Cone_Width>120.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Weap07">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap7</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_07</Collision_Mesh>
-            <Damage_Decal>Weap7</Damage_Decal>
-            <Damage_Particles>Weap7</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap7</Fire_Bone_A>
-            <Fire_Bone_B>Weap7</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Weap08">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap8</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_08</Collision_Mesh>
-            <Damage_Decal>Weap8</Damage_Decal>
-            <Damage_Particles>Weap8</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap8</Fire_Bone_A>
-            <Fire_Bone_B>Weap8</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-	<HardPoint Name="HP_Mark2_Weap09">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap9</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_09</Collision_Mesh>
-            <Damage_Decal>Weap9</Damage_Decal>
-            <Damage_Particles>Weap9</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap9</Fire_Bone_A>
-            <Fire_Bone_B>Weap9</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Weap10">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap10</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_10</Collision_Mesh>
-            <Damage_Decal>Weap10</Damage_Decal>
-            <Damage_Particles>Weap10</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap10</Fire_Bone_A>
-            <Fire_Bone_B>Weap10</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Weap13">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL_HEAVY</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap1</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_13</Collision_Mesh>
-            <Damage_Decal>Weap1</Damage_Decal>
-            <Damage_Particles>Weap1</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap1</Fire_Bone_A>
-            <Fire_Bone_B>Weap1</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Weap14">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL_HEAVY</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap2</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_14</Collision_Mesh>
-            <Damage_Decal>Weap2</Damage_Decal>
-            <Damage_Particles>Weap2</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap2</Fire_Bone_A>
-            <Fire_Bone_B>Weap2</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Weap21">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL_HEAVY</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap5</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_21</Collision_Mesh>
-            <Damage_Decal>Weap5</Damage_Decal>
-            <Damage_Particles>Weap5</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap5</Fire_Bone_A>
-            <Fire_Bone_B>Weap5</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-			
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-
-    </HardPoint>
-
-    <HardPoint Name="HP_Mark2_Weap22">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER_DUAL_HEAVY</Tooltip_Text>
-            <Health>245.0</Health>
-
-            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>Weap6</Attachment_Bone>
-            <Collision_Mesh>HP_Mark_2_22</Collision_Mesh>
-            <Damage_Decal>Weap6</Damage_Decal>
-            <Damage_Particles>Weap6</Damage_Particles>
-
-            <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Fire_Bone_A>Weap6</Fire_Bone_A>
-            <Fire_Bone_B>Weap6</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Green_Dual_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-           <Fire_Range_Distance>2600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-			<Fire_Inaccuracy_Distance> Fighter, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Bomber, 96.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Transport, 32.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Corvette, 48.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Frigate, 16.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> Capital, 2.0 </Fire_Inaccuracy_Distance>
-			<Fire_Inaccuracy_Distance> SuperCapital, 1.0 </Fire_Inaccuracy_Distance>
-
-
-    </HardPoint>
 	
 	    <!-- Hardpoints Procusator-->
 

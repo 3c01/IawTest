@@ -4053,11 +4053,11 @@
         <!--<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Nebulon_B_Frigate </Encyclopedia_Good_Against>-->
         <!--<Encyclopedia_Vulnerable_To> Y-wing Calamari_Cruiser MC_85 </Encyclopedia_Vulnerable_To>-->
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>EV_VSD.alo</Space_Model_Name>
+        <Space_Model_Name>VSD_I.alo</Space_Model_Name>
         <Select_Box_Scale>1200</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
-        <Scale_Factor>0.45</Scale_Factor>
+        <Scale_Factor>0.8</Scale_Factor>
 		<Population_Value>18</Population_Value>
         <Ranking_In_Category>6</Ranking_In_Category>
         <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -4204,11 +4204,11 @@
 		<!--<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Nebulon_B_Frigate </Encyclopedia_Good_Against>-->
         <!--<Encyclopedia_Vulnerable_To> Y-wing Calamari_Cruiser MC_85 </Encyclopedia_Vulnerable_To>-->
         <GUI_Row> 1 </GUI_Row>
-        <Space_Model_Name>EV_VSD.alo</Space_Model_Name>
+        <Space_Model_Name>VSD_II.alo</Space_Model_Name>
         <Select_Box_Scale>1200</Select_Box_Scale>
         <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <Mass>0.9995</Mass>
-        <Scale_Factor>0.45</Scale_Factor>
+        <Scale_Factor>0.8</Scale_Factor>
 		<Population_Value>18</Population_Value>
 				<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
         <Ranking_In_Category>6</Ranking_In_Category>
@@ -4377,15 +4377,13 @@
 		<Affiliation>Maldrood</Affiliation>
 
 		<Text_ID>TEXT_UNIT_CRIMSON</Text_ID>
-		<HardPoints>
-        HP_Crimson_1, HP_Crimson_2, HP_Crimson_3, HP_1Crimson_4, HP_Victory_Destroyer_Fighter_Bay, HP_Mark2_Weap01, HP_Mark2_Weap02, HP_Mark2_Weap07, HP_Mark2_Weap08, HP_Mark2_Weap09, HP_Mark2_Weap10, HP_Mark2_Weap13, HP_Mark2_Weap14, HP_Mark2_Weap21, HP_Mark2_Weap22, HP_Mark2_Engines, HP_Mark2_Shield_Generator
-        </HardPoints>
 
 
-        <Space_Model_Name>EV_Crimson_Victory.alo</Space_Model_Name>
+        <Space_Model_Name>CC_VSD_II.alo</Space_Model_Name>
 		<Death_Clone>Damage_Normal, Crimson_Victory_Death_Clone</Death_Clone>
 
         <Max_Speed>2.6</Max_Speed>
+		<Tech_Level> 2 </Tech_Level>
 
         <Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 
