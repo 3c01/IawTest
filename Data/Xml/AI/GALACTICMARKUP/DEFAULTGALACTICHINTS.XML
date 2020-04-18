@@ -2,5 +2,8 @@
 <Galactic_Markup>
 
 	<Planets HintSet="Galactic_Hints">
+		<Coruscant>
+			<PriorityTarget>1.0</PriorityTarget>
+		</Coruscant>
 	</Planets>
 </Galactic_Markup>
