@@ -254,7 +254,7 @@
 		<Size_Value>10</Size_Value>
 		<Armor_Type> Armor_Infantry </Armor_Type>
 		<Damage>10</Damage>
-		<Tactical_Health>30</Tactical_Health>
+		<Tactical_Health>60</Tactical_Health>
 		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
 		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
@@ -1500,7 +1500,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>10</Tactical_Health>
+		<Tactical_Health>30</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -1810,7 +1810,7 @@
 		<Damage>1</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>10</Tactical_Health>
+		<Tactical_Health>30</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
@@ -2180,7 +2180,7 @@
 		<Damage>8</Damage>
 		<Sensor_Range>20</Sensor_Range>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>20</Tactical_Health>
+		<Tactical_Health>30</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>0</Energy_Capacity>
 		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
