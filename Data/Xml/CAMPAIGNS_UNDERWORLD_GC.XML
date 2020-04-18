@@ -142,9 +142,9 @@
 		<AI_Player_Control> Pirates, None </AI_Player_Control>
 		<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>
 		
-		<Markup_Filename>Empire, AlderaansDemiseHints </Markup_Filename>
-		<Markup_Filename>Pirates, AlderaansDemiseHints </Markup_Filename>
-		<Markup_Filename>Rebel, AlderaansDemiseHints </Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
@@ -1204,9 +1204,9 @@
 		<AI_Player_Control> Pirates, None </AI_Player_Control>
 		<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>
 		
-		<Markup_Filename>Rebel, AlderaansDemiseHints </Markup_Filename>
-		<Markup_Filename>Pirates, AlderaansDemiseHints </Markup_Filename>
-		<Markup_Filename>Empire, AlderaansDemiseHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
@@ -8979,6 +8979,7 @@
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Eriadu, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
@@ -10230,6 +10231,7 @@
 		
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Eriadu, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 
@@ -15874,8 +15876,10 @@
         <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50 </Description_Text>
 
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Eriadu, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
 
 <!--		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Sandbox_10a_Rebel.xml</Rebel_Story_Name>
 
@@ -16668,8 +16672,11 @@
         <Text_ID> TEXT_CAMPAIGN_SINGLE_50 </Text_ID>
         <Description_Text> TEXT_CAMPAIGN_SINGLE_DESCRIPTION_50 </Description_Text>
 
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Eriadu, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
 
 <!--		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Sandbox_10a_Rebel.xml</Rebel_Story_Name>
 
@@ -17673,9 +17680,10 @@
 		<AI_Player_Control> Corporate_Sector, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Maldrood, BasicEmpire </AI_Player_Control>
 		
-		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 
 		<Supports_Custom_Settings>False</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
@@ -19105,9 +19113,10 @@
 		<AI_Player_Control> Corporate_Sector, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Maldrood, BasicEmpire </AI_Player_Control>
 		
-		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 
 		<Supports_Custom_Settings>False</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
@@ -20537,9 +20546,10 @@
 		<AI_Player_Control> Corporate_Sector, SandboxHuman </AI_Player_Control>
 		<AI_Player_Control> Maldrood, BasicEmpire </AI_Player_Control>
 		
-		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 
 		<Supports_Custom_Settings>False</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
@@ -21970,9 +21980,10 @@
 		<AI_Player_Control> Corporate_Sector, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Maldrood, SandboxHuman </AI_Player_Control>
 		
-		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Corporate_Sector, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 
 		<Supports_Custom_Settings>False</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>

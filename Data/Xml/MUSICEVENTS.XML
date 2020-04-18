@@ -3,7 +3,7 @@
 <MusicEvents>
 
 	<MusicEvent Name="Main_Menu_Music_Event">
-		<Files>The_Force_Unleashed.mp3, The_Force_Awakens.mp3, VodeAn_BrothersAll.mp3, M_Menu.mp3, Und_zann_consortium_theme.mp3 </Files>
+		<Files>The_Force_Unleashed.mp3, M_Menu1.mp3, The_Force_Awakens.mp3, VodeAn_BrothersAll.mp3, M_Menu.mp3, Und_zann_consortium_theme.mp3 </Files>
         <Volume_Percent>80</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>

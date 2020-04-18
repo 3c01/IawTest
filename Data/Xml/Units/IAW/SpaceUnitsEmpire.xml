@@ -282,6 +282,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Tech_Level> 99 </Tech_Level>
 
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SPAWN_SQUADRON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
