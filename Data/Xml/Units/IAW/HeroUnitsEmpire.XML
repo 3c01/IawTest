@@ -1232,9 +1232,9 @@
 	<UniqueUnit Name="Chimera">
 		<Variant_Of_Existing_Type>Generic_Star_Destroyer_Two</Variant_Of_Existing_Type>
 		
-		<!--<Icon_Name>i_button_vice_admiral_thrawn.tga</Icon_Name>-->
+		<Icon_Name>i_button_vice_admiral_thrawn.tga</Icon_Name>
 		
-		<Icon_Name>SMILINGTHRAWN.TGA</Icon_Name>
+		<!--<<Icon_Name>SMILINGTHRAWN.TGA</Icon_Name>>-->
 		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
 		
 		<Text_ID>TEXT_HERO_GRAND_ADMIRAL_THRAWN</Text_ID>

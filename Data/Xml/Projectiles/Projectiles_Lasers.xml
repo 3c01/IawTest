@@ -19,7 +19,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -48,7 +48,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -73,7 +73,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -99,7 +99,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -124,7 +124,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -149,7 +149,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -178,7 +178,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -203,7 +203,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -228,7 +228,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -253,7 +253,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -279,7 +279,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -304,7 +304,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -329,7 +329,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -354,7 +354,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -380,7 +380,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -405,7 +405,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -430,7 +430,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -455,7 +455,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -486,7 +486,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -511,7 +511,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -536,7 +536,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -561,7 +561,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -587,7 +587,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -612,7 +612,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -637,7 +637,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -662,7 +662,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -688,7 +688,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -713,7 +713,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -738,7 +738,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -763,7 +763,7 @@
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>0.1</Scale_Factor>
 		<Damage_Type> DamageS_Laser </Damage_Type>
-		<Max_Speed>95</Max_Speed>
+		<Max_Speed>80</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
