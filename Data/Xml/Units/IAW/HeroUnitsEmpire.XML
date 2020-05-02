@@ -4105,7 +4105,7 @@
 		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_PIET </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
 
 		<Abilities SubObjectList="Yes">
 			<Combat_Bonus_Ability Name="Piet_Combat_Bonus_General">
@@ -4142,6 +4142,7 @@
 	
 	<SpaceUnit Name="Konstantine">
 		<Variant_Of_Existing_Type>Interdictor_Cruiser</Variant_Of_Existing_Type>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADMIRAL </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_HERO_KONSTANTINE</Text_ID>
 		<!--<Encyclopedia_Good_Against> Marauder_Missile_Cruiser </Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Calamari_Cruiser Y-wing </Encyclopedia_Vulnerable_To>-->

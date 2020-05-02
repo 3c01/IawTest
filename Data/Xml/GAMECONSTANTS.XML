@@ -264,9 +264,9 @@
 	
 	<!-- Hard Point Friendly and Ememy Reticle Textures by Hard Point Type -->
 	
-	<HardPoint_Target_Reticle_Enemy_Screen_Size> 0.012 </HardPoint_Target_Reticle_Enemy_Screen_Size>
+	<HardPoint_Target_Reticle_Enemy_Screen_Size> 0.025 </HardPoint_Target_Reticle_Enemy_Screen_Size>
 
-	<HardPoint_Target_Reticle_Friendly_Screen_Size> 0.012 </HardPoint_Target_Reticle_Friendly_Screen_Size>
+	<HardPoint_Target_Reticle_Friendly_Screen_Size> 0.025 </HardPoint_Target_Reticle_Friendly_Screen_Size>
 
 	<!-- -->
 

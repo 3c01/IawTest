@@ -1,43 +1,6 @@
 <?xml version="1.0" ?>
 <Story>
 
-<Event Name="Generic_Event_Template">
-		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-		<Event_Param2>GENERIC_EVENT</Event_Param2>
-		<Reward_Type></Reward_Type>
-		<Reward_Param1></Reward_Param1>
-		<Reward_Param2></Reward_Param2>
-		<Reward_Param3></Reward_Param3>
-		<Reward_Param4></Reward_Param4>
-		<Reward_Param5></Reward_Param5>
-		<Reward_Param6></Reward_Param6>
-		<Reward_Param7></Reward_Param7>
-		<Reward_Param8></Reward_Param8>
-		<Reward_Param9></Reward_Param9>
-		<Reward_Param10></Reward_Param10>
-		<Reward_Param11></Reward_Param11>
-		<Reward_Param12></Reward_Param12>
-		<Reward_Param13></Reward_Param13>
-		<Perpetual>true</Perpetual>
-	</Event>
-	
-<Event Name="Buildable_Unit_Template">
-	<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-	<Event_Param2>BUILDABLE_UNIT</Event_Param2>
-	<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-	<Reward_Param1></Reward_Param1>
-	<Reward_Param2></Reward_Param2>
-	<Perpetual>true</Perpetual>
-</Event>
-
-<Event Name="Lock_Unit_Template">
-	<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-	<Event_Param2>LOCK_UNIT</Event_Param2>
-	<Reward_Type>LOCK_UNIT</Reward_Type>
-	<Reward_Param1></Reward_Param1>
-	<Perpetual>true</Perpetual>
-</Event>
-  
   <!-- ================================================================= -->
   <!-- ====================== BEGIN FILTER EVENTS ====================== -->
   <!-- ================================================================= -->
@@ -68,77 +31,6 @@
     <Reward_Param2></Reward_Param2>
     <Perpetual>true</Perpetual>
   </Event>
-  
-  <Event Name="Filter_Story">
-    <Event_Type>STORY_CLICK_GUI</Event_Type>
-    <Event_Param1>b_space_filter04</Event_Param1>
-    <Reward_Type>TRIGGER_AI</Reward_Type>
-    <Reward_Param1>SELECT_STORY</Reward_Param1>
-    <Reward_Param2></Reward_Param2>
-    <Perpetual>true</Perpetual>
-  </Event>
-
-  <Event Name="Enable_Click_Pause">
-    <Event_Type>STORY_CLICK_GUI</Event_Type>
-    <Event_Param1>b_space_filter01</Event_Param1>
-    <Reward_Type>DISABLE_BRANCH</Reward_Type>
-    <Reward_Param1>Click_Pause_Branch</Reward_Param1>
-    <Reward_Param2>0</Reward_Param2>
-    <Perpetual>true</Perpetual>
-  </Event>
-
-  <Event Name="Deactivate_Enable_Click_Pause">
-    <Event_Type>STORY_TRIGGER</Event_Type>
-    <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
-    <Reward_Param1>Enable_Click_Pause</Reward_Param1>
-    <Reward_Param2>1</Reward_Param2>
-    <Prereq>Enable_Click_Pause</Prereq>
-    <Perpetual>true</Perpetual>
-    <Branch>Click_Pause_Branch</Branch>
-  </Event>
-
-  <Event Name="Unpause_Galactic">
-    <Event_Type>STORY_TRIGGER</Event_Type>
-    <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
-    <Reward_Param1>b_play_pause</Reward_Param1>
-    <Prereq>Filter_Non_Capital</Prereq>
-    <Prereq>Filter_Capitals</Prereq>
-    <Prereq>Filter_Structures</Prereq>
-    <Prereq>Filter_Story</Prereq>
-    <Perpetual>true</Perpetual>
-    <Branch>Click_Pause_Branch</Branch>
-  </Event>
-
-  <Event Name="Pause_Again">
-    <Event_Type>STORY_TRIGGER</Event_Type>
-    <Reward_Type>FORCE_CLICK_GUI</Reward_Type>
-    <Reward_Param1>b_play_pause</Reward_Param1>
-    <Prereq>Unpause_Galactic</Prereq>
-    <Perpetual>true</Perpetual>
-    <Branch>Click_Pause_Branch</Branch>
-  </Event>
-
-  <Event Name="Reenable_Enable_Click_Pause_Event">
-    <Event_Type>STORY_CLICK_GUI</Event_Type>
-    <Event_Param1>b_play_pause</Event_Param1>
-    <Reward_Type>DISABLE_STORY_EVENT</Reward_Type>
-    <Reward_Param1>Enable_Click_Pause</Reward_Param1>
-    <Reward_Param2>0</Reward_Param2>
-    <Perpetual>true</Perpetual>
-    <Branch>Click_Pause_Branch</Branch>
-  </Event>
-
-  <Event Name="Disable_Click_Pause_Branch">
-    <Event_Type>STORY_TRIGGER</Event_Type>
-    <Reward_Type>DISABLE_BRANCH</Reward_Type>
-    <Reward_Param1>Click_Pause_Branch</Reward_Param1>
-    <Reward_Param2>1</Reward_Param2>
-    <Prereq>Reenable_Enable_Click_Pause_Event</Prereq>
-    <Prereq>Zoom_Zoom</Prereq>
-    <Perpetual>true</Perpetual>
-    <Branch>Click_Pause_Branch</Branch>
-  </Event>
-
 
   <!-- ================================================================= -->
   <!-- ======================= END FILTER EVENTS ======================= -->
@@ -160,5 +52,60 @@
    <Reward_Param1>b_space_filter01</Reward_Param1>
    <Prereq>Zoom_Zoom</Prereq>
  </Event>
+
+
+ <Event Name="Show_Screen_Text">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+			<Event_Param2>SHOW_SCREEN_TEXT</Event_Param2>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1></Reward_Param1>
+			<Reward_Param2>-1</Reward_Param2>
+		<Perpetual>true</Perpetual>
+		<Branch>Screen_Text_Events</Branch>
+	</Event>
+
+  <Event Name="Remove_Screen_Text">
+    <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+			<Event_Param2>REMOVE_SCREEN_TEXT</Event_Param2>
+    <Reward_Type>SCREEN_TEXT</Reward_Type>
+			<Reward_Param1></Reward_Param1>
+      <Reward_Param4>remove</Reward_Param4>
+		<Perpetual>true</Perpetual>
+		<Branch>Screen_Text_Events</Branch>
+  </Event>
+
+	<!--
+	<Event Name="RESET_BRANCH_Screen_Text_Events">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+			<Event_Param2>RESET_TEXT_BRANCH</Event_Param2>
+		<Reward_Type>RESET_BRANCH</Reward_Type>
+			<Reward_Param1>Screen_Text_Events</Reward_Param1>
+		<Branch>Screen_Text_Events</Branch>
+	</Event>-->
+
+
+
+	<Event Name="Zoom_out">
+		<Event_Type>STORY_ZOOM_OUT_PLANET</Event_Type>
+			<Event_Param1></Event_Param1>
+		<Reward_Type>TRIGGER_AI</Reward_Type>
+			<Reward_Param1>ZOOMED_OUT</Reward_Param1>
+			<Reward_Param2>Empire</Reward_Param2>
+		<Perpetual>true</Perpetual>
+		<Branch>Zoom</Branch>
+	</Event>
+
+
+	<Event Name="Set_Structures">
+		<Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+			<Event_Param2>SET_STRUCTURES</Event_Param2>
+		<Story_Dialog></Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
+		<Story_Dialog_Popup>False</Story_Dialog_Popup>
+		<Story_Tag>Zoom</Story_Tag>
+		<Perpetual>true</Perpetual>
+	</Event>
+
+	<!-- SPECIAL PLANETS -->
 
 </Story>

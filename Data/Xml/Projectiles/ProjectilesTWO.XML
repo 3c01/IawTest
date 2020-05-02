@@ -3561,9 +3561,9 @@
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
 		<Projectile_Blast_Area_Dropoff_Tiers>4</Projectile_Blast_Area_Dropoff_Tiers>
-		<Projectile_Object_Detonation_Particle>p_orbital_impact</Projectile_Object_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>p_orbital_impact</Projectile_Ground_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>p_orbital_impact</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>p_kraytdestoyer_detonate</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>p_kraytdestoyer_detonate</Projectile_Ground_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>p_kraytdestoyer_detonate</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle/>
 		<Projectile_Absorbed_By_Shields_Particle/>
 		<Projectile_SFXEvent_Detonate>SFX_Death_Bombard</Projectile_SFXEvent_Detonate>
@@ -3600,9 +3600,9 @@
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
 		<Projectile_Blast_Area_Dropoff_Tiers>4</Projectile_Blast_Area_Dropoff_Tiers>
-		<Projectile_Object_Detonation_Particle>empire_bombard_explosion</Projectile_Object_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>empire_bombard_explosion</Projectile_Ground_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>empire_bombard_explosion</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Object_Detonation_Particle>p_kraytdestoyer_detonate</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>p_kraytdestoyer_detonate</Projectile_Ground_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>p_kraytdestoyer_detonate</Projectile_Object_Armor_Reduced_Detonation_Particle>
 		<Projectile_Lifetime_Detonation_Particle/>
 		<Projectile_Absorbed_By_Shields_Particle/>
 		<Projectile_SFXEvent_Detonate>Unit_Generic_Building_Death_SFX</Projectile_SFXEvent_Detonate>

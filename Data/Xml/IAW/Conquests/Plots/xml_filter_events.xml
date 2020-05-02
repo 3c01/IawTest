@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+
+
+
+<!--****** This story file is used to automatically set some things that would normally happen ******-->
+<!--****** in story mode for the full campaign.  This file should be generic enough to use for  ******-->
+<!--****** any sandbox campaign set.                                                           ******-->
+
+
+
+<Story>
+	
+	<Event Name="Filter_Frigate_Enable">
+		<Event_Type>STORY_CLICK_GUI</Event_Type>
+		<Event_Param1>b_space_filter01</Event_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>	
+	<Event Name="Filter_Capital_Enable">
+		<Event_Type>STORY_CLICK_GUI</Event_Type>
+		<Event_Param1>b_space_filter02</Event_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	<Event Name="Filter_Station_Enable">
+		<Event_Type>STORY_CLICK_GUI</Event_Type>
+		<Event_Param1>b_space_filter03</Event_Param1>
+		<Perpetual>true</Perpetual>
+	</Event>
+	
+	<Event Name="Force_Space_Tab">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>FORCE_CLICK_GUI</Reward_Type>
+		<Reward_Param1>b_space_tab</Reward_Param1>
+		<Prereq>Filter_Station_Enable</Prereq>
+		<Prereq>Filter_Capital_Enable</Prereq>
+		<Prereq>Filter_Frigate_Enable</Prereq>
+		<Perpetual>true</Perpetual>
+	</Event>
+	
+	<Event Name="Filter_Non_Capital">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_filter01</Event_Param1>
+    <Reward_Type>ENABLE_BRANCH</Reward_Type>
+	<Reward_Param1>Non_Capital_Branch</Reward_Param1>
+    <Perpetual>true</Perpetual>
+    </Event>
+	
+	<Event Name="Filter_Non_Capital_One">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_filter01</Event_Param1>
+	<Reward_Type>DISABLE_BRANCH</Reward_Type>
+    <Reward_Param1>Structure_Branch</Reward_Param1>
+    <Perpetual>true</Perpetual>
+    </Event>
+	
+	<Event Name="Filter_Non_Capital_Two">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_filter01</Event_Param1>
+	<Reward_Type>DISABLE_BRANCH</Reward_Type>
+    <Reward_Param1>Capital_Branch</Reward_Param1>
+    <Perpetual>true</Perpetual>
+    </Event>
+	
+
+    <Event Name="Filter_Capitals">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_filter02</Event_Param1>
+    <Reward_Type>ENABLE_BRANCH</Reward_Type>
+	<Reward_Param1>Capital_Branch</Reward_Param1>
+    <Perpetual>true</Perpetual>
+    </Event>
+	
+	<Event Name="Filter_Capitals_One">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_filter02</Event_Param1>
+	<Reward_Type>DISABLE_BRANCH</Reward_Type>
+    <Reward_Param1>Non_Capital_Branch</Reward_Param1>
+    <Perpetual>true</Perpetual>
+    </Event>
+	
+	<Event Name="Filter_Capitals_Two">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_filter02</Event_Param1>
+	<Reward_Type>DISABLE_BRANCH</Reward_Type>
+    <Reward_Param1>Structure_Branch</Reward_Param1>
+    <Perpetual>true</Perpetual>
+    </Event>
+	
+	
+    <Event Name="Filter_Structures">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_filter03</Event_Param1>
+    <Reward_Type>ENABLE_BRANCH</Reward_Type>
+	<Reward_Param1>Structure_Branch</Reward_Param1>
+    <Perpetual>true</Perpetual>
+    </Event>
+	
+	<Event Name="Filter_Structures_One">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_filter03</Event_Param1>
+	<Reward_Type>DISABLE_BRANCH</Reward_Type>
+    <Reward_Param1>Non_Capital_Branch</Reward_Param1>
+    <Perpetual>true</Perpetual>
+    </Event>
+	
+	<Event Name="Filter_Structures_Two">
+    <Event_Type>STORY_CLICK_GUI</Event_Type>
+    <Event_Param1>b_space_filter03</Event_Param1>
+	<Reward_Type>DISABLE_BRANCH</Reward_Type>
+    <Reward_Param1>Capital_Branch</Reward_Param1>
+    <Perpetual>true</Perpetual>
+    </Event>
+	
+<!--******************************************************-->
+<!--******	Initial locks					         *****-->
+<!--******************************************************-->
+	
+	<Event Name="Lock_Golan_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Event_Param1>Empire_Golan_One</Event_Param1>
+		<Perpetual>true</Perpetual>
+		<Prereq> Universal_Story_Start </Prereq>
+	</Event>
+	
+	<Event Name="Lock_Golan_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Event_Param1>Empire_Golan_Two</Event_Param1>
+		<Perpetual>true</Perpetual>
+		<Prereq> Universal_Story_Start </Prereq>
+	</Event>
+	
+	<Event Name="Lock_Golan_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Event_Param1>Empire_Golan_Three</Event_Param1>
+		<Perpetual>true</Perpetual>
+		<Prereq> Universal_Story_Start </Prereq>
+	</Event>
+	
+	<Event Name="Lock_ISD_I">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Event_Param1>Generic_Star_Destroyer</Event_Param1>
+		<Perpetual>true</Perpetual>
+		<Prereq> Universal_Story_Start </Prereq>
+	</Event>
+	
+	<Event Name="Lock_VSD_I">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Event_Param1>Victory_Destroyer</Event_Param1>
+		<Perpetual>true</Perpetual>
+		<Prereq> Universal_Story_Start </Prereq>
+	</Event>
+	
+	<!--
+
+	<Event Name="Unlock_Golan_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Event_Param1>Empire_Golan_One</Event_Param1>
+		<Branch>Structure_Branch</Branch>
+		<Perpetual>true</Perpetual>
+		<Prereq> Filter_Structures </Prereq>
+	</Event>
+	
+	<Event Name="Lock_Golan_1_Non_Cap">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Event_Param1>Empire_Golan_One</Event_Param1>
+		<Perpetual>true</Perpetual>
+		<Prereq> Filter_Non_Capital </Prereq>
+	</Event>
+	
+	<Event Name="Lock_Golan_1_Cap">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Event_Param1>Empire_Golan_One</Event_Param1>
+		<Perpetual>true</Perpetual>
+		<Prereq> Filter_Capitals </Prereq>
+	</Event>
+	
+	<Event Name="Unlock_Golan_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Event_Param1>Empire_Golan_Two</Event_Param1>
+		<Branch>Structure_Branch</Branch>
+		<Perpetual>true</Perpetual>
+		<Prereq> Filter_Structures </Prereq>
+	</Event>
+	
+	<Event Name="Unlock_Golan_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Event_Param1>Empire_Golan_Three</Event_Param1>
+		<Branch>Structure_Branch</Branch>
+		<Perpetual>true</Perpetual>
+		<Prereq> Filter_Structures </Prereq>
+	</Event>
+	
+	<Event Name="Unlock_ISD_I">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Event_Param1>Generic_Star_Destroyer</Event_Param1>
+		<Branch>Capital_Branch</Branch>
+		<Perpetual>true</Perpetual>
+		<Prereq> Filter_Capitals </Prereq>
+	</Event>
+	
+	<Event Name="Unlock_VSD_I">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Event_Param1>Victory_Destroyer</Event_Param1>
+		<Branch>Non_Capital_Branch</Branch>
+		<Perpetual>true</Perpetual>
+		<Prereq> Filter_Non_Capital </Prereq>
+	</Event>
+	
+	-->
+	
+</Story>

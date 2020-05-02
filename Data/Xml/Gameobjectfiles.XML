@@ -14,7 +14,7 @@
 	<File>GroundStructures.xml</File>
 	<File>GroundTurrets.xml</File>
 	
-	
+	<File>Display_Structure_Dummies.xml</File>
 	
 	<File>GroundIndigenous.xml</File>
 	<File>GroundCompaniesIndigenous.xml</File>

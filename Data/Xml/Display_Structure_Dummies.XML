@@ -48,6 +48,7 @@
     <Has_Space_Evaluator>True</Has_Space_Evaluator>
     <Space_Layer> StaticObject </Space_Layer>
   </SpecialStructure>
+  
   <SpecialStructure Name="Non_Capital_Category_Dummy">
     <Affiliation>Empire, Rebel, Warlords, Eriadu, Maldrood, Underworld, Hutts, Corporate_Sector,</Affiliation>
     <Text_ID>

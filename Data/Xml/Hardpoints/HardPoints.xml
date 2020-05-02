@@ -8659,7 +8659,7 @@
     </HardPoint>
 
 	<HardPoint Name="HP_MC40a_Ion_a">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
@@ -8700,7 +8700,7 @@
     </HardPoint>
 
 	<HardPoint Name="HP_MC40a_Ion_b">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
@@ -10207,7 +10207,7 @@
     </HardPoint>
    
     <HardPoint Name="HP_Wingless_04">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_IONCANNON_MEDIUM</Tooltip_Text>
@@ -10247,7 +10247,7 @@
     </HardPoint>
 	
 	<HardPoint Name="HP_Wingless_05">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_IONCANNON_MEDIUM</Tooltip_Text>
@@ -16929,7 +16929,7 @@
 	</HardPoint>
 
     <HardPoint Name="HP_SKIPRAY_ION_00">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 

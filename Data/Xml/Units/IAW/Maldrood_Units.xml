@@ -206,332 +206,40 @@
 	<!-- Vindicator -->
 	
 	<SpaceUnit Name="Vindicator_Cruiser_GM">
-		<Text_ID>TEXT_UNIT_VINDICATOR_CRUISER</Text_ID>
-		<!--<Encyclopedia_Good_Against> MaraudGM_Missile_Cruiser </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> Calamari_Cruiser Y-wing </Encyclopedia_Vulnerable_To>-->
-		<GUI_Row> 0 </GUI_Row>
-		<Space_Model_Name>EV_Vindicator.alo</Space_Model_Name>
-		<Select_Box_Scale>400</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Mass>0.9995</Mass>
-		<Scale_Factor>0.93</Scale_Factor>
-		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-
-        <Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>2.5</Max_Speed>
-		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
-		<LayGM_Z_Adjust>-110.0</LayGM_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>15</Bank_Turn_Angle>
-		<OverrideAcceleration> .04 </OverrideAcceleration>
-		<OverrideDeceleration> .04 </OverrideDeceleration>
-		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
-		<Armor_Type> Armor_Frigate </Armor_Type>
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-		<Max_Thrust>0.8</Max_Thrust>
-		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
-		<Maintenance_Cost>0.2</Maintenance_Cost>
+		<Variant_Of_Existing_Type>Template_Vindicator</Variant_Of_Existing_Type>
 		<Affiliation>Maldrood</Affiliation>
-		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
-		<Required_Planets />
-		<Autoresolve_Health>3990</Autoresolve_Health>
-		<Damage>20</Damage>
-		<Shield_Points>1995</Shield_Points>
-		<Tactical_Health>1995</Tactical_Health>
-		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
-		<Energy_Capacity>10000</Energy_Capacity>
-		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
-		<Ship_Class>corvette</Ship_Class>
-		<Formation_Priority>3</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
-		<Is_Bomber>no</Is_Bomber>
-
-		<Political_Control>0</Political_Control>
-		<Squadron_Capacity>5</Squadron_Capacity>
-		<Transport_Capacity>4</Transport_Capacity>
-		<NumbGM_pGM_Squadron>1</NumbGM_pGM_Squadron>
-		<Build_Cost_Credits>2500</Build_Cost_Credits>
-		<AI_Combat_Power>860</AI_Combat_Power>
-		<Build_Time_Seconds>35</Build_Time_Seconds>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Size_Value>120</Size_Value>
-		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
-		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
 		
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>TIE_Heavy_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
+		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
+		<Tech_Level>1</Tech_Level>
 
-		<Death_Clone>Damage_Normal, Interdictor_Death_Clone</Death_Clone>
-
-		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-
-		<HardPoints>
-		HP_Vindy_Weapon_09, HP_Vindy_Weapon_08, HP_Vindy_Weapon_07, HP_Vindy_Weapon_06, HP_Vindy_Weapon_05, HP_Vindy_Shields_01, HP_Vindy_Engines_01, HP_Interdictor_FightGM_Bay
-		</HardPoints>
-
-		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-
-		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
-		<Icon_Name>i_button_vindicator.tga</Icon_Name>
-		<GUI_Model_Name>EV_Vindicator.alo</GUI_Model_Name>
-		<GUI_Distance>900</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
-
-		<SFXEvent_Select>Unit_Select_Interdictor</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Interdictor</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Interdictor</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Interdictor</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Interdictor</SFXEvent_Guard>
-		<SFXEvent_Stop>Unit_Stop_Interdictor</SFXEvent_Stop>
-		<SFXEvent_Barrage>Unit_Barrage_Interdictor</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Interdictor </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Interdictor </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
-
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASGM_Interdictor </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Interdictor </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Interdictor </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Interdictor </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Interdictor </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Interdictor </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Interdictor </SFXEvent_Attack_Hardpoint>
-
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_LasGM_Interdictor </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Interdictor </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Interdictor </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, Unit_Lost_Grav_Interdictor </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTGM_BAY,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-
-		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Interdictor</SFXEvent_Build_Complete>
-
-		<SFXEvent_Engine_Idle_Loop> Unit_Interdictor_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Interdictor_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Interdictor_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
-		<Death_SFXEvent_Start_Die>Unit_CruisGM_Death_SFX</Death_SFXEvent_Start_Die>
-
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
-		<MovementClass> Space </MovementClass>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>400.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
-
-		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATOR </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
-		<Score_Cost_Credits> 3000</Score_Cost_Credits>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_PGM_Player>0</Build_Limit_Current_PGM_Player>-->
-		<!--<Build_Limit_Lifetime_PGM_Player>0</Build_Limit_Lifetime_PGM_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>10</Population_Value>
-
-			<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>POWGM_TO_WEAPONS</Type>
-				<Expiration_Seconds>20</Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
-				<Recharge_Seconds>65</Recharge_Seconds>
-
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Acclamator</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
-
-		</Unit_Abilities_Data>
-		
 	</SpaceUnit>
-
 	<!-- Vic 2 Frigate -->
 	
 	<SpaceUnit Name="Victory_II_Frigate_GM">
-		<Text_ID>TEXT_UNIT_VICTORY_II_FRIGATE</Text_ID>
-		<!--<Encyclopedia_Good_Against> X-Wing Corellian_Gunboat Corellian_Corvette </Encyclopedia_Good_Against>-->
-		<!--<Encyclopedia_Vulnerable_To> B-wing Y-wing MC40a </Encyclopedia_Vulnerable_To>-->
-		<GUI_Row> 0 </GUI_Row>
-		<Space_Model_Name>EA_victory_ii_class_frigate.ALO</Space_Model_Name>
-		<Select_Box_Scale>425</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Mass>0.9995</Mass>
-		<Scale_Factor>.6</Scale_Factor>
-		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
-
-        <Ranking_In_Category>6</Ranking_In_Category>
-		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Max_Speed>3</Max_Speed>
-		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
-		<LayGM_Z_Adjust>-90.0</LayGM_Z_Adjust>
-		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>20</Bank_Turn_Angle>
-		<OverrideAcceleration> .05 </OverrideAcceleration>
-		<OverrideDeceleration> .05 </OverrideDeceleration>
-
-		<Max_Thrust>1.5</Max_Thrust>
-		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>1.5</Hyperspace_Speed>
-		<Maintenance_Cost>0.2</Maintenance_Cost>
-
-		<Armor_Type> Armor_Frigate </Armor_Type>
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
-		<Damage>40</Damage>
-		<Autoresolve_Health>3000</Autoresolve_Health>
-		<Shield_Points>2000</Shield_Points>
-		<Tactical_Health>1000</Tactical_Health> <!-- was 2800 -->
-		<Shield_Refresh_Rate>60</Shield_Refresh_Rate> <!-- was 50 -->
-		<Energy_Capacity>3000</Energy_Capacity>
-		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
-
+		<Variant_Of_Existing_Type>Template_Victory_II_Frigate</Variant_Of_Existing_Type>
 		<Affiliation>Maldrood</Affiliation>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Slice_Cost_Credits>1400</Slice_Cost_Credits>
-		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Planets />
-		<Ship_Class>frigate</Ship_Class>
-		<Formation_Priority>3</Formation_Priority>
-		<Is_Escort>yes</Is_Escort>
-		<Is_Bomber>no</Is_Bomber>
-		<Political_Control>0</Political_Control>
-		<Squadron_Capacity>12</Squadron_Capacity>
-		<Transport_Capacity>12</Transport_Capacity>
-		<NumbGM_pGM_Squadron>1</NumbGM_pGM_Squadron>
-		<Build_Cost_Credits>1600</Build_Cost_Credits>
-		<AI_Combat_Power>630</AI_Combat_Power>
-		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Size_Value>8</Size_Value>
-		<Behavior>DUMMY_STARSHIP, SELECTABLE</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, POWERED, SHIELDED, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
 
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
+		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
+		<Tech_Level>1</Tech_Level>
 
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-
-		<Death_Clone>Damage_Normal, Small_Explosion_Space</Death_Clone>
-		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
-
-		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-
-		<HardPoints>
-			HP_VSF_Turbo1, HP_VSF_Turbo2, HP_VSF_Turbo3, HP_VSF_Turbo4, HP_VSF_Turbo5, HP_VSF_Turbo6, HP_VSF_Ion1, HP_VSF_Ion2, HP_VSF_Ion3, HP_VSF_Ion4
-		</HardPoints>
-
-		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
-		<Icon_Name>i_button_victory_frigate.tga</Icon_Name>
-		<GUI_Model_Name>carrack.ALO</GUI_Model_Name>
-		<GUI_Distance>1200</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
-		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
-		<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-		<SFXEvent_Select>Unit_Select_Carrack</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Carrack</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Move_Carrack</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Carrack</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Move_Carrack</SFXEvent_Guard>
-		<SFXEvent_Stop>Unit_Move_Carrack</SFXEvent_Stop>
-		<SFXEvent_Barrage>Unit_Attack_Carrack</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Asteroid_Field> null </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> null </SFXEvent_Move_Into_Nebula>
-		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
-
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_Attack_Carrack</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_Attack_Carrack </SFXEvent_Attack_Hardpoint>
-
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, null </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, null </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, null </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTGM_BAY,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-
-		<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
-
-		<Death_SFXEvent_Start_Die>Unit_CruisGM_Death_SFX</Death_SFXEvent_Start_Die>
-
-		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
-
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-
-
-		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
-
-
-		<Encyclopedia_Text> TEXT_TOOLTIP_VICTORY_FRIGATE </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
-		<Score_Cost_Credits> 2500</Score_Cost_Credits>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_PGM_Player>0</Build_Limit_Current_PGM_Player>-->
-		<!--<Build_Limit_Lifetime_PGM_Player>0</Build_Limit_Lifetime_PGM_Player>-->
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Population_Value>6</Population_Value>
 	</SpaceUnit>
-	
 	<!-- Dreadnaught -->
 
 	<SpaceUnit Name="Dreadnaught_GM">

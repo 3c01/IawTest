@@ -2308,8 +2308,47 @@
             <Damage_Particles>HP_E05_EMITDAMAGE</Damage_Particles>
             <Engine_Particles></Engine_Particles>
     </HardPoint>
-
 	
+	
+
+	<HardPoint Name="HP_Viscount_00">
+			<Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+            <Health>300.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+			
+			<Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP07</Attachment_Bone>
+            <Collision_Mesh>HP07</Collision_Mesh>
+
+			<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+				
+            <Fire_Bone_A>HP07</Fire_Bone_A>
+            <Fire_Bone_B>HP07</Fire_Bone_B>
+            <Fire_Cone_Width>200.0</Fire_Cone_Width>
+            <Fire_Cone_Height>170.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Executor_Concussion_Missile</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>4500.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 7 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
 	
     
 </HardPoints>

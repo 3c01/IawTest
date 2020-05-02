@@ -61,7 +61,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1700</Build_Cost_Credits>
-		<AI_Combat_Power>750</AI_Combat_Power>
+		<AI_Combat_Power>7500</AI_Combat_Power>
 		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -255,7 +255,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2350</Build_Cost_Credits>
-		<AI_Combat_Power>850</AI_Combat_Power>
+		<AI_Combat_Power>8500</AI_Combat_Power>
 		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -467,7 +467,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<AI_Combat_Power>2500</AI_Combat_Power>
+		<AI_Combat_Power>6500</AI_Combat_Power>
 		<Size_Value>8</Size_Value>		
 		
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -670,7 +670,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>3600</Build_Cost_Credits>
-		<AI_Combat_Power>1840</AI_Combat_Power>
+		<AI_Combat_Power>11400</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -861,7 +861,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
-		<AI_Combat_Power>570</AI_Combat_Power>
+		<AI_Combat_Power>5700</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1045,7 +1045,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
-		<AI_Combat_Power>5000</AI_Combat_Power>
+		<AI_Combat_Power>2000</AI_Combat_Power>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1241,7 +1241,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>3500</Build_Cost_Credits>
-		<AI_Combat_Power>1500</AI_Combat_Power>
+		<AI_Combat_Power>12500</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1475,7 +1475,7 @@
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1800</Build_Cost_Credits>
-		<AI_Combat_Power>1400</AI_Combat_Power>
+		<AI_Combat_Power>7000</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -1660,7 +1660,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3000</Build_Cost_Credits>
-        <AI_Combat_Power>1100</AI_Combat_Power>
+        <AI_Combat_Power>11000</AI_Combat_Power>
         <Build_Time_Seconds>20</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -1819,7 +1819,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>2200</Build_Cost_Credits>
-        <AI_Combat_Power>2000</AI_Combat_Power>
+        <AI_Combat_Power>8000</AI_Combat_Power>
         <Build_Time_Seconds>20</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -1981,7 +1981,7 @@
 		<Select_Box_Scale>400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.93</Scale_Factor>
+		<Scale_Factor>0.33</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 
         <Ranking_In_Category>6</Ranking_In_Category>
@@ -2009,8 +2009,8 @@
 		<Required_Planets />
 		<Autoresolve_Health>3990</Autoresolve_Health>
 		<Damage>20</Damage>
-		<Shield_Points>1995</Shield_Points>
-		<Tactical_Health>1995</Tactical_Health>
+		<Shield_Points>2000</Shield_Points>
+		<Tactical_Health>2500</Tactical_Health>
 		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>400</Energy_Refresh_Rate>
@@ -2024,7 +2024,7 @@
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2500</Build_Cost_Credits>
-		<AI_Combat_Power>860</AI_Combat_Power>
+		<AI_Combat_Power>8600</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -2042,7 +2042,7 @@
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
-		HP_Vindy_Weapon_09, HP_Vindy_Weapon_08, HP_Vindy_Weapon_07, HP_Vindy_Weapon_06, HP_Vindy_Weapon_05, HP_Vindy_Shields_01, HP_Vindy_Engines_01, HP_Interdictor_Fighter_Bay
+		HP_Vindy_Weapon_01, HP_Vindy_Weapon_02, HP_Vindy_Weapon_03, HP_Vindy_Weapon_04, HP_Vindy_Weapon_05, HP_Vindy_Weapon_06, HP_Vindy_Weapon_07, HP_Vindy_Shield_01, HP_Vindy_Shield_02, HP_Vindy_Engines_01, HP_Vindy_Hangar_01, HP_Vindy_Hangar_02
 		</HardPoints>
 
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -2192,7 +2192,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1800</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>600</AI_Combat_Power>
+		<AI_Combat_Power>6000</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2372,7 +2372,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1600</Build_Cost_Credits>
-		<AI_Combat_Power>630</AI_Combat_Power>
+		<AI_Combat_Power>6300</AI_Combat_Power>
 		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2530,7 +2530,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2500</Build_Cost_Credits>
-		<AI_Combat_Power>650</AI_Combat_Power>
+		<AI_Combat_Power>6500</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2726,7 +2726,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1350</Build_Cost_Credits> <!-- 1350 -->
-		<AI_Combat_Power>480</AI_Combat_Power>
+		<AI_Combat_Power>4800</AI_Combat_Power>
 		<Build_Time_Seconds>20</Build_Time_Seconds> <!-- 20 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2890,7 +2890,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1200</Build_Cost_Credits>
-		<AI_Combat_Power>430</AI_Combat_Power>
+		<AI_Combat_Power>4300</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -3073,7 +3073,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2200</Build_Cost_Credits>
-		<AI_Combat_Power>730</AI_Combat_Power>
+		<AI_Combat_Power>7300</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -3264,7 +3264,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2600</Build_Cost_Credits>
-		<AI_Combat_Power>890</AI_Combat_Power>
+		<AI_Combat_Power>8900</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -3284,18 +3284,14 @@
 
 
 		<HardPoints>
-			HP_Dreadnaught_Weapon_TFL,
-			HP_Dreadnaught_Weapon_FR,
-			HP_Dreadnaught_Weapon_R5,
-			HP_Dreadnaught_Weapon_L5,
-			HP_Dreadnaught_Weapon_TFR,
-			HP_Dreadnaught_Weapon_TMR,
-			HP_Dreadnaught_Weapon_BMR,
-			HP_Dreadnaught_Weapon_BR,
-			HP_Katana_Ion_One,
-			HP_Katana_Ion_Two,
-			HP_Katana_Ion_Three,
-			HP_Katana_Ion_Four,
+			HP_Dreadnaught_Weapon_00,
+			HP_Dreadnaught_Weapon_01,
+			HP_Dreadnaught_Weapon_04,
+			HP_Dreadnaught_Weapon_05,
+			HP_Dreadnaught_Weapon_06,
+			HP_Dreadnaught_Weapon_07,
+			HP_Katana_Ion_00,
+			HP_Katana_Ion_01,
 			HP_Dreadnaught_Shield_Generator,
 			HP_Dreadnaught_Fighter_Bay,
 			HP_Dreadnaught_Engines
@@ -3474,7 +3470,7 @@
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1800</Build_Cost_Credits>
-		<AI_Combat_Power>1400</AI_Combat_Power>
+		<AI_Combat_Power>8000</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -3610,7 +3606,7 @@
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.9995</Mass>
-		<Scale_Factor>0.65</Scale_Factor>
+		<Scale_Factor>0.33</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
@@ -3880,7 +3876,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1820</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>310</AI_Combat_Power>
+		<AI_Combat_Power>3100</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -4102,7 +4098,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3400</Build_Cost_Credits>
-        <AI_Combat_Power>1630</AI_Combat_Power>
+        <AI_Combat_Power>16300</AI_Combat_Power>
         <Build_Time_Seconds>30</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -4254,7 +4250,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3800</Build_Cost_Credits>
-        <AI_Combat_Power>1430</AI_Combat_Power>
+        <AI_Combat_Power>14300</AI_Combat_Power>
         <Build_Time_Seconds>30</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -4389,9 +4385,6 @@
 
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 
-        <Build_Cost_Credits>4200</Build_Cost_Credits>
-        <AI_Combat_Power>1750</AI_Combat_Power>
-        <Build_Time_Seconds>35</Build_Time_Seconds>
 		
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
@@ -4480,7 +4473,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3400</Build_Cost_Credits> <!-- 3400 -->
-        <AI_Combat_Power>1270</AI_Combat_Power>
+        <AI_Combat_Power>12700</AI_Combat_Power>
         <Build_Time_Seconds>35</Build_Time_Seconds> <!-- 35 -->
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -4608,7 +4601,7 @@
 		<Text_ID>TEXT_UNIT_TITAN_HEAVY_CRUISER</Text_ID>
 		<!--		<Encyclopedia_Good_Against> Victory_Destroyer Acclamator_Assault_Ship Tartan_Patrol_Cruiser </Encyclopedia_Good_Against> 
 		<Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Titan_Cruiser </Encyclopedia_Vulnerable_To>-->
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>ev_titan.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>4</Ranking_In_Category>
@@ -4662,7 +4655,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>4700</Build_Cost_Credits>
-		<AI_Combat_Power>1840</AI_Combat_Power>
+		<AI_Combat_Power>18400</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>1</Size_Value>
@@ -4811,7 +4804,7 @@
 		<Text_ID>TEXT_UNIT_TYRANT</Text_ID>
 <!--		<Encyclopedia_Good_Against> Nebulon_B_Frigate Liberator_Cruiser X-wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Y-Wing B-Wing Mediator_Cruiser </Encyclopedia_Vulnerable_To> -->
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>EV_Tyrant.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
@@ -4866,7 +4859,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>4400</Build_Cost_Credits> <!-- 4400 -->
-		<AI_Combat_Power>1250</AI_Combat_Power>
+		<AI_Combat_Power>12500</AI_Combat_Power>
 		<Build_Time_Seconds>60</Build_Time_Seconds> <!-- 60 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -5064,7 +5057,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3800</Build_Cost_Credits>
-        <AI_Combat_Power>1200</AI_Combat_Power>
+        <AI_Combat_Power>12000</AI_Combat_Power>
         <Build_Time_Seconds>30</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -5222,7 +5215,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>4200</Build_Cost_Credits>
-        <AI_Combat_Power>890</AI_Combat_Power>
+        <AI_Combat_Power>8900</AI_Combat_Power>
         <Build_Time_Seconds>35</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -5388,7 +5381,7 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<AI_Combat_Power>1400</AI_Combat_Power>
+		<AI_Combat_Power>14000</AI_Combat_Power>
 		<Size_Value>8</Size_Value>
 
 		<Death_Clone>Damage_Normal, Pirate_Frigate_Death_Clone</Death_Clone>
@@ -5600,7 +5593,7 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<AI_Combat_Power>100000</AI_Combat_Power> <!-- The AI should be deterred from attacking this--> 
+		<AI_Combat_Power>1000000</AI_Combat_Power> <!-- The AI should be deterred from attacking this--> 
 		<Size_Value>8</Size_Value>
 
 		<Death_Clone>Damage_Normal, Pirate_Frigate_Death_Clone</Death_Clone>
@@ -5708,7 +5701,7 @@
 		<Variant_Of_Existing_Type>Pirate_Frigate</Variant_Of_Existing_Type>
 		<Max_Speed>8.0 </Max_Speed>
 		<Scale_Factor>0.3</Scale_Factor>	
-		<AI_Combat_Power>100000</AI_Combat_Power> <!-- The AI should be deterred from attacking this -->
+		<AI_Combat_Power>1000000</AI_Combat_Power> <!-- The AI should be deterred from attacking this -->
 		<Shield_Points>2000</Shield_Points>
 		<Tactical_Health>2000</Tactical_Health>
 		<Shield_Refresh_Rate>30</Shield_Refresh_Rate> <!-- This is the key number to tune for the mission -->

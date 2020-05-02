@@ -1,6 +1,279 @@
 <?xml version="1.0"?>
 <Templates_Capital>
 
+	<UniqueUnit Name="Viscount_Star_Defender">
+		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
+		<Text_ID>TEXT_UNIT_VISCOUNT</Text_ID>
+		
+		<!--<Encyclopedia_Good_Against> Generic_Executor Generic_Bellator Generic_Star_Destroyer </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Y-wing B-Wing Scimitar </Encyclopedia_Vulnerable_To> -->
+		<Encyclopedia_Text> TEXT_TOOLTIP_VISCOUNT </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+
+        <Custom_Hard_XExtent> 100.0 </Custom_Hard_XExtent>
+        <Custom_Hard_YExtent> 100.0 </Custom_Hard_YExtent>
+
+		<Icon_Name>i_button_Viscount.tga</Icon_Name>
+
+		<GUI_Row> 1 </GUI_Row>
+		<Space_Model_Name>Viscount.ALO</Space_Model_Name>
+
+		<Ranking_In_Category>5</Ranking_In_Category>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+		<Select_Box_Scale>800</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+
+		<Scale_Factor>4.0</Scale_Factor>
+		<Mass>0.999</Mass>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Armor_Type> ArmourS_SuperCapital </Armor_Type>
+		<Shield_Armor_Type> ShieldS_SuperCapital </Shield_Armor_Type>
+
+		<Max_Speed>1.5</Max_Speed>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> SuperCapital </Space_Layer>
+		<Layer_Z_Adjust>-800.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<OverrideAcceleration> .02 </OverrideAcceleration>
+		<OverrideDeceleration> .02 </OverrideDeceleration>
+		
+		<Max_Thrust>0.05</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1</Hyperspace_Speed>
+		<Maintenance_Cost>0.3</Maintenance_Cost>
+
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>4</Tech_Level> <!-- 99 -->
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Damage>70</Damage>
+		<Autoresolve_Health>18000</Autoresolve_Health>
+		<Shield_Points>70000</Shield_Points>
+		
+		<Tactical_Health>60465</Tactical_Health>
+		
+		<Shield_Refresh_Rate>150</Shield_Refresh_Rate>
+		<Energy_Capacity>99000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Ship_Class>SuperCapital</Ship_Class>
+		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+
+		<Political_Faction>Rebel</Political_Faction>
+		<Squadron_Capacity>40</Squadron_Capacity>
+		<Build_Cost_Credits>45000</Build_Cost_Credits> <!-- 45k -->
+		<AI_Combat_Power>200000</AI_Combat_Power>
+		<Build_Time_Seconds>300</Build_Time_Seconds> <!-- 90 -->
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+		
+		<!-- Fighter Spawners -->
+		<Starting_Spawned_Units_Tech_0>E-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>E-Wing_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+			
+		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>A_Wing_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>B-Wing_Squadron, 12</Reserve_Spawned_Units_Tech_0>
+		
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+
+		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN,SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<Death_Clone>Damage_Normal, Viscount_Death_Clone</Death_Clone>
+		<Space_FOW_Reveal_Range>25000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>5200.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>
+			HP_VISCOUNT_TURBO_01,
+			HP_VISCOUNT_TURBO_02,
+			HP_VISCOUNT_TURBO_03,
+			HP_VISCOUNT_TURBO_04,
+			HP_VISCOUNT_TURBO_05,
+			HP_VISCOUNT_TURBO_06,
+			HP_VISCOUNT_TURBO_07,
+			HP_VISCOUNT_TURBO_08,
+			HP_VISCOUNT_TURBO_09,
+			HP_VISCOUNT_TURBO_10,
+			HP_VISCOUNT_TURBO_11,
+			HP_VISCOUNT_TURBO_12,
+			HP_VISCOUNT_TURBO_13,
+			HP_VISCOUNT_TURBO_14,
+			HP_VISCOUNT_TURBO_15,
+			HP_VISCOUNT_TURBO_16,
+			HP_VISCOUNT_TURBO_17,
+			HP_VISCOUNT_TURBO_18,
+			HP_VISCOUNT_TURBO_19,
+			HP_VISCOUNT_TURBO_20,
+			HP_VISCOUNT_LASER_01,
+			HP_VISCOUNT_LASER_02,
+			HP_VISCOUNT_LASER_03,
+			HP_VISCOUNT_LASER_04,
+			HP_VISCOUNT_LASER_05,
+			HP_VISCOUNT_LASER_06,
+			HP_VISCOUNT_LASER_07,
+			HP_VISCOUNT_LASER_08,
+			HP_VISCOUNT_LASER_09,
+			HP_VISCOUNT_LASER_10,
+			HP_VISCOUNT_LASER_11,
+			HP_VISCOUNT_LASER_12,
+			HP_VISCOUNT_LASER_13,
+			HP_VISCOUNT_LASER_14,
+			HP_VISCOUNT_ION_01,			
+			HP_VISCOUNT_ION_02,
+			HP_VISCOUNT_ION_03,
+			HP_VISCOUNT_ION_04,
+			HP_VISCOUNT_ION_05,
+			HP_VISCOUNT_ION_06,
+			HP_VISCOUNT_ION_07,
+			HP_VISCOUNT_ION_08,
+			HP_VISCOUNT_ION_09,
+			HP_VISCOUNT_ION_10,
+			HP_VISCOUNT_ION_11,
+			HP_VISCOUNT_ION_12,
+			HP_VISCOUNT_TORP_01,
+			HP_VISCOUNT_TORP_02,
+			HP_VISCOUNT_TORP_03,
+			HP_VISCOUNT_TORP_04,
+			HP_VISCOUNT_CONM_01,
+			HP_VISCOUNT_CONM_02,
+			HP_VISCOUNT_CONM_03,
+			HP_VISCOUNT_CONM_04,
+			HP_VISCOUNT_FIGHTER_BAY_01,
+			HP_VISCOUNT_FIGHTER_BAY_02,
+			HP_SSD_HANGAR,
+			HP_VISCOUNT_SHIELD_01,
+			HP_VISCOUNT_SHIELD_02,
+			HP_VISCOUNT_ENGINES_01,
+			HP_VISCOUNT_ENGINES_02,
+			HP_VISCOUNT_ENGINES_03,
+			HP_VISCOUNT_ENGINES_04,
+			HP_VISCOUNT_ENGINES_05
+		</HardPoints>
+
+
+
+		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Calamari</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Calamari_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+
+		<SFXEvent_Select>Unit_Select_Calamari</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Calamari</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Calamari</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Calamari</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Calamari</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Calamari</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Calamari</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Calamari </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Calamari </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Calamari </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Calamari </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Calamari </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Calamari_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Calamari_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+
+		<CategoryMask> SuperCapital | AntiCapital </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		 
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Radar_Icon_Scale_Land>0.25</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.25</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>i_radar_viscount.tga</Radar_Icon_Name>
+
+		<Population_Value>160</Population_Value>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.8f</Mod_Multiplier>
+				<Recharge_Seconds>40</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+		<Score_Cost_Credits> 100000</Score_Cost_Credits>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>40000</Tactical_Build_Cost_Multiplayer> 
+		<Tactical_Build_Time_Seconds>90</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+	</UniqueUnit>
+
+	<UniqueUnit Name="Viscount_Death_Clone">
+		<Text_ID>TEXT_UNIT_VISCOUNT</Text_ID>
+		<Space_Model_Name>Viscount_D.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Speed>0.25</Max_Speed>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Affiliation>Rebel</Affiliation>
+		<Ship_Class>super</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</UniqueUnit>
+
+
 	<!-- Mc80 Liberty-->
 	<SpaceUnit Name="Template_Calamari_Cruiser">
 		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
@@ -54,7 +327,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>4000</Build_Cost_Credits>
-		<AI_Combat_Power>1170</AI_Combat_Power>
+		<AI_Combat_Power>11700</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -237,7 +510,7 @@
 		
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2500</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -255,7 +528,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>6800</Build_Cost_Credits>
-		<AI_Combat_Power>1990</AI_Combat_Power>
+		<AI_Combat_Power>19900</AI_Combat_Power>
 		<Build_Time_Seconds>85</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -428,7 +701,7 @@
 		
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>5000</Slice_Cost_Credits>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -445,7 +718,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>6700</Build_Cost_Credits> <!-- 6.7K -->
-		<AI_Combat_Power>2330</AI_Combat_Power>
+		<AI_Combat_Power>23300</AI_Combat_Power>
 		<Build_Time_Seconds>80</Build_Time_Seconds> <!-- 100 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -654,7 +927,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>4700</Build_Cost_Credits>
-		<AI_Combat_Power>1330</AI_Combat_Power>
+		<AI_Combat_Power>13300</AI_Combat_Power>
 		<Build_Time_Seconds>50</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -835,7 +1108,7 @@
 		
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -850,7 +1123,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>6800</Build_Cost_Credits>
-		<AI_Combat_Power>2490</AI_Combat_Power>
+		<AI_Combat_Power>24900</AI_Combat_Power>
 		<Build_Time_Seconds>100</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -1043,7 +1316,7 @@
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>4000</Build_Cost_Credits>  <!-- 4000 -->
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>4250</AI_Combat_Power>
+		<AI_Combat_Power>12500</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds> <!-- 90 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -1259,7 +1532,7 @@
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Neutral</Affiliation>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -1277,7 +1550,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>12000</Build_Cost_Credits> <!-- 8k -->
-		<AI_Combat_Power>6000</AI_Combat_Power>
+		<AI_Combat_Power>60000</AI_Combat_Power>
 		<Build_Time_Seconds>120</Build_Time_Seconds> <!-- 120 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1467,7 +1740,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2500</Slice_Cost_Credits>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -1485,7 +1758,7 @@
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>5200</Build_Cost_Credits> <!-- 5200 -->
-		<AI_Combat_Power>2240</AI_Combat_Power>
+		<AI_Combat_Power>22400</AI_Combat_Power>
 		<Build_Time_Seconds>80</Build_Time_Seconds> <!-- 80 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1695,7 +1968,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>15000</Build_Cost_Credits>
-		<AI_Combat_Power>3950</AI_Combat_Power>
+		<AI_Combat_Power>55500</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1878,7 +2151,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -1894,7 +2167,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>33000</Build_Cost_Credits>
-		<AI_Combat_Power>12710</AI_Combat_Power>
+		<AI_Combat_Power>127100</AI_Combat_Power>
 		<Build_Time_Seconds>300</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -2203,7 +2476,7 @@
 
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>150000</Build_Cost_Credits> <!-- 150000 -->
-		<AI_Combat_Power>5900</AI_Combat_Power>
+		<AI_Combat_Power>290000</AI_Combat_Power>
 		<Build_Time_Seconds>300</Build_Time_Seconds> <!-- 300 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2358,7 +2631,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>5</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
@@ -2374,7 +2647,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>48000</Build_Cost_Credits>
-		<AI_Combat_Power>16490</AI_Combat_Power>
+		<AI_Combat_Power>164900</AI_Combat_Power>
 		<Build_Time_Seconds>300</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -2560,7 +2833,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Affiliation>Neutral</Affiliation>
 
 		<CategoryMask> Capital | AntiFrigate  </CategoryMask>
@@ -2581,7 +2854,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>5900</Build_Cost_Credits>
-		<AI_Combat_Power>1990</AI_Combat_Power>
+		<AI_Combat_Power>19900</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2723,7 +2996,7 @@
 
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<Tech_Level>4</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Affiliation>Neutral</Affiliation>
 
 		<Select_Box_Scale>200</Select_Box_Scale>
@@ -2772,7 +3045,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>6200</Build_Cost_Credits>
-		<AI_Combat_Power>2240</AI_Combat_Power>
+		<AI_Combat_Power>22400</AI_Combat_Power>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2903,7 +3176,7 @@
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Affiliation>Neutral</Affiliation>
 		
 		<CategoryMask> Capital | AntiCapital  </CategoryMask>
@@ -2948,7 +3221,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>0</Squadron_Capacity>
 		<Build_Cost_Credits>7500</Build_Cost_Credits>
-		<AI_Combat_Power>2350</AI_Combat_Power>
+		<AI_Combat_Power>23500</AI_Combat_Power>
 		<Build_Time_Seconds>78</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -3139,7 +3412,7 @@
 		<Political_Faction>Neutral</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>20000</Build_Cost_Credits>
-		<AI_Combat_Power>1220</AI_Combat_Power>
+		<AI_Combat_Power>24200</AI_Combat_Power>
 		<Build_Time_Seconds>95</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -3306,7 +3579,7 @@
 		<Political_Faction>Neutral</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>15000</Build_Cost_Credits>
-		<AI_Combat_Power>1220</AI_Combat_Power>
+		<AI_Combat_Power>24200</AI_Combat_Power>
 		<Build_Time_Seconds>75</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -3476,7 +3749,7 @@
 		<Hyperspace_Speed>1</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -3493,7 +3766,7 @@
 		<Political_Faction>Netral</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>15000</Build_Cost_Credits>
-		<AI_Combat_Power>4800</AI_Combat_Power>
+		<AI_Combat_Power>48000</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -3644,7 +3917,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>		
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Tech_Level>0</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Ship_Class>capital</Ship_Class>
 		<Formation_Priority>3</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
@@ -3862,7 +4135,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>11000</Build_Cost_Credits>
-		<AI_Combat_Power>3800</AI_Combat_Power>
+		<AI_Combat_Power>28000</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -4001,7 +4274,7 @@
 		<Icon_Name>i_button_uv_krayt.tga</Icon_Name>
 
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>UV_KRAYTCLASSDESTROYER.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_Aggressor.ALO</Space_Model_Name>
 		<Select_Box_Scale>740</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
@@ -4020,7 +4293,7 @@
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
-		<Armor_Type> ArmourS_HeavyFrigate </Armor_Type>
+		<Armor_Type> ArmourS_Capital </Armor_Type>
 		<Shield_Armor_Type>ShieldS_HeavyFrigate</Shield_Armor_Type>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle>	
@@ -4036,9 +4309,9 @@
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Autoresolve_Health>2100</Autoresolve_Health>
-		<Tactical_Health>2100</Tactical_Health>
-		<Shield_Points>1800</Shield_Points>
+		<Autoresolve_Health>10550</Autoresolve_Health>
+		<Tactical_Health>4550</Tactical_Health>
+		<Shield_Points>6000</Shield_Points>
 		<Shield_Refresh_Rate>48</Shield_Refresh_Rate>
 		<Energy_Capacity>999999</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -4046,7 +4319,7 @@
 		<Formation_Priority>5</Formation_Priority>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>6500</Build_Cost_Credits>
-		<AI_Combat_Power>4250</AI_Combat_Power>
+		<AI_Combat_Power>42500</AI_Combat_Power>
 		<Build_Time_Seconds>60</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>360</Size_Value>
@@ -4062,22 +4335,17 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
 		<Space_FOW_Reveal_Range>25200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>5000.0</Targeting_Max_Attack_Distance>
+		<Targeting_Max_Attack_Distance>4000.0</Targeting_Max_Attack_Distance>
 		
 		
 
 		<HardPoints>
-		HP_Krayt_Fighter_Bay,
-		HP_KRAYT_ENGINES,
-		HP_KRAYT_SHIELD_GEN,
-		HP_KRAYT_TRACTOR_DUMMY,
-		HP_KRAYT_TURBOLASER_RIGHT,
-		HP_KRAYT_TURBOLASER_LEFT,
-		HP_KRAYT_MEGAWEAPON_DAMAGE,
-		HP_KRAYT_MEGAWEAPON_ION
+		HP_Aggressor_FigtherBay, HP_Aggressor_Engines, HP_Aggressor_Shield,
+		HP_Aggressor_MegaIon, HP_Aggressor_MegaTurbo, HP_Aggressor_Tbl_Left, HP_Aggressor_Tbl_Right, HP_Aggressor_Tbl_Center,
+		HP_Aggressor_Ion_Left, HP_Aggressor_Ion_Right, HP_Aggressor_Ion__Front_Left, HP_Aggressor_Ion__Front_Right,
+		HP_Aggressor_Ion__Back_Left, HP_Aggressor_Ion__Back_Right
 		</HardPoints>
 
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -4132,7 +4400,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
-		<Population_Value>18</Population_Value>
+		<Population_Value>32</Population_Value>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<CategoryMask> Capital | Anticapital </CategoryMask>
@@ -4314,7 +4582,7 @@
 		<Text_ID>TEXT_UNIT_DEATH_STAR_II</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DEATH_STAR_II</Encyclopedia_Text>
 		
-		<Tech_Level>5</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Space_Model_Name>w_planet_deathstar02_II.alo</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 
@@ -4432,7 +4700,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>5</Tech_Level>
 		<Affiliation>Neutral</Affiliation>
 
 		<CategoryMask> Capital | AntiCapital  </CategoryMask>
@@ -4453,7 +4721,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>59000</Build_Cost_Credits>
-		<AI_Combat_Power>1990</AI_Combat_Power>
+		<AI_Combat_Power>39900</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>

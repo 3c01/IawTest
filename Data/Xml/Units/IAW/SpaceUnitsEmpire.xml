@@ -9,7 +9,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<GUI_Row> 1 </GUI_Row>
+		<Tech_Level> 99 </Tech_Level>
 		
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
@@ -46,7 +46,6 @@
 		<Spawned_Squadron_Delay_Seconds>0</Spawned_Squadron_Delay_Seconds>
 		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
-		<Tech_Level>0</Tech_Level>
 
 		<Tactical_Build_Prerequisites />
 	</SpaceUnit>
@@ -411,7 +410,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<GUI_Row> 1 </GUI_Row>
+		<GUI_Row> 0 </GUI_Row>
 		<Build_Cost_Credits>3950</Build_Cost_Credits>
 		
 		<Starting_Spawned_Units_Tech_0>Arc-170_Squadron_E_Double, 1</Starting_Spawned_Units_Tech_0>

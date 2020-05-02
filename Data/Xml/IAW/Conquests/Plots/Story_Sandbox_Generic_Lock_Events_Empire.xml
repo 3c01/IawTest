@@ -78,51 +78,7 @@
 <!--******	Tech 3                                  *****-->
 <!--******************************************************-->
 
-	<Event Name="Empire_Enters_Tech_03">
-		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>3</Event_Param1>
-	</Event>
-	
-	<Event Name="E_Lock_Victory">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>0</Event_Param1>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Victory_Destroyer</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_03</Prereq>
-	</Event>
-	
-	<Event Name="E_Lock_Arquitens">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>0</Event_Param1>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Arquitens</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_03</Prereq>
-	</Event>
-	
-	<Event Name="E_Lock_Dreadnaught">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>0</Event_Param1>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Dreadnaught_Empire</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_03</Prereq>
-	</Event>
-	
-	<Event Name="E_Lock_Venator_Tech_3">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>0</Event_Param1>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Venator_Empire</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_03</Prereq>
-	</Event>
-	
-	<Event Name="E_Lock_Acclamator_Tech_3">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>0</Event_Param1>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Acclamator_Assault_Ship</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_03</Prereq>
-	</Event>
-	
+
 <!--******************************************************-->
 <!--******	Tech 4                                   *****-->
 <!--******************************************************-->
@@ -140,15 +96,7 @@
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>5</Event_Param1>
 	</Event>
-	
-	<Event Name="E_Lock_ISD_I">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>0</Event_Param1>
-		<Reward_Type>LOCK_UNIT</Reward_Type>
-		<Reward_Param1>Generic_Star_Destroyer</Reward_Param1>
-		<Prereq>Empire_Enters_Tech_05</Prereq>
-	</Event>
-	
+
 	<Event Name="Unlock_Executor">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>1</Event_Param1>
@@ -181,7 +129,7 @@
 		<Event_Param1>1</Event_Param1>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
 		<Reward_Param1>Reaper_Kaine</Reward_Param1>
-		<Prereq>E_Spawn_Kaine</Prereq>
+		<Prereq>Empire_Enters_Tech_05</Prereq>
 	</Event>
 	
 	<Event Name="E_Build_Reaper">
