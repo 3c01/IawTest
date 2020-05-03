@@ -4344,8 +4344,8 @@
 		<HardPoints>
 		HP_Aggressor_FigtherBay, HP_Aggressor_Engines, HP_Aggressor_Shield,
 		HP_Aggressor_MegaIon, HP_Aggressor_MegaTurbo, HP_Aggressor_Tbl_Left, HP_Aggressor_Tbl_Right, HP_Aggressor_Tbl_Center,
-		HP_Aggressor_Ion_Left, HP_Aggressor_Ion_Right, HP_Aggressor_Ion__Front_Left, HP_Aggressor_Ion__Front_Right,
-		HP_Aggressor_Ion__Back_Left, HP_Aggressor_Ion__Back_Right
+		HP_Aggressor_Ion_Left, HP_Aggressor_Ion_Right, HP_Aggressor_Laser_Front_Left, HP_Aggressor_Laser_Front_Right,
+		HP_Aggressor_Laser_Back_Left, HP_Aggressor_Laser_Back_Right
 		</HardPoints>
 
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -4445,9 +4445,9 @@
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
-		<Max_Speed> 0.25 </Max_Speed>
+		<Max_Speed> 1.25 </Max_Speed>
 		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
-		<Max_Thrust> 0.05 </Max_Thrust>
+		<Max_Thrust> 0.5 </Max_Thrust>
 		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
 		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
 		<Affiliation> Pirate </Affiliation>

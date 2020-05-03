@@ -3222,7 +3222,7 @@
 		<Space_Model_Name>p_hyper_gun_slug.alo</Space_Model_Name>
 		<Land_Model_Name>p_hyper_gun_slug.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Ion_Planet </Damage_Type>
+		<Damage_Type> DamageS_Ion </Damage_Type>
 		<Max_Speed>50.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -3261,7 +3261,7 @@
 		<Space_Model_Name>p_hyper_gun_slug.alo</Space_Model_Name>
 		<Land_Model_Name>p_hyper_gun_slug.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Krayt_Damage_Blast </Damage_Type>
+		<Damage_Type> DamageS_Turbolaser </Damage_Type>
 		<Max_Speed>46.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -3292,7 +3292,7 @@
 		<Space_Model_Name>p_kraytdestroyer_superblast_special.alo</Space_Model_Name>
 		<Land_Model_Name>p_kraytdestroyer_superblast_special.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Krayt_Damage_Blast </Damage_Type>
+		<Damage_Type> DamageS_Turbolaser </Damage_Type>
 		<Max_Speed>16.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
