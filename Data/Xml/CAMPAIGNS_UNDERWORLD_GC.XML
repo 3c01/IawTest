@@ -6475,6 +6475,7 @@
 		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Eriadu, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>
@@ -7728,6 +7729,7 @@
 		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Eriadu, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Maldrood, DefaultGalacticHints </Markup_Filename>
+		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>False</Show_Completed_Tab>

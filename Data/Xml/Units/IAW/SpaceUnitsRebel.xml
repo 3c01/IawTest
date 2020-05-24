@@ -203,7 +203,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
-		
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Assault Mk 2 -->
@@ -217,6 +217,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Mc30 -->
@@ -230,6 +231,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Calamari Cruiser Winged-->
@@ -243,7 +245,7 @@
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>A-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
-		
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Corellian Corvette-->
@@ -256,6 +258,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 	
 	<!-- Gr 75 -->
@@ -268,6 +271,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 	
 	<!-- Hammerhead -->
@@ -280,6 +284,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Dauntless -->
@@ -292,6 +297,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 		
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
@@ -352,6 +358,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Home_One_Type">
@@ -363,7 +370,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
-		
+		<GUI_Row> 1 </GUI_Row>
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -380,6 +387,7 @@
 		<Variant_Of_Existing_Type>Template_ISD_I</Variant_Of_Existing_Type>
 		<Tech_Level>4</Tech_Level>
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 		<Required_Planets>HAST</Required_Planets>
 		<CategoryMask> Capital | AntiFrigate  </CategoryMask>
 		
@@ -394,6 +402,7 @@
 	<SpaceUnit Name="Liberator_Cruiser">
 		<Variant_Of_Existing_Type>Template_Liberator_Cruiser</Variant_Of_Existing_Type>
 		<Tech_Level>1</Tech_Level>
+		<GUI_Row> 1 </GUI_Row>
 		<!-- Fighter complement -->
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
@@ -413,6 +422,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 		
 	</SpaceUnit>
 
@@ -426,6 +436,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 		
 		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>B-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -443,6 +454,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 		
 		
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -462,6 +474,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 		
 		<Starting_Spawned_Units_Tech_0>E-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
@@ -483,7 +496,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
-		
+		<GUI_Row> 1 </GUI_Row>
 		
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -505,6 +518,7 @@
 	
 		<Affiliation>Rebel</Affiliation>
 		
+		<GUI_Row> 1 </GUI_Row>
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>A_Wing_Squadron_Double, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>E-Wing_Squadron_Double, 2</Starting_Spawned_Units_Tech_0>
@@ -526,7 +540,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
-		
+		<GUI_Row> 1 </GUI_Row>
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 	</SpaceUnit>
 
@@ -539,6 +553,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
         <!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -560,6 +575,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
+		<GUI_Row> 1 </GUI_Row>
 		
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron_Double, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
@@ -609,7 +625,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
-		
+		<GUI_Row> 1 </GUI_Row>
 		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
@@ -626,7 +642,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 	
 		<Affiliation>Rebel</Affiliation>
-		
+		<GUI_Row> 1 </GUI_Row>
 		<Starting_Spawned_Units_Tech_0>E-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>K_Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>

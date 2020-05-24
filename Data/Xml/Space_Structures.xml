@@ -24,7 +24,7 @@
 		<Autoresolve_Health>8000</Autoresolve_Health>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		<Affiliation>Empire, Rebel</Affiliation>
-		<Required_Special_Structures>  </Required_Special_Structures>
+
 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -196,7 +196,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		<Affiliation>Empire, Rebel</Affiliation>
 		
-		<Required_Special_Structures>  </Required_Special_Structures>
+
 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -400,7 +400,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		<Affiliation>Empire</Affiliation>
 	
-		<Required_Special_Structures>  </Required_Special_Structures>
+
 
 		<Shield_Points>10010</Shield_Points>
 		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
@@ -625,7 +625,7 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 		
-		<Required_Special_Structures>  </Required_Special_Structures>
+
 
         <Tactical_Health>3010</Tactical_Health>
  		<Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
@@ -734,7 +734,7 @@
 		<Autoresolve_Health>8000</Autoresolve_Health>
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		
-		<Required_Special_Structures>  </Required_Special_Structures>
+
 		
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1000,7 +1000,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		<Affiliation>Empire, Eriadu, Maldrood</Affiliation>
 		
-		<Required_Special_Structures>  </Required_Special_Structures>
+
 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1217,7 +1217,7 @@
 		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
 		<Affiliation>Empire, Corporate_Sector, Maldrood, Warlords</Affiliation>
 		
-		<Required_Special_Structures>  </Required_Special_Structures>
+
 
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1432,7 +1432,7 @@
 		<Base_Position>Orbital</Base_Position>
 		<Autoresolve_Health>9005</Autoresolve_Health>
 		
-		<Required_Special_Structures>  </Required_Special_Structures>
+
 
 		<Shield_Points>9000</Shield_Points>
 		<Shield_Refresh_Rate>35</Shield_Refresh_Rate>
@@ -1636,6 +1636,427 @@
 			</Tractor_Beam_Attack_Ability>
 		</Abilities>
 
+</SpecialStructure>
 
-       </SpecialStructure>
+
+	<StarBase Name="Orbital_Shipyard_1">
+		<GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
+
+		<Affiliation>Neutral</Affiliation>
+		<Text_ID>TEXT_LIGHT_FRIGATE_SHIPYARDS</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Scale_Factor>0.25</Scale_Factor>
+		<Space_Model_Name>Light_Shipyard.alo</Space_Model_Name>
+		<Galactic_Model_Name>Light_Shipyard.alo</Galactic_Model_Name>
+		<Select_Box_Scale>600</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Build_Cost_Credits>600</Build_Cost_Credits>
+		<AI_Combat_Power>40</AI_Combat_Power>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
+		<Size_Value>10</Size_Value>
+		<Tech_Level>0</Tech_Level>
+		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Prev_Level_Base />
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<CategoryMask> SpaceStructure </CategoryMask>
+		<Base_Position>Orbital</Base_Position>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Damage>10</Damage>
+		<Shield_Points>300</Shield_Points>
+		<Tactical_Health>1300</Tactical_Health>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
+		<Reinforcement_Prevention_Radius> 4000 </Reinforcement_Prevention_Radius>
+
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+
+		<HardPoints>
+			Shipyard_Hangar
+		</HardPoints>
+
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+		<!-- Comm array and supply dock should be replaced by dummy hard points -->
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Empire_Space_Station</SFXEvent_Select>
+		<SFXEvent_Attack>Unit_Attack_Empire_Space_Station</SFXEvent_Attack>
+		<SFXEvent_Barrage>Unit_Barrage_Empire_Space_Station</SFXEvent_Barrage>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Unit_Under_Attack> EHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Custom_Soft_Footprint_Radius> 250 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust> -150 </Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Scale_Land>0.08</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.08</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>i_radar_lightshipyard.tga</Radar_Icon_Name>
+
+		<Icon_Name>i_button_lshipyard.tga</Icon_Name>
+		<Score_Cost_Credits> 1500</Score_Cost_Credits>
+		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_1_Empire</Retreat_Self_Destruct_Explosion>
+		 <Ranking_In_Category>1</Ranking_In_Category>
+		<Death_Clone>Damage_Normal, Huge_Explosion_Space</Death_Clone>
+
+	</StarBase>
+
+	<StarBase Name="Orbital_Shipyard_2">
+
+		<Affiliation>Neutral</Affiliation>
+		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
+		<Text_ID>TEXT_HEAVY_FRIGATE_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Scale_Factor>2.5</Scale_Factor>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Space_Model_Name>Heavy_Shipyard.alo</Space_Model_Name>
+		<Galactic_Model_Name>Heavy_Shipyard.alo</Galactic_Model_Name>
+		<Select_Box_Scale>900</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Build_Cost_Credits>1200</Build_Cost_Credits>
+		<AI_Combat_Power>50</AI_Combat_Power>
+		<Build_Time_Seconds>30</Build_Time_Seconds>
+		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
+		<Size_Value>20</Size_Value>
+		<Tech_Level>0</Tech_Level>
+		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<CategoryMask> SpaceStructure </CategoryMask>
+		<Base_Position>Orbital</Base_Position>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Autoresolve_Health>250</Autoresolve_Health>
+		<Damage>45</Damage>
+		<Shield_Points>750</Shield_Points>
+		<Tactical_Health>1800</Tactical_Health>
+		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space_Empire</Death_Explosions>
+		<Reinforcement_Prevention_Radius> 5000 </Reinforcement_Prevention_Radius>
+
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>
+			Shipyard_Hangar
+		</HardPoints>
+
+		<!-- Comm array and supply dock should be replaced by dummy hard points -->
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Empire_Space_Station</SFXEvent_Select>
+		<SFXEvent_Attack>Unit_Attack_Empire_Space_Station</SFXEvent_Attack>
+		<SFXEvent_Barrage>Unit_Barrage_Empire_Space_Station</SFXEvent_Barrage>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Unit_Under_Attack> EHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Custom_Soft_Footprint_Radius> 50 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust> -200.0 </Layer_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<!--<Radar_Icon_Name>i_radar_station2_e.tga</Radar_Icon_Name>-->
+		<Radar_Icon_Scale_Land>0.08</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.08</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>i_radar_heavyshipyard.tga</Radar_Icon_Name>
+
+		<Icon_Name>i_button_shipyard.tga</Icon_Name>
+		<Score_Cost_Credits> 3000</Score_Cost_Credits>
+		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_2_Empire</Retreat_Self_Destruct_Explosion>
+
+		<Death_Clone>Damage_Normal, Friggin_Huge_Explosion_Space</Death_Clone>
+
+	</StarBase>
+
+	<StarBase Name="Orbital_Shipyard_3">
+
+		<Affiliation>Neutral</Affiliation>
+		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
+		<Text_ID>TEXT_CAPITAL_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION3 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Scale_Factor>7.0</Scale_Factor>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Space_Model_Name>capital_shipyard.alo</Space_Model_Name>
+		<Galactic_Model_Name>capital_shipyard.alo</Galactic_Model_Name>
+		<Select_Box_Scale>300</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Build_Cost_Credits>2400</Build_Cost_Credits>
+		<AI_Combat_Power>70</AI_Combat_Power>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
+		<Size_Value>30</Size_Value>
+		<Tech_Level>0</Tech_Level>
+		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<CategoryMask> SpaceStructure </CategoryMask>
+		<Base_Position>Orbital</Base_Position>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Damage>55</Damage>
+		<Shield_Points>2000</Shield_Points>
+		<Tactical_Health>3000</Tactical_Health>
+		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+		<Reinforcement_Prevention_Radius> 6000 </Reinforcement_Prevention_Radius>
+
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+
+		<HardPoints>
+			Shipyard_Hangar
+		</HardPoints>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+		<!-- Comm array and supply dock should be replaced by dummy hard points -->
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Empire_Space_Station</SFXEvent_Select>
+		<SFXEvent_Attack>Unit_Attack_Empire_Space_Station</SFXEvent_Attack>
+		<SFXEvent_Barrage>Unit_Barrage_Empire_Space_Station</SFXEvent_Barrage>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Unit_Under_Attack> EHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Custom_Soft_Footprint_Radius> 50 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust> -200 </Layer_Z_Adjust>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Scale_Land>0.4</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.4</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>i_radar_capitalshipyard.tga</Radar_Icon_Name>
+
+		<Icon_Name>i_button_capital_shipyard.tga</Icon_Name>
+		<Score_Cost_Credits> 6000</Score_Cost_Credits>
+		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_3_Empire</Retreat_Self_Destruct_Explosion>
+
+		<Death_Clone>Damage_Normal, Friggin_Huger_Explosion_Space</Death_Clone>
+
+	</StarBase>
+
+	<StarBase Name="Orbital_Shipyard_4">
+
+		<Affiliation>Neutral</Affiliation>
+		<GUI_Bounds_Scale>0.025</GUI_Bounds_Scale>
+		<Text_ID>TEXT_SUPERCAPITAL_SHIPYARDS</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION4 </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Scale_Factor>9.0</Scale_Factor>
+		<GUI_Row> 0 </GUI_Row>
+		<Is_Dummy>No</Is_Dummy>
+		<Space_Model_Name>capital_shipyard.alo</Space_Model_Name>
+		<Galactic_Model_Name>capital_shipyard.alo</Galactic_Model_Name>
+		<Select_Box_Scale>300</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<Build_Cost_Credits>2400</Build_Cost_Credits>
+		<AI_Combat_Power>300</AI_Combat_Power>
+		<Build_Time_Seconds>60</Build_Time_Seconds>
+		<Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
+		<Size_Value>30</Size_Value>
+		<Tech_Level>0</Tech_Level>
+		<Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<CategoryMask> SpaceStructure </CategoryMask>
+		<Base_Position>Orbital</Base_Position>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Damage>55</Damage>
+		<Shield_Points>4000</Shield_Points>
+		<Tactical_Health>5000</Tactical_Health>
+		<Shield_Refresh_Rate>60</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+		<Reinforcement_Prevention_Radius> 6000 </Reinforcement_Prevention_Radius>
+
+		<Armor_Type> ArmourS_Capital </Armor_Type>
+		<Shield_Armor_Type>ShieldS_Capital</Shield_Armor_Type>
+
+		<HardPoints>
+			Shipyard_Hangar
+		</HardPoints>
+
+		<!-- Set to contuously spawn until fighter bay hard point is destroyed -->
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>20000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+		<!-- Comm array and supply dock should be replaced by dummy hard points -->
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<SFXEvent_Select>Unit_Select_Empire_Space_Station</SFXEvent_Select>
+		<SFXEvent_Attack>Unit_Attack_Empire_Space_Station</SFXEvent_Attack>
+		<SFXEvent_Barrage>Unit_Barrage_Empire_Space_Station</SFXEvent_Barrage>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Unit_Under_Attack> EHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<Custom_Soft_Footprint_Radius> 50 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+		<Space_Layer> StaticObject </Space_Layer>
+		<Layer_Z_Adjust> -200 </Layer_Z_Adjust>
+
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Scale_Land>0.4</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>0.4</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>i_radar_capitalshipyard.tga</Radar_Icon_Name>
+
+		<Icon_Name>i_button_capital_shipyard.tga</Icon_Name>
+		<Score_Cost_Credits> 6000</Score_Cost_Credits>
+		<Retreat_Self_Destruct_Explosion>Self_Destruct_Star_Base_Level_3_Empire</Retreat_Self_Destruct_Explosion>
+
+		<Death_Clone>Damage_Normal, Friggin_Huger_Explosion_Space</Death_Clone>
+
+	</StarBase>
+
+
 </Structures>

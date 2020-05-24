@@ -9,8 +9,8 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Tech_Level> 99 </Tech_Level>
-		
+		<Tech_Level> 0 </Tech_Level>
+		<GUI_Row> 1 </GUI_Row>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		
@@ -57,6 +57,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Arquitens-->
@@ -66,6 +67,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Carrack-->
@@ -75,6 +77,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Cottus -->
@@ -93,7 +96,7 @@
 		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 2</Reserve_Spawned_Units_Tech_0>
-
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 	
 	<!-- Vindicator -->
@@ -112,7 +115,7 @@
 		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
 		<Tech_Level>1</Tech_Level>
-
+		<GUI_Row> 0 </GUI_Row>
 		<Tactical_Build_Prerequisites />
 	</SpaceUnit>
 	
@@ -130,7 +133,7 @@
 		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
 		<Tech_Level>1</Tech_Level>
-
+		<GUI_Row> 1 </GUI_Row>
 		<Tactical_Build_Prerequisites />
 	</SpaceUnit>
 	
@@ -150,7 +153,6 @@
 		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship <Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber Syca_Bomber </Encyclopedia_Vulnerable_To>-->
 		<Tech_Level>1</Tech_Level>
-
 		<Tactical_Build_Prerequisites />
 	</SpaceUnit>
 
@@ -165,7 +167,7 @@
 		<Required_Orbiting_Units>Chiamera</Required_Orbiting_Units>
 		<!--<Encyclopedia_Good_Against> Star_Galleon Carrack_Cruiser Vigilance_Gunship </Encyclopedia_Good_Against>-->
 		<Tech_Level>99</Tech_Level>
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row> 1 </GUI_Row>
 
 		<Tactical_Build_Prerequisites />
 	</SpaceUnit>
@@ -188,7 +190,7 @@
 		<Reserve_Spawned_Units_Tech_1>TIE_Interceptor_Squadron_Elite_Double, 5</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>TIE_Droid_Squadron_Double, 5</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron_Elite_Double, 5</Reserve_Spawned_Units_Tech_1>
-		
+		<GUI_Row> 1 </GUI_Row>
 	</UniqueUnit>
 
 	<!-- Escort Carrier -->
@@ -203,7 +205,7 @@
 		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>Tie_Bomber_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		
+		<GUI_Row> 1 </GUI_Row>
 	</Spaceunit>
 
 	<!-- Executor -->
@@ -220,7 +222,7 @@
         <Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 20</Reserve_Spawned_Units_Tech_0> 
         <Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron_Double, 20</Reserve_Spawned_Units_Tech_0>
         <Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 15</Reserve_Spawned_Units_Tech_0>
-
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Interdictor -->
@@ -232,7 +234,7 @@
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
-
+		<GUI_Row> 0 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Imperial I star destroyer-->
@@ -252,7 +254,7 @@
 		<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 	
 	<!-- Xyston star destroyer-->
@@ -272,7 +274,7 @@
 		<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 	
 	<SpaceUnit Name="Generic_Xyston_MIssiles">
@@ -299,7 +301,7 @@
 			HP_Xyston_Turret_5, HP_Xyston_Turret_6, HP_Xyston_Turret_7, HP_Xyston_Turret_8,
 			HP_Star_Destroyer_Shield_Generator, HP_Star_Destroyer_Engines, HP_Star_Destroyer_Fighter_Bay
 		</HardPoints>
-		
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Star Destroyer 2-->
@@ -315,16 +317,28 @@
 		<Reserve_Spawned_Units_Tech_1>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_1>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!--Lancer -->
 	<SpaceUnit Name="Lancer_Frigate">
-		<Variant_Of_Existing_Type>Template_Lancer</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Template_Lancer_2</Variant_Of_Existing_Type>
 		<Affiliation>Empire, Warlords</Affiliation>
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 1 </GUI_Row>
+	</SpaceUnit>
+	
+	
+	<!--Raider -->
+	<SpaceUnit Name="Raider_Corvette">
+		<Variant_Of_Existing_Type>Template_Raider</Variant_Of_Existing_Type>
+		<Affiliation>Empire, Warlords</Affiliation>
+		<Lua_Script>ObjectScript_Example</Lua_Script>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Victory II -->
@@ -337,7 +351,7 @@
 		
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Victory -->
@@ -352,7 +366,7 @@
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 		
 
-
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Procusator Class-->
@@ -362,6 +376,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 1 </GUI_Row>
     </SpaceUnit>
 
 	
@@ -372,6 +387,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Titan -->
@@ -390,7 +406,7 @@
 		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
-
+		<GUI_Row> 0 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Tyrant -->
@@ -400,6 +416,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<GUI_Row> 0 </GUI_Row>
 	</SpaceUnit>
 
 	<!-- Venator -->
@@ -410,7 +427,7 @@
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row> 1 </GUI_Row>
 		<Build_Cost_Credits>3950</Build_Cost_Credits>
 		
 		<Starting_Spawned_Units_Tech_0>Arc-170_Squadron_E_Double, 1</Starting_Spawned_Units_Tech_0>
@@ -474,7 +491,7 @@
 		<Select_Box_Scale>0</Select_Box_Scale>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<GUI_Row> 0 </GUI_Row>
+		<GUI_Row> 1 </GUI_Row>
 		<Build_Cost_Credits>4600</Build_Cost_Credits>
 		
 		<Text_ID>TEXT_UNIT_VENATOR_TENDER </Text_ID>
@@ -551,7 +568,7 @@
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_1>TIE_Interceptor_Squadron, 2</Reserve_Spawned_Units_Tech_1>
 		<Reserve_Spawned_Units_Tech_1>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_1>
-
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 	
 	<!-- Praetor -->
@@ -570,7 +587,7 @@
 		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 3</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 3</Reserve_Spawned_Units_Tech_0>
-
+		<GUI_Row> 1 </GUI_Row>
 	</SpaceUnit>
 	<!-- Secutor -->
 	
@@ -585,7 +602,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 
 		<Affiliation>Empire, Warlords</Affiliation>
-
+		<GUI_Row> 1 </GUI_Row>
 		<Tech_Level>2</Tech_Level>
 
 			<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>

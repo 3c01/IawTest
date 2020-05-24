@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 
 <Hard_Point_Files>
+	<File>Abom\Hardpoints_abomination.xml</File>
+
 	<File>HARDPOINTS\HardPoints.xml</File>
 	<File>HARDPOINTS\ImperialHardpoints.xml</File>
 	<File>HARDPOINTS\HardPointsGround.xml</File>

@@ -6,6 +6,11 @@
 	
 	<File>TransportUnits.xml</File>
 	
+	<File>Abom\Abomination.xml</File>
+	
+	<File>Abom\abomination_special_projectiles.xml</File>
+	
+	
 	<File>Space_Structures.xml</File>
 	<File>StarBases.xml</File>
 

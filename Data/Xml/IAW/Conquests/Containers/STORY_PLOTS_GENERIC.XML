@@ -1,11 +1,12 @@
 <?xml version="1.0" ?>
 
 <Story_Mode_Plots>
-	<Lua_Script>Display_Structures</Lua_Script>
+	<Lua_Script></Lua_Script>
+	<Active_Plot>Filter_Detection_Story.xml</Active_Plot>
+	
+	
 	<Active_Plot>IAW\Conquests\Plots\Player_Dialouge_Plot.xml</Active_Plot>
 	<Active_Plot>IAW\Conquests\Plots\Generic.xml</Active_Plot>
-	<Active_Plot>Player_Agnostic_Plot.xml</Active_Plot>
-	<Active_Plot>IAW\Conquests\Plots\xml_filter_events.xml</Active_Plot>
 	
 	<Active_Plot>IAW\Conquests\Plots\Story_Sandbox_Generic_Lock_Events_Empire.xml</Active_Plot>
 	<Active_Plot>IAW\Conquests\Plots\Story_Sandbox_Generic_Lock_Events_Rebel.xml</Active_Plot> 

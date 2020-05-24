@@ -3022,10 +3022,10 @@
 		<!--<Encyclopedia_Good_Against> MC40a Carrack_Cruiser Vigilance_Gunship </Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber K-Wing </Encyclopedia_Vulnerable_To>-->
 		<GUI_Row> 0 </GUI_Row>
-		<Space_Model_Name>Dreadnought.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_DHC.ALO</Space_Model_Name>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>1.33</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>4160</Autoresolve_Health>
@@ -3102,6 +3102,8 @@
 			HP_Dreadnaught_Weapon_05,
 			HP_Dreadnaught_Weapon_06,
 			HP_Dreadnaught_Weapon_07,
+			HP_Dreadnaught_Missile_00,
+			HP_Dreadnaught_Missile_01,
 			HP_Dreadnaught_Engines,
 			HP_Dreadnaught_Shield_Generator,
 			HP_Dreadnaught_Fighter_Bay
@@ -3214,10 +3216,10 @@
 		<!--<Encyclopedia_Good_Against> MC40a Carrack_Cruiser Vigilance_Gunship </Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Generic_Star_Destroyer TIE_Bomber K-Wing </Encyclopedia_Vulnerable_To>-->
 		<GUI_Row> 0 </GUI_Row>
-		<Space_Model_Name>Dreadnought.ALO</Space_Model_Name>
+		<Space_Model_Name>EV_DHC.ALO</Space_Model_Name>
 		<No_Colorization_Color> 33, 163, 223, 255 </No_Colorization_Color>
 		<Mass>0.999</Mass>
-		<Scale_Factor>1.33</Scale_Factor>
+		<Scale_Factor>1.0</Scale_Factor>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Damage>30</Damage>
 		<Autoresolve_Health>4620</Autoresolve_Health>
@@ -3292,6 +3294,8 @@
 			HP_Dreadnaught_Weapon_07,
 			HP_Katana_Ion_00,
 			HP_Katana_Ion_01,
+			HP_Dreadnaught_Missile_00,
+			HP_Dreadnaught_Missile_01,
 			HP_Dreadnaught_Shield_Generator,
 			HP_Dreadnaught_Fighter_Bay,
 			HP_Dreadnaught_Engines

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Projectiles>
+
+	<Projectile Name="Proj_Fighter_ion_Torpedo">
+		<Variant_Of_Existing_Type>Proj_Ship_Proton_Torpedo</Variant_Of_Existing_Type>
+		<Space_Model_Name>p_rocket_green.alo</Space_Model_Name>
+		<Projectile_Does_Energy_Damage>yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>no</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Damage>90.0</Projectile_Damage>
+	</Projectile>
+	
+	<Projectile Name="Proj_Fighter_Hyper_Velocity_Missile">
+		<Variant_Of_Existing_Type>Proj_Ship_Concussion_Missile</Variant_Of_Existing_Type>
+		<Scale_Factor>.50</Scale_Factor>
+		<Max_Speed>500.0</Max_Speed>
+		<Space_Model_Name>p_hyper_gun_slug.ALO</Space_Model_Name>
+		<Projectile_Does_Shield_Damage>no</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>no</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Damage>45.0</Projectile_Damage>
+	</Projectile>
+	
+</Projectiles>
