@@ -2,7 +2,7 @@
 
 <Story_Mode_Plots>
 	<Lua_Script></Lua_Script>
-	<Active_Plot>Filter_Detection_Story.xml</Active_Plot>
+	<Active_Plot>IAW\Conquests\Plots\FilterStory.xml</Active_Plot>
 	
 	
 	<Active_Plot>IAW\Conquests\Plots\Player_Dialouge_Plot.xml</Active_Plot>
