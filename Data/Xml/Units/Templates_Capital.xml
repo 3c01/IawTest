@@ -2075,17 +2075,6 @@
 		
 		<Unit_Abilities_Data SubObjectList="Yes">
 			
-            <Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.3</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		2.0</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER ,	2.0</Mod_Multiplier>
-				<Recharge_Seconds>120</Recharge_Seconds>
-				<Expiration_Seconds>7</Expiration_Seconds>
-                <Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
-                <Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
-                <Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
-			</Unit_Ability>
 
 		</Unit_Abilities_Data>
 

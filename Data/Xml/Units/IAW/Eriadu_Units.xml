@@ -1923,7 +1923,7 @@
 
 		<AI_Combat_Power>500</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>AT_ST_Walker, 4</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>AT_ST_Walker, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AT_ST_Walker, 4</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -2017,7 +2017,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>ER_Ground_Light_Vehicle_Factory, Eriadu_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures>Eriadu_MoffPalace</Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>1200</Tactical_Health>
 		<Icon_Name>i_button_e_advanced_weapons.tga</Icon_Name>
@@ -2084,7 +2084,7 @@
 
       <AI_Combat_Power>800</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>M1_Repulsor_Tank, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>M1_Repulsor_Tank, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>M1_Repulsor_Tank, 3</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -2177,7 +2177,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>ER_Ground_Heavy_Vehicle_Factory, Eriadu_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures>Eriadu_MoffPalace</Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>900</Tactical_Health>
 		<Icon_Name>i_button_e_mega_advanced_weapons.tga</Icon_Name>
@@ -2208,7 +2208,7 @@
 
       <AI_Combat_Power>800</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>AT_AT_Walker, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>AT_AT_Walker, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AT_AT_Walker, 1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>30</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -2295,7 +2295,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures> ER_Ground_Barracks, Eriadu_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures> Eriadu_MoffPalace</Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>900</Tactical_Health>
 		<Icon_Name>i_button_e_officer_academy.tga</Icon_Name>

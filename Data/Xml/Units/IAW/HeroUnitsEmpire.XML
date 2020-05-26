@@ -4848,7 +4848,7 @@
 	<!-- Devlia -->
 	<UniqueUnit Name="Devlia_Victorious">
 		<Variant_Of_Existing_Type>Victory_Destroyer</Variant_Of_Existing_Type>
-		<Icon_Name>I_button_Drez.tga</Icon_Name>
+		<Icon_Name>I_button_Devlia.tga</Icon_Name>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Text_ID>TEXT_HERO_DEVLIA</Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_TRAITS TEXT_TOOLTIP_TRAIT_COMMAND5 TEXT_TOOLTIP_BIO TEXT_TOOLTIP_DEVLIA TEXT_TOOLTIP_COMMANDS TEXT_TOOLTIP_COMMAND_VICTORIOUS </Encyclopedia_Text>

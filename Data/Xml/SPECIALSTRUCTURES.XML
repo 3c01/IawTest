@@ -1842,7 +1842,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Officer_Academy</Required_Special_Structures>
+		<Required_Special_Structures>Rebel_Outpost</Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>800</Tactical_Health>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -3327,7 +3327,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Light_Vehicle_Factory, Empire_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures>Empire_MoffPalace</Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>1200</Tactical_Health>
 		<Icon_Name>i_button_e_advanced_weapons.tga</Icon_Name>
@@ -3394,7 +3394,7 @@
 
       <AI_Combat_Power>800</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>M1_Repulsor_Tank, 3</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>M1_Repulsor_Tank, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>M1_Repulsor_Tank, 3</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -3493,7 +3493,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>R_Ground_Light_Vehicle_Factory, Rebel_Outpost</Required_Special_Structures>
+		<Required_Special_Structures>Rebel_Outpost</Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>1000</Tactical_Health>
 		<Victory_Relevant>yes</Victory_Relevant>
@@ -3523,7 +3523,7 @@
 
       <AI_Combat_Power>600</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>Rebel_T3B_Brigade, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>Rebel_T3B_Brigade, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Rebel_T3B_Brigade, 2</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -3656,7 +3656,7 @@
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures>E_Ground_Heavy_Vehicle_Factory, Empire_MoffPalace</Required_Special_Structures>
+		<Required_Special_Structures>Empire_MoffPalace</Required_Special_Structures>
 		<Required_Planets />
 		<Tactical_Health>900</Tactical_Health>
 		<Icon_Name>i_button_e_mega_advanced_weapons.tga</Icon_Name>
@@ -3687,7 +3687,7 @@
 
       <AI_Combat_Power>800</AI_Combat_Power>
 		<Starting_Spawned_Units_Tech_0>AT_AT_Walker, 1</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>AT_AT_Walker, -1</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>AT_AT_Walker, 1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>30</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>

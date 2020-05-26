@@ -54,7 +54,7 @@
 		</Hardpoints>
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Required_Timeline>0</Required_Timeline>
 		<Size_Value>75</Size_Value>
@@ -226,7 +226,7 @@
 		<Movement_Animation_Speed> 1.5 </Movement_Animation_Speed>
 		<Has_Pre_Turn_Anim> yes </Has_Pre_Turn_Anim>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Ranking_In_Category>5</Ranking_In_Category>
 
 		<UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
@@ -477,7 +477,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Hover</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 
         <Ranking_In_Category>6</Ranking_In_Category>
@@ -782,7 +782,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Maldrood, Warlords</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Locomotor_Has_Animation_Priority>yes</Locomotor_Has_Animation_Priority>
@@ -1029,7 +1029,9 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>Yes</Deploys>
-		<Affiliation>Empire</Affiliation><!--<Is_Sprite>No</Is_Sprite>--><Political_Control>0</Political_Control>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
 		<Damage>3</Damage>
 		<Sensor_Range>20</Sensor_Range>
@@ -1227,7 +1229,7 @@
 
 		<Scale_Factor>1.5</Scale_Factor>
 
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Required_Timeline>0</Required_Timeline>
 		<IsBuildable>Yes</IsBuildable>
 
@@ -1499,7 +1501,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
@@ -1755,7 +1757,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
@@ -1982,7 +1984,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Hover</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 
         <Ranking_In_Category>6</Ranking_In_Category>
@@ -2294,7 +2296,7 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Movement_Animation_Speed> 0.25 </Movement_Animation_Speed>
@@ -2628,7 +2630,7 @@
 		<Type>Walk</Type>
 		<Deploys>Yes</Deploys>
 		<Auto_Deploys>No</Auto_Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>150</Size_Value>
 
@@ -3009,7 +3011,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Required_Timeline>0</Required_Timeline>
 		<Size_Value>75</Size_Value>
@@ -3319,7 +3321,7 @@
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.25</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 
 		<Movement_Animation_Speed> 0.2151 </Movement_Animation_Speed>
@@ -3630,7 +3632,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Tracked</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 
         <Ranking_In_Category>7</Ranking_In_Category>
@@ -3955,7 +3957,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
@@ -4240,7 +4242,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
@@ -4472,7 +4474,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
@@ -4728,7 +4730,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Hover</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<Political_Control>0</Political_Control>
 		<Size_Value>25</Size_Value>
 		<Damage>5</Damage>
@@ -4891,7 +4893,7 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
 		<Deploys>No</Deploys>
-		<Affiliation>Empire, Warlords, Maldrood</Affiliation>
+		<Affiliation>Empire, Rebel, Maldrood, Warlords, Corporate_Sector, Eriadu, Pirates</Affiliation>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Political_Control>0</Political_Control>
 		<Size_Value>10</Size_Value>
