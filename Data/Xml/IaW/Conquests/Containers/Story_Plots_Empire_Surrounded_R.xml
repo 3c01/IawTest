@@ -3,7 +3,7 @@
 <Story_Mode_Plots>
 	<Lua_Script></Lua_Script>
 	<Active_Plot>IAW\Conquests\Plots\FilterStory.xml</Active_Plot>
-	<!--<Active_Plot>IAW\Conquests\Plots\EmpireSorrounded\Tech.xml</Active_Plot> -->
+	<Active_Plot>IAW\Conquests\Plots\EmpireSorrounded\Tech.xml</Active_Plot>
 	
 	
 	<!--<Active_Plot>IAW\Conquests\Plots\EmpireSorrounded\RebelHeroes.xml</Active_Plot> -->
