@@ -12,7 +12,7 @@
 
 <Story>
 
-	<Event Name="Universal_Story_Start">
+	<Event Name="Hero_Story_Start">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 		<Story_Dialog>Dialog_E_Empire_Surrounded</Story_Dialog>
@@ -27,7 +27,7 @@
 	<Event Name="Reveal_All_Planets">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 	<Event Name="Intro_Completed">
@@ -35,7 +35,7 @@
 		<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
 		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
 		<Reward_Param1>Intro_Tag</Reward_Param1>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 	<Event Name="E_Spawn_Pestage">
@@ -46,7 +46,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Pestage_Team</Reward_Param1>
 		<Reward_Param2>Kuat</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 	<Event Name="E_Spawn_Isard">
@@ -82,7 +82,7 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
 		<Reward_Param2>Kuat</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 	
@@ -91,7 +91,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Darth_Team</Reward_Param1>
 		<Reward_Param2>Kuat</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 <!--******************************************************-->

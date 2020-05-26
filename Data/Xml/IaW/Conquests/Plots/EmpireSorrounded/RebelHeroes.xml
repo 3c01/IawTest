@@ -12,7 +12,7 @@
 
 <Story>
 
-	<Event Name="Universal_Story_Start">
+	<Event Name="Hero_Story_Start">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 		<Story_Dialog>Dialog_R_Empire_Surrounded</Story_Dialog>
@@ -27,7 +27,7 @@
 	<Event Name="Reveal_All_Planets">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 	<Event Name="Intro_Completed">
@@ -35,7 +35,7 @@
 		<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
 		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
 		<Reward_Param1>Intro_Tag</Reward_Param1>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 <!--******************************************************-->
@@ -48,7 +48,7 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
 		<Reward_Param2>Sullust</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 	<Event Name="R_Spawn_Rogue_Squadron">
@@ -57,7 +57,7 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
 		<Reward_Param2>Sullust</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 	<Event Name="R_Spawn_Sato">
@@ -66,7 +66,7 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Param1>Phoenix_Home</Reward_Param1>
 		<Reward_Param2>Bakura</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	<Event Name="R_Spawn_Ackbar">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -74,7 +74,7 @@
 		<Event_Param1>0</Event_Param1>
 		<Reward_Param1>HomeOne</Reward_Param1>
 		<Reward_Param2>MonCalimari</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Prereq>Hero_Story_Start</Prereq>
 	</Event>
 	
 <!--******************************************************-->
