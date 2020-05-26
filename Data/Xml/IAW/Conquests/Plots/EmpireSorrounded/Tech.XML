@@ -21,7 +21,7 @@
 	<!--******	Tech Timer						         *****-->
 	<!--******************************************************-->
 	
-	<!-- Note Event params were at 2080 aka 26 weeks -->
+	<!-- Note Event params were at 202400 aka 26 weeks -->
 	<Event Name="Tech_Timer_Start">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
@@ -30,7 +30,7 @@
 	
 	<Event Name="Trigger_Tech_Two">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>80</Event_Param1>
+		<Event_Param1>2400</Event_Param1>
 		<Prereq>Tech_Timer_Start</Prereq>
 	</Event>
 	
@@ -62,7 +62,7 @@
 			
 	<Event Name="Trigger_Tech_Three">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>80</Event_Param1>
+		<Event_Param1>2400</Event_Param1>
 		<Prereq>Trigger_Tech_Two</Prereq>
 	</Event>
 	
@@ -92,7 +92,7 @@
 	
 	<Event Name="Trigger_Tech_Four">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>80</Event_Param1>
+		<Event_Param1>2400</Event_Param1>
 		<Prereq>Trigger_Tech_Three</Prereq>
 	</Event>
 	
@@ -122,7 +122,7 @@
 	
 	<Event Name="Trigger_Tech_Five">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>80</Event_Param1>
+		<Event_Param1>2400</Event_Param1>
 		<Prereq>Trigger_Tech_Four</Prereq>
 	</Event>
 	
