@@ -141,12 +141,12 @@
 		<Prereq>Rebellion_Enters_Tech_03</Prereq>
 	</Event>
 	
-	<Event Name="R_Spawn_Ghost_Team">
+	<Event Name="R_Spawn_Solo">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Event_Param1>0</Event_Param1>
-		<Reward_Param1>Dodonna</Reward_Param1>
-		<Reward_Param2>Gyndine</Reward_Param2>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Corellia</Reward_Param2>
 		<Prereq>Rebellion_Enters_Tech_03</Prereq>
 	</Event>
 	
