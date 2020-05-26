@@ -67,7 +67,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>850</Build_Cost_Credits> <!-- 850 -->
         <Slice_Cost_Credits>1</Slice_Cost_Credits> <!-- 675 -->
-		<AI_Combat_Power>5000</AI_Combat_Power>
+		<AI_Combat_Power>500</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds> <!-- 15 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -252,7 +252,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>450</Build_Cost_Credits> <!-- 450 -->
         <Slice_Cost_Credits>175</Slice_Cost_Credits>
-		<AI_Combat_Power>1200</AI_Combat_Power>
+		<AI_Combat_Power>120</AI_Combat_Power>
 		<Build_Time_Seconds>5</Build_Time_Seconds> <!-- 5 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -444,7 +444,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>550</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>2500</AI_Combat_Power>
+		<AI_Combat_Power>250</AI_Combat_Power>
 		<Build_Time_Seconds>12</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -637,7 +637,7 @@
 		<Transport_Capacity>6</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>850</Build_Cost_Credits>
-		<AI_Combat_Power>5500</AI_Combat_Power>
+		<AI_Combat_Power>550</AI_Combat_Power>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -823,7 +823,7 @@
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>975</Build_Cost_Credits>
-		<AI_Combat_Power>3500</AI_Combat_Power>
+		<AI_Combat_Power>350</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -927,7 +927,7 @@
 	<!-- ************** Imperial Units Start *************** -->
 	<!-- *************************************************** -->
 	
-	<SpaceUnit Name="Template_Lancer_2">
+	<SpaceUnit Name="Template_Lancer">
 		<Text_ID>TEXT_UNIT_LANCER</Text_ID>
 <!--		<Encyclopedia_Good_Against> X-wing Y-wing A-Wing </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Calamari_Cruiser Alliance_Assault_Frigate Nebulon_B_Frigate </Encyclopedia_Vulnerable_To> -->
@@ -960,7 +960,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Neutral</Affiliation>
 		<Tech_Level>0</Tech_Level>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -980,7 +980,7 @@
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1200</Build_Cost_Credits>
-		<AI_Combat_Power>1200</AI_Combat_Power>
+		<AI_Combat_Power>120</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -998,8 +998,6 @@
 				HP_Lancer_Frigate_01, HP_Lancer_Frigate_02, HP_Lancer_Frigate_03, HP_Lancer_Frigate_04, HP_Lancer_Frigate_05, HP_Lancer_Frigate_06
 		</Hardpoints>
 
-		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 
 		<CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
 		<Icon_Name>i_button_lancer.tga</Icon_Name>
@@ -1162,7 +1160,7 @@
 		<Build_Cost_Credits>1250</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
         <Slice_Cost_Credits>675</Slice_Cost_Credits>
-		<AI_Combat_Power>4500</AI_Combat_Power>
+		<AI_Combat_Power>450</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -1288,7 +1286,7 @@
 	</SpaceUnit>
 	
 	<!--Lancer -->
-	<SpaceUnit Name="Template_Lancer">
+	<SpaceUnit Name="Template_Lancer_2">
 		<Text_ID>TEXT_UNIT_LANCER</Text_ID>
 		<!--<Encyclopedia_Good_Against> X-wing Y-wing A-wing </Encyclopedia_Good_Against>-->
 		<!--<Encyclopedia_Vulnerable_To> Dreadnaught_Rebel MC40a Calamari_Cruiser </Encyclopedia_Vulnerable_To>-->
@@ -1347,7 +1345,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>890</Build_Cost_Credits>
-		<AI_Combat_Power>2500</AI_Combat_Power>
+		<AI_Combat_Power>250</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1582,7 +1580,7 @@
 		<FormationOrder>1</FormationOrder>
 		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
 		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
-		<AI_Combat_Power>1000</AI_Combat_Power>
+		<AI_Combat_Power>100</AI_Combat_Power>
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 

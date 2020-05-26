@@ -3317,7 +3317,6 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Land_Model_Name>Ri_Rahm_Kota.ALO</Land_Model_Name>
 		<Icon_Name>I_BUTTON_KOTA.tga</Icon_Name>
-		<Unique_Space_Unit>Salvation</Unique_Space_Unit>
 
 		<GalacticBehavior> SELECTABLE </GalacticBehavior>
 		<LandBehavior>SELECTABLE, SURFACE_FX, WALK_LOCOMOTOR, IDLE, REVEAL, HIDE_WHEN_FOGGED, TARGETING, WEAPON, DAMAGE_TRACKING, UNIT_AI, ABILITY_COUNTDOWN, HOLSTER_WEAPON, GARRISON_UNIT </LandBehavior>

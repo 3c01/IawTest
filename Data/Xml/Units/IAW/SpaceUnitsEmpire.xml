@@ -322,7 +322,7 @@
 
 	<!--Lancer -->
 	<SpaceUnit Name="Lancer_Frigate">
-		<Variant_Of_Existing_Type>Template_Lancer_2</Variant_Of_Existing_Type>
+		<Variant_Of_Existing_Type>Template_Lancer</Variant_Of_Existing_Type>
 		<Affiliation>Empire, Warlords</Affiliation>
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
@@ -391,13 +391,13 @@
 	</SpaceUnit>
 
 	<!-- Titan -->
+	<!--
 	<SpaceUnit Name="Titan_Cruiser">
 		<Variant_Of_Existing_Type>Template_Titan</Variant_Of_Existing_Type>
 		<Affiliation>Empire, Warlords</Affiliation>
 		<Lua_Script>ObjectScript_Example</Lua_Script>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 1</Starting_Spawned_Units_Tech_0>
@@ -408,8 +408,10 @@
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 1</Reserve_Spawned_Units_Tech_0>
 		<GUI_Row> 0 </GUI_Row>
 	</SpaceUnit>
-
+	-->
+	
 	<!-- Tyrant -->
+	<!--
 	<SpaceUnit Name="Tyrant_Cruiser">
 		<Variant_Of_Existing_Type>Template_Tyrant</Variant_Of_Existing_Type>
 		<Affiliation>Empire, Warlords</Affiliation>
@@ -418,7 +420,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<GUI_Row> 0 </GUI_Row>
 	</SpaceUnit>
-
+	-->
 	<!-- Venator -->
 	
 	<SpaceUnit Name="Venator_Empire">

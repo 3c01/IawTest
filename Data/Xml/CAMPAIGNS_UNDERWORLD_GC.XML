@@ -193,7 +193,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, Sullust, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Ghost_Team </Starting_Forces>
@@ -229,7 +229,7 @@
 		<Starting_Forces> Empire, Corellia, General_Covell_Team </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Pestage_Team </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, Isard_Team </Starting_Forces>
-		
+		-->
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  15000 </Starting_Credits>
@@ -1254,7 +1254,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, Sullust, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Ghost_Team </Starting_Forces>
@@ -1290,7 +1290,7 @@
 		<Starting_Forces> Empire, Corellia, General_Covell_Team </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Pestage_Team </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, Isard_Team </Starting_Forces>
-
+		-->
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  15000 </Starting_Credits>
@@ -2416,7 +2416,7 @@
 		<Starting_Forces> Eriadu, Eriadu, Eriadu_Capital </Starting_Forces>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, Taris, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Taris, Ghost_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Taris, Dodonna </Starting_Forces>
@@ -2456,7 +2456,7 @@
 		<Starting_Forces> Eriadu, Eriadu, Brilliant_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Kaine_Team </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Sovereign_Star_Destroyer </Starting_Forces>
-
+		-->
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  8000 </Starting_Credits>
@@ -3784,7 +3784,7 @@
 		<Starting_Forces> Eriadu, Eriadu, Eriadu_Capital </Starting_Forces>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, Taris, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Taris, Ghost_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Taris, Dodonna </Starting_Forces>
@@ -3824,7 +3824,7 @@
 		<Starting_Forces> Eriadu, Eriadu, Brilliant_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Kaine_Team </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Sovereign_Star_Destroyer </Starting_Forces>
-
+		-->
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  8000 </Starting_Credits>
@@ -5152,7 +5152,7 @@
 		<Starting_Forces> Eriadu, Eriadu, Eriadu_Capital </Starting_Forces>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, Taris, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Taris, Ghost_Team </Starting_Forces>
 		<Starting_Forces> Rebel, Taris, Dodonna </Starting_Forces>
@@ -5192,7 +5192,7 @@
 		<Starting_Forces> Eriadu, Eriadu, Brilliant_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Kaine_Team </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Sovereign_Star_Destroyer </Starting_Forces>
-
+		-->
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  8000 </Starting_Credits>
@@ -6460,9 +6460,9 @@
 		
 		<Maldrood_Story_Name>IAW\Conquests\Containers\Story_Plots_SANDBOX_25_Maldrood.xml</Maldrood_Story_Name> -->
 		
-		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Generic.xml</Rebel_Story_Name>
+		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Empire_Surrounded_R.xml</Rebel_Story_Name>
 
-        <Empire_Story_Name>IAW\Conquests\Containers\Story_Plots_Generic.xml</Empire_Story_Name>
+        <Empire_Story_Name>IAW\Conquests\Containers\Story_Plots_Empire_Surrounded_E.xml</Empire_Story_Name>
 		
         
         <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
@@ -6525,7 +6525,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, MonCalimari, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Ghost_Team </Starting_Forces>
@@ -6566,7 +6566,7 @@
 		<Starting_Forces> Eriadu, Geonosis, Manticore </Starting_Forces>
 		<Starting_Forces> Eriadu, Geonosis, Brilliant_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Kaine_Team </Starting_Forces>
-		<Starting_Forces> Eriadu, Eriadu, Sovereign_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Eriadu, Eriadu, Sovereign_Star_Destroyer </Starting_Forces> -->
 
 		
 		<!-- Rebel Starting Forces -->
@@ -7066,8 +7066,8 @@
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces> -->
+		<!-- <Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces> -->
 		
 		<!-- Maldrood Land Forces -->
 		<Starting_Forces> Maldrood, Columex, Maldrood_MoffPalace </Starting_Forces>
@@ -7078,7 +7078,7 @@
 		
 		<!-- Maldrood Space Forces -->
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Trier_Tector </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Trier_Tector </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, Dreadnaught_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Arquitens_GM </Starting_Forces>
@@ -7086,7 +7086,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_MoffPalace </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Ramier_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Ramier_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Armor_Group </Starting_Forces>
 		
 		<!-- Maldrood Space Forces -->
@@ -7150,7 +7150,7 @@
 		
 		<!-- Maldrood Space Forces -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Maldrood, Centares, Therbon_Allegiance </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Therbon_Allegiance </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Dreadnaught_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Arquitens_GM </Starting_Forces>
@@ -7159,7 +7159,7 @@
 		<Starting_Forces> Maldrood, Centares, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Centares, Lott_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Lott_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Armor_Group </Starting_Forces>
 		
 		<!-- Maldrood Space Forces -->
@@ -7715,9 +7715,9 @@
 		
 		<Maldrood_Story_Name>IAW\Conquests\Containers\Story_Plots_SANDBOX_25_Maldrood.xml</Maldrood_Story_Name> -->
 		
-		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Generic.xml</Rebel_Story_Name>
+		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Empire_Surrounded_R.xml</Rebel_Story_Name>
 
-        <Empire_Story_Name>IAW\Conquests\Containers\Story_Plots_Generic.xml</Empire_Story_Name>
+        <Empire_Story_Name>IAW\Conquests\Containers\Story_Plots_Empire_Surrounded_E.xml</Empire_Story_Name>
         
         <AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
@@ -7779,7 +7779,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, MonCalimari, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Ghost_Team </Starting_Forces>
@@ -7820,7 +7820,7 @@
 		<Starting_Forces> Eriadu, Geonosis, Manticore </Starting_Forces>
 		<Starting_Forces> Eriadu, Geonosis, Brilliant_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Kaine_Team </Starting_Forces>
-		<Starting_Forces> Eriadu, Eriadu, Sovereign_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Eriadu, Eriadu, Sovereign_Star_Destroyer </Starting_Forces> -->
 
 		
 		<!-- Rebel Starting Forces -->
@@ -8320,8 +8320,8 @@
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces> -->
+		<!-- <Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces> -->
 		
 		<!-- Maldrood Land Forces -->
 		<Starting_Forces> Maldrood, Columex, Maldrood_MoffPalace </Starting_Forces>
@@ -8332,7 +8332,7 @@
 		
 		<!-- Maldrood Space Forces -->
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Trier_Tector </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Trier_Tector </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, Dreadnaught_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Arquitens_GM </Starting_Forces>
@@ -8340,7 +8340,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_MoffPalace </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Ramier_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Ramier_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Armor_Group </Starting_Forces>
 		
 		<!-- Maldrood Space Forces -->
@@ -8404,7 +8404,7 @@
 		
 		<!-- Maldrood Space Forces -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Maldrood, Centares, Therbon_Allegiance </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Therbon_Allegiance </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Dreadnaught_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Arquitens_GM </Starting_Forces>
@@ -8413,7 +8413,7 @@
 		<Starting_Forces> Maldrood, Centares, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Centares, Lott_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Lott_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Armor_Group </Starting_Forces>
 		
 		<!-- Maldrood Space Forces -->
@@ -8968,9 +8968,9 @@
 		
 		<Maldrood_Story_Name>IAW\Conquests\Containers\Story_Plots_SANDBOX_25_Maldrood.xml</Maldrood_Story_Name> -->
 		
-		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Generic.xml</Rebel_Story_Name>
+		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Empire_Surrounded_R.xml</Rebel_Story_Name>
 
-        <Empire_Story_Name>IAW\Conquests\Containers\Story_Plots_Generic.xml</Empire_Story_Name>
+        <Empire_Story_Name>IAW\Conquests\Containers\Story_Plots_Empire_Surrounded_E.xml</Empire_Story_Name>
         
         <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
@@ -9032,7 +9032,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, MonCalimari, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Ghost_Team </Starting_Forces>
@@ -9074,7 +9074,7 @@
 		<Starting_Forces> Eriadu, Geonosis, Brilliant_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Kaine_Team </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Sovereign_Star_Destroyer </Starting_Forces>
-
+		-->
 		
 		<!-- Rebel Starting Forces -->
 
@@ -9573,8 +9573,8 @@
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces> -->
+		<!-- <Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces> -->
 		
 		<!-- Maldrood Land Forces -->
 		<Starting_Forces> Maldrood, Columex, Maldrood_MoffPalace </Starting_Forces>
@@ -9585,7 +9585,7 @@
 		
 		<!-- Maldrood Space Forces -->
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Trier_Tector </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Trier_Tector </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, Dreadnaught_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Arquitens_GM </Starting_Forces>
@@ -9593,7 +9593,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_MoffPalace </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Ramier_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Ramier_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Armor_Group </Starting_Forces>
 		
 		<!-- Maldrood Space Forces -->
@@ -9657,7 +9657,7 @@
 		
 		<!-- Maldrood Space Forces -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Maldrood, Centares, Therbon_Allegiance </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Therbon_Allegiance </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Dreadnaught_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Arquitens_GM </Starting_Forces>
@@ -9666,7 +9666,7 @@
 		<Starting_Forces> Maldrood, Centares, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Centares, Lott_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Lott_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Armor_Group </Starting_Forces>
 		
 		<!-- Maldrood Space Forces -->
@@ -10221,9 +10221,9 @@
 		
 		<Maldrood_Story_Name>IAW\Conquests\Containers\Story_Plots_SANDBOX_25_Maldrood.xml</Maldrood_Story_Name> -->
 		
-		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Generic.xml</Rebel_Story_Name>
+		<Rebel_Story_Name>IAW\Conquests\Containers\Story_Plots_Empire_Surrounded_R.xml</Rebel_Story_Name>
 
-        <Empire_Story_Name>IAW\Conquests\Containers\Story_Plots_Generic.xml</Empire_Story_Name>
+        <Empire_Story_Name>IAW\Conquests\Containers\Story_Plots_Empire_Surrounded_E.xml</Empire_Story_Name>
         
         <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
@@ -10285,7 +10285,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, MonCalimari, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Ghost_Team </Starting_Forces>
@@ -10327,7 +10327,7 @@
 		<Starting_Forces> Eriadu, Geonosis, Brilliant_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Kaine_Team </Starting_Forces>
 		<Starting_Forces> Eriadu, Eriadu, Sovereign_Star_Destroyer </Starting_Forces>
-
+		-->
 		
 		<!-- Rebel Starting Forces -->
 
@@ -10826,8 +10826,8 @@
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Arquitens_GM </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces> -->
+		<!-- <Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces> -->
 		
 		<!-- Maldrood Land Forces -->
 		<Starting_Forces> Maldrood, Columex, Maldrood_MoffPalace </Starting_Forces>
@@ -10838,7 +10838,7 @@
 		
 		<!-- Maldrood Space Forces -->
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Trier_Tector </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Trier_Tector </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, Dreadnaught_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Arquitens_GM </Starting_Forces>
@@ -10846,7 +10846,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_MoffPalace </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Ramier_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Ramier_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Armor_Group </Starting_Forces>
 		
 		<!-- Maldrood Space Forces -->
@@ -10910,7 +10910,7 @@
 		
 		<!-- Maldrood Space Forces -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Maldrood, Centares, Therbon_Allegiance </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Therbon_Allegiance </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Dreadnaught_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Arquitens_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Arquitens_GM </Starting_Forces>
@@ -10919,7 +10919,7 @@
 		<Starting_Forces> Maldrood, Centares, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Centares, Lott_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Lott_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Armor_Group </Starting_Forces>
 		
 		<!-- Maldrood Space Forces -->
@@ -17714,7 +17714,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, Hast, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Ghost_Team </Starting_Forces>
@@ -17750,7 +17750,7 @@
 		<Starting_Forces> Empire, Bastion, Inflexible </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Pestage_Team </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Isard_Team </Starting_Forces>
-		
+		-->
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  15000 </Starting_Credits>
@@ -18433,7 +18433,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Lott_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Lott_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Heavy_Vehicle_Factory </Starting_Forces>
@@ -18442,7 +18442,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_MoffPalace </Starting_Forces>
 		
 		<!-- Space Forces -->
-		<Starting_Forces> Maldrood, Centares, Trier_Tector </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Trier_Tector </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Generic_Star_Destroyer_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Generic_Star_Destroyer_GM </Starting_Forces>
@@ -18496,8 +18496,8 @@
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces> -->
+		<!-- <Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces> -->
 		
 		<!-- Ground Forces -->
 		<Starting_Forces> Maldrood, Columex, Maldrood_MoffPalace </Starting_Forces>
@@ -18508,7 +18508,7 @@
 		<Starting_Forces> Maldrood, Columex, GM_Ground_Heavy_Vehicle_Factory </Starting_Forces>
 		
 		<!-- Space Forces -->
-		<Starting_Forces> Maldrood, Roche, Therbon_Allegiance </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Roche, Therbon_Allegiance </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Roche, Maldrood_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Maldrood, Roche, Generic_Star_Destroyer_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Roche, Victory_II_Destroyer_GM </Starting_Forces>
@@ -18537,7 +18537,7 @@
 		<!-- Ground Forces -->
 		<Starting_Forces> Maldrood, Thanos, Maldrood_MoffPalace </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, Maldrood_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Thanos, Ramier_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Thanos, Ramier_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Thanos, Armytrooper_Squad_Maldrood </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, GM_Ground_Light_Vehicle_Factory </Starting_Forces>
@@ -19147,7 +19147,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, Hast, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Ghost_Team </Starting_Forces>
@@ -19183,7 +19183,7 @@
 		<Starting_Forces> Empire, Bastion, Inflexible </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Pestage_Team </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Isard_Team </Starting_Forces>
-
+		-->
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  15000 </Starting_Credits>
@@ -19866,7 +19866,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Lott_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Lott_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Heavy_Vehicle_Factory </Starting_Forces>
@@ -19875,7 +19875,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_MoffPalace </Starting_Forces>
 		
 		<!-- Space Forces -->
-		<Starting_Forces> Maldrood, Centares, Trier_Tector </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Trier_Tector </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Generic_Star_Destroyer_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Generic_Star_Destroyer_GM </Starting_Forces>
@@ -19929,8 +19929,8 @@
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces> -->
+		<!-- <Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces> -->
 		
 		<!-- Ground Forces -->
 		<Starting_Forces> Maldrood, Columex, Maldrood_MoffPalace </Starting_Forces>
@@ -19941,7 +19941,7 @@
 		<Starting_Forces> Maldrood, Columex, GM_Ground_Heavy_Vehicle_Factory </Starting_Forces>
 		
 		<!-- Space Forces -->
-		<Starting_Forces> Maldrood, Roche, Therbon_Allegiance </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Roche, Therbon_Allegiance </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Roche, Maldrood_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Maldrood, Roche, Generic_Star_Destroyer_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Roche, Victory_II_Destroyer_GM </Starting_Forces>
@@ -19970,7 +19970,7 @@
 		<!-- Ground Forces -->
 		<Starting_Forces> Maldrood, Thanos, Maldrood_MoffPalace </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, Maldrood_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Thanos, Ramier_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Thanos, Ramier_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Thanos, Armytrooper_Squad_Maldrood </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, GM_Ground_Light_Vehicle_Factory </Starting_Forces>
@@ -20580,7 +20580,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, Hast, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Ghost_Team </Starting_Forces>
@@ -20616,7 +20616,7 @@
 		<Starting_Forces> Empire, Bastion, Inflexible </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Pestage_Team </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Isard_Team </Starting_Forces>
-		
+		-->
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  15000 </Starting_Credits>
@@ -21299,7 +21299,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Lott_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Lott_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Heavy_Vehicle_Factory </Starting_Forces>
@@ -21308,7 +21308,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_MoffPalace </Starting_Forces>
 		
 		<!-- Space Forces -->
-		<Starting_Forces> Maldrood, Centares, Trier_Tector </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Trier_Tector </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Generic_Star_Destroyer_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Generic_Star_Destroyer_GM </Starting_Forces>
@@ -21362,8 +21362,8 @@
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces> -->
+		<!-- <Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces> -->
 		
 		<!-- Ground Forces -->
 		<Starting_Forces> Maldrood, Columex, Maldrood_MoffPalace </Starting_Forces>
@@ -21374,7 +21374,7 @@
 		<Starting_Forces> Maldrood, Columex, GM_Ground_Heavy_Vehicle_Factory </Starting_Forces>
 		
 		<!-- Space Forces -->
-		<Starting_Forces> Maldrood, Roche, Therbon_Allegiance </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Roche, Therbon_Allegiance </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Roche, Maldrood_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Maldrood, Roche, Generic_Star_Destroyer_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Roche, Victory_II_Destroyer_GM </Starting_Forces>
@@ -21403,7 +21403,7 @@
 		<!-- Ground Forces -->
 		<Starting_Forces> Maldrood, Thanos, Maldrood_MoffPalace </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, Maldrood_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Thanos, Ramier_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Thanos, Ramier_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Thanos, Armytrooper_Squad_Maldrood </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, GM_Ground_Light_Vehicle_Factory </Starting_Forces>
@@ -22014,7 +22014,7 @@
 		<Special_Case_Production> Rebel, Tatooine, Ground_Hutt_Palace_R</Special_Case_Production>
 		
 		<!-- Temporary Hero Assignments -->
-		
+		<!--
 		<Starting_Forces> Rebel, Hast, Home_One </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Sovv_Dauntless </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Ghost_Team </Starting_Forces>
@@ -22050,7 +22050,7 @@
 		<Starting_Forces> Empire, Bastion, Inflexible </Starting_Forces>
 		<Starting_Forces> Empire, Bastion, Pestage_Team </Starting_Forces>
 		<Starting_Forces> Empire, Bilbringi, Isard_Team </Starting_Forces>
-		
+		-->
 		<!-- Rebel Starting Forces -->
 
 		<Starting_Credits> Rebel,  15000 </Starting_Credits>
@@ -22733,7 +22733,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, Maldrood_Stormtrooper_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Desevro, Lott_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Desevro, Lott_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Maldrood, Desevro, GM_Ground_Heavy_Vehicle_Factory </Starting_Forces>
@@ -22742,7 +22742,7 @@
 		<Starting_Forces> Maldrood, Desevro, Maldrood_MoffPalace </Starting_Forces>
 		
 		<!-- Space Forces -->
-		<Starting_Forces> Maldrood, Centares, Trier_Tector </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Centares, Trier_Tector </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Centares, Maldrood_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Generic_Star_Destroyer_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Centares, Generic_Star_Destroyer_GM </Starting_Forces>
@@ -22796,8 +22796,8 @@
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Columex, Lancer_Frigate_GM </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces>
-		<Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Columex, Selit_Secutor </Starting_Forces> -->
+		<!-- <Starting_Forces> Maldrood, Columex, Renau_Bellator </Starting_Forces> -->
 		
 		<!-- Ground Forces -->
 		<Starting_Forces> Maldrood, Columex, Maldrood_MoffPalace </Starting_Forces>
@@ -22808,7 +22808,7 @@
 		<Starting_Forces> Maldrood, Columex, GM_Ground_Heavy_Vehicle_Factory </Starting_Forces>
 		
 		<!-- Space Forces -->
-		<Starting_Forces> Maldrood, Roche, Therbon_Allegiance </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Roche, Therbon_Allegiance </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Roche, Maldrood_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Maldrood, Roche, Generic_Star_Destroyer_GM </Starting_Forces>
 		<Starting_Forces> Maldrood, Roche, Victory_II_Destroyer_GM </Starting_Forces>
@@ -22837,7 +22837,7 @@
 		<!-- Ground Forces -->
 		<Starting_Forces> Maldrood, Thanos, Maldrood_MoffPalace </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, Maldrood_Heavy_Scout_Squad </Starting_Forces>
-		<Starting_Forces> Maldrood, Thanos, Ramier_Team </Starting_Forces>
+		<!-- <Starting_Forces> Maldrood, Thanos, Ramier_Team </Starting_Forces> -->
 		<Starting_Forces> Maldrood, Thanos, Armytrooper_Squad_Maldrood </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, GM_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Maldrood, Thanos, GM_Ground_Light_Vehicle_Factory </Starting_Forces>

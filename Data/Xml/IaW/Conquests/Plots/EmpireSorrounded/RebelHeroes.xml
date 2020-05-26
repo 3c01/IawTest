@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" ?>
+
+
+
+<!--****** This story file is used to automatically set some things that would normally happen ******-->
+<!--****** in story mode for the full campaign.  This file should be generic enough to use for  ******-->
+<!--****** any sandbox campaign set.                                                           ******-->
+
+<!-- ************************************************ -->
+<!-- ***** SANDBOX CAMPAIGN "Empire Surrounded" ***** -->
+<!-- ************************************************ -->
+
+<Story>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Story_Dialog>Dialog_R_Empire_Surrounded</Story_Dialog>
+		<Story_Chapter>0</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+	</Event>
+	
+
+<!--******************************************************-->
+<!--******	Initial locks					         *****-->
+<!--******************************************************-->
+	<Event Name="Reveal_All_Planets">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>REVEAL_ALL_PLANETS</Reward_Type>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="Intro_Completed">
+		<Event_Type>STORY_GENERIC</Event_Type>
+		<Event_Param1>CLOSE_STORY_DIALOG</Event_Param1>
+		<Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+		<Reward_Param1>Intro_Tag</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Hero Release					         *****-->
+<!--******************************************************-->
+	
+	<Event Name="R_Spawn_Mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>Sullust</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Rogue_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param2>Sullust</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Sato">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Phoenix_Home</Reward_Param1>
+		<Reward_Param2>Bakura</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	<Event Name="R_Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>HomeOne</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 2                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+	<Event Name="R_Spawn_Dodonna">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Dodonna</Reward_Param1>
+		<Reward_Param2>Gyndine</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Ghost_Team">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Ghost_Team</Reward_Param1>
+		<Reward_Param2>Gyndine</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Iblis">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Iblis_Peregrine</Reward_Param1>
+		<Reward_Param2>Gyndine</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_02</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Antilles">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+		<Reward_Param2>Gyndine</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_02</Prereq>
+	</Event>
+	
+	
+<!--******************************************************-->
+<!--******	Tech 3                                  *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<Event Name="R_Spawn_Raddus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>MC_Profundity</Reward_Param1>
+		<Reward_Param2>MonCalimari</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Ghost_Team">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Dodonna</Reward_Param1>
+		<Reward_Param2>Gyndine</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Luke">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>Kamino</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Kenobi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
+		<Reward_Param2>Kamino</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Yoda">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Yoda_Team</Reward_Param1>
+		<Reward_Param2>Dagobah</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	<Event Name="R_Spawn_Leia">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Princess_Leia_Team</Reward_Param1>
+		<Reward_Param2>Endor</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+	
+<!--******************************************************-->
+<!--******	Tech 4                                  *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+	<Event Name="R_Spawn_Falast">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Moff_Falast_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Eriadu</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+	
+<!--******************************************************-->
+<!--******	Tech 5                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	<Event Name="R_Spawn_Nanz">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Param1>Nantz_Independence</Reward_Param1>
+		<Reward_Param2>Bakura</Reward_Param2>
+		<Prereq>Rebellion_Enters_Tech_03</Prereq>
+	</Event>
+
+<!--******************************************************-->
+<!--******	Tech 6                                   *****-->
+<!--******************************************************-->
+
+	<Event Name="Rebellion_Enters_Tech_06">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+	
+	
+	
+</Story>

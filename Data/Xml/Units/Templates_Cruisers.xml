@@ -61,7 +61,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1700</Build_Cost_Credits>
-		<AI_Combat_Power>7500</AI_Combat_Power>
+		<AI_Combat_Power>750</AI_Combat_Power>
 		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -255,7 +255,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2350</Build_Cost_Credits>
-		<AI_Combat_Power>8500</AI_Combat_Power>
+		<AI_Combat_Power>850</AI_Combat_Power>
 		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -467,7 +467,7 @@
 		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<AI_Combat_Power>6500</AI_Combat_Power>
+		<AI_Combat_Power>650</AI_Combat_Power>
 		<Size_Value>8</Size_Value>		
 		
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
@@ -670,7 +670,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>3600</Build_Cost_Credits>
-		<AI_Combat_Power>11400</AI_Combat_Power>
+		<AI_Combat_Power>1140</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -861,7 +861,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
-		<AI_Combat_Power>5700</AI_Combat_Power>
+		<AI_Combat_Power>570</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1045,7 +1045,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1500</Build_Cost_Credits>
-		<AI_Combat_Power>2000</AI_Combat_Power>
+		<AI_Combat_Power>500</AI_Combat_Power>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1241,7 +1241,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>3500</Build_Cost_Credits>
-		<AI_Combat_Power>12500</AI_Combat_Power>
+		<AI_Combat_Power>1250</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -1475,7 +1475,7 @@
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1800</Build_Cost_Credits>
-		<AI_Combat_Power>7000</AI_Combat_Power>
+		<AI_Combat_Power>700</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -1660,7 +1660,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3000</Build_Cost_Credits>
-        <AI_Combat_Power>11000</AI_Combat_Power>
+        <AI_Combat_Power>1100</AI_Combat_Power>
         <Build_Time_Seconds>20</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -1819,7 +1819,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>2200</Build_Cost_Credits>
-        <AI_Combat_Power>8000</AI_Combat_Power>
+        <AI_Combat_Power>800</AI_Combat_Power>
         <Build_Time_Seconds>20</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -2024,7 +2024,7 @@
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2500</Build_Cost_Credits>
-		<AI_Combat_Power>8600</AI_Combat_Power>
+		<AI_Combat_Power>860</AI_Combat_Power>
 		<Build_Time_Seconds>35</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -2192,7 +2192,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1800</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>6000</AI_Combat_Power>
+		<AI_Combat_Power>600</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2372,7 +2372,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1600</Build_Cost_Credits>
-		<AI_Combat_Power>6300</AI_Combat_Power>
+		<AI_Combat_Power>630</AI_Combat_Power>
 		<Build_Time_Seconds>45</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2530,7 +2530,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2500</Build_Cost_Credits>
-		<AI_Combat_Power>6500</AI_Combat_Power>
+		<AI_Combat_Power>650</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2726,7 +2726,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1350</Build_Cost_Credits> <!-- 1350 -->
-		<AI_Combat_Power>4800</AI_Combat_Power>
+		<AI_Combat_Power>480</AI_Combat_Power>
 		<Build_Time_Seconds>20</Build_Time_Seconds> <!-- 20 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -2890,7 +2890,7 @@
 		<Transport_Capacity>12</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1200</Build_Cost_Credits>
-		<AI_Combat_Power>4300</AI_Combat_Power>
+		<AI_Combat_Power>830</AI_Combat_Power>
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -3073,7 +3073,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2200</Build_Cost_Credits>
-		<AI_Combat_Power>7300</AI_Combat_Power>
+		<AI_Combat_Power>730</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -3266,7 +3266,7 @@
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>2600</Build_Cost_Credits>
-		<AI_Combat_Power>8900</AI_Combat_Power>
+		<AI_Combat_Power>890</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -3474,7 +3474,7 @@
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1800</Build_Cost_Credits>
-		<AI_Combat_Power>8000</AI_Combat_Power>
+		<AI_Combat_Power>800</AI_Combat_Power>
 		<Build_Time_Seconds>15</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
@@ -3659,7 +3659,7 @@
 		<Transport_Capacity>4</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>4200</Build_Cost_Credits> <!-- 4200 -->
-		<AI_Combat_Power>3000</AI_Combat_Power>
+		<AI_Combat_Power>700</AI_Combat_Power>
 		<Build_Time_Seconds>50</Build_Time_Seconds> <!-- 50 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Disallows_Hyperspace_Retreat> No </Disallows_Hyperspace_Retreat>  <!-- gravity_well ability will take care of this -->
@@ -3880,7 +3880,7 @@
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Build_Cost_Credits>1820</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
-		<AI_Combat_Power>3100</AI_Combat_Power>
+		<AI_Combat_Power>310</AI_Combat_Power>
 		<Build_Time_Seconds>30</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -4102,7 +4102,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3400</Build_Cost_Credits>
-        <AI_Combat_Power>16300</AI_Combat_Power>
+        <AI_Combat_Power>1630</AI_Combat_Power>
         <Build_Time_Seconds>30</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -4254,7 +4254,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3800</Build_Cost_Credits>
-        <AI_Combat_Power>14300</AI_Combat_Power>
+        <AI_Combat_Power>1430</AI_Combat_Power>
         <Build_Time_Seconds>30</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -4477,7 +4477,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3400</Build_Cost_Credits> <!-- 3400 -->
-        <AI_Combat_Power>12700</AI_Combat_Power>
+        <AI_Combat_Power>1270</AI_Combat_Power>
         <Build_Time_Seconds>35</Build_Time_Seconds> <!-- 35 -->
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -4641,7 +4641,7 @@
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Neutral</Affiliation>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
@@ -4659,7 +4659,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>4700</Build_Cost_Credits>
-		<AI_Combat_Power>18400</AI_Combat_Power>
+		<AI_Combat_Power>1840</AI_Combat_Power>
 		<Build_Time_Seconds>90</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>1</Size_Value>
@@ -4844,7 +4844,7 @@
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Neutral</Affiliation>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -4863,7 +4863,7 @@
 		<Political_Faction>Empire</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
 		<Build_Cost_Credits>4400</Build_Cost_Credits> <!-- 4400 -->
-		<AI_Combat_Power>12500</AI_Combat_Power>
+		<AI_Combat_Power>1250</AI_Combat_Power>
 		<Build_Time_Seconds>60</Build_Time_Seconds> <!-- 60 -->
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
@@ -5061,7 +5061,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>3800</Build_Cost_Credits>
-        <AI_Combat_Power>12000</AI_Combat_Power>
+        <AI_Combat_Power>1200</AI_Combat_Power>
         <Build_Time_Seconds>30</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -5219,7 +5219,7 @@
         <Transport_Capacity>12</Transport_Capacity>
         <Number_per_Squadron>1</Number_per_Squadron>
         <Build_Cost_Credits>4200</Build_Cost_Credits>
-        <AI_Combat_Power>8900</AI_Combat_Power>
+        <AI_Combat_Power>890</AI_Combat_Power>
         <Build_Time_Seconds>35</Build_Time_Seconds>
         <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
         <Size_Value>8</Size_Value>
@@ -5385,7 +5385,7 @@
 		<Squadron_Capacity>10</Squadron_Capacity>
 		<Transport_Capacity>8</Transport_Capacity>
 		<Number_per_Squadron>1</Number_per_Squadron>
-		<AI_Combat_Power>14000</AI_Combat_Power>
+		<AI_Combat_Power>1400</AI_Combat_Power>
 		<Size_Value>8</Size_Value>
 
 		<Death_Clone>Damage_Normal, Pirate_Frigate_Death_Clone</Death_Clone>
