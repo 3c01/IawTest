@@ -180,8 +180,8 @@
 	<AlwaysBypassAutoResolve> No </AlwaysBypassAutoResolve>	
 
 	<AutomaticAutoResolve>No</AutomaticAutoResolve>
-	<AutoResolveAttritionAllowanceFactor>0.333333</AutoResolveAttritionAllowanceFactor>
-	<AutoResolveTransportLosses>0.333333</AutoResolveTransportLosses>
+	<AutoResolveAttritionAllowanceFactor>0.666666</AutoResolveAttritionAllowanceFactor>
+	<AutoResolveTransportLosses>0.666666</AutoResolveTransportLosses>
 	<AutoResolveDisplayTime>0.01</AutoResolveDisplayTime>
 	<AutoResolveVoteDefaultToTactical>False</AutoResolveVoteDefaultToTactical>
 	<AutoResolveVoteDefaultTimeOut>15</AutoResolveVoteDefaultTimeOut>
