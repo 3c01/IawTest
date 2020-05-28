@@ -396,6 +396,12 @@
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron_Double, 1</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron_Double, 1</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_3>E-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Starting_Spawned_Units_Tech_3>X-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_3>
+		<Starting_Spawned_Units_Tech_3>B-Wing_Squadron, 2</Starting_Spawned_Units_Tech_3>
 	<Lua_Script>ObjectScript_Example</Lua_Script>
 	</SpaceUnit>
 

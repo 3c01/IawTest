@@ -618,12 +618,12 @@
 		<Space_Model_Name>rv_liberator_carrier.ALO</Space_Model_Name>
 		<Mass>0.999</Mass>
 		<Scale_Factor>0.8</Scale_Factor>
-		<No_Colorization_Color> 240, 20, 20, 255 </No_Colorization_Color>
+		
 		
 		<Damage>35</Damage>
 		<Autoresolve_Health>3200</Autoresolve_Health>
 		<Shield_Points>3000</Shield_Points>
-		<Tactical_Health>3200</Tactical_Health>
+		<Tactical_Health>2100</Tactical_Health>
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -688,9 +688,9 @@
 		<!--<Remove_Upon_Death>true</Remove_Upon_Death>-->
 
 		<HardPoints>
-		Liberator_ion1, Liberator_ion2, Liberator_ion3, Liberator_ion4, Liberator_ion5, Liberator_ion6, Liberator_ion7,
-		Liberator_turbo1, Liberator_turbo2, Liberator_turbo3, Liberator_turbo4, Liberator_turbo5, Liberator_turbo6,
-		Liberator_turbo7, Liberator_turbo8 ,Liberator_engines, Liberator_hangar	 
+		Liberator_ion1, Liberator_ion2, 
+		Liberator_turbo1, Liberator_turbo2,
+		,Liberator_engines, Liberator_hanga
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette </CategoryMask>

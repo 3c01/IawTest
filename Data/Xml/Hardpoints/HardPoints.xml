@@ -1086,7 +1086,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
-            <Health>250.0</Health>
+            <Health>350.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1124,7 +1124,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_WEAPON_TURBOLASER_HEAVY</Tooltip_Text>
-            <Health>250.0</Health>
+            <Health>350.0</Health>
 
 			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
