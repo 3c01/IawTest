@@ -245,9 +245,9 @@
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Calamari_Cruiser </Starting_Forces>
 		
@@ -265,9 +265,9 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hoth, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Empress_Station </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Home_One_Type </Starting_Forces>
@@ -288,7 +288,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Bespin, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Dreadnaught_Empire_Rebel </Starting_Forces>
-		<Starting_Forces> Rebel, Bespin, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bespin, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Corellian_Corvette </Starting_Forces>
 		
@@ -319,8 +319,8 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Atravis, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, NewRep_XQ </Starting_Forces>
-		<Starting_Forces> Rebel, Atravis, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Atravis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atravis, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Atravis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
 		
@@ -333,8 +333,8 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Belsavis, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, NewRep_XQ </Starting_Forces>
-		<Starting_Forces> Rebel, Belsavis, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Belsavis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
@@ -398,10 +398,10 @@
 		<Starting_Forces> Rebel, Sluis_Van, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, Calamari_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Sluis_Van, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sluis_Van, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sluis_Van, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sluis_Van, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, Assault_Frigate_Mk1 </Starting_Forces>
 		
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Sluis_Van, R_Ground_Barracks </Starting_Forces>
@@ -1306,9 +1306,9 @@
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Calamari_Cruiser </Starting_Forces>
 		
@@ -1326,9 +1326,9 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hoth, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Empress_Station </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Home_One_Type </Starting_Forces>
@@ -1349,7 +1349,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Bespin, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Dreadnaught_Empire_Rebel </Starting_Forces>
-		<Starting_Forces> Rebel, Bespin, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bespin, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bespin, Corellian_Corvette </Starting_Forces>
 		
@@ -1380,8 +1380,8 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Atravis, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, NewRep_XQ </Starting_Forces>
-		<Starting_Forces> Rebel, Atravis, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Atravis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atravis, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Atravis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
 		
@@ -1394,8 +1394,8 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Belsavis, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, NewRep_XQ </Starting_Forces>
-		<Starting_Forces> Rebel, Belsavis, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Belsavis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Nebulon_B-2_Frigate_Rebel </Starting_Forces>
@@ -1459,10 +1459,10 @@
 		<Starting_Forces> Rebel, Sluis_Van, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sluis_Van, Calamari_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Sluis_Van, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sluis_Van, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sluis_Van, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sluis_Van, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sluis_Van, Assault_Frigate_Mk1 </Starting_Forces>
 		
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Sluis_Van, R_Ground_Barracks </Starting_Forces>
@@ -2508,8 +2508,8 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Contruum, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Contruum, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Contruum, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Contruum, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Contruum, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Contruum, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Contruum, Rebel_Outpost </Starting_Forces>
@@ -2549,8 +2549,8 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Venator_Rebel </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
@@ -2593,7 +2593,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Talasea, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Talasea, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Talasea, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Talasea, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Talasea, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Talasea, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
@@ -2607,7 +2607,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Orocco, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Orocco, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Orocco, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Orocco, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Orocco, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Orocco, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
@@ -2621,9 +2621,9 @@
 		<Starting_Forces> Rebel, Chandrila, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Corellian_Gunboat </Starting_Forces>
@@ -2649,9 +2649,9 @@
 		<Starting_Forces> Rebel, Alderaan, Mc75 </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Corellian_Gunboat </Starting_Forces>
@@ -2675,9 +2675,9 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Brentaal, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Brentaal, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Brentaal, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Brentaal, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Brentaal, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Brentaal, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Brentaal, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Corellian_Corvette </Starting_Forces>
@@ -2693,12 +2693,12 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Shola, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Quasar_Fire </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Corellian_Gunboat </Starting_Forces>
@@ -2724,7 +2724,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Fresia, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Quasar_Fire </Starting_Forces>
-		<Starting_Forces> Rebel, Fresia, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Fresia, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Corellian_Corvette </Starting_Forces>
@@ -3876,8 +3876,8 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Contruum, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Contruum, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Contruum, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Contruum, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Contruum, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Contruum, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Contruum, Rebel_Outpost </Starting_Forces>
@@ -3917,8 +3917,8 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Venator_Rebel </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
@@ -3961,7 +3961,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Talasea, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Talasea, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Talasea, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Talasea, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Talasea, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Talasea, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
@@ -3975,7 +3975,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Orocco, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Orocco, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Orocco, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Orocco, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Orocco, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Orocco, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
@@ -3989,9 +3989,9 @@
 		<Starting_Forces> Rebel, Chandrila, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Corellian_Gunboat </Starting_Forces>
@@ -4017,9 +4017,9 @@
 		<Starting_Forces> Rebel, Alderaan, Mc75 </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Corellian_Gunboat </Starting_Forces>
@@ -4043,9 +4043,9 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Brentaal, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Brentaal, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Brentaal, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Brentaal, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Brentaal, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Brentaal, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Brentaal, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Corellian_Corvette </Starting_Forces>
@@ -4061,12 +4061,12 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Shola, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Quasar_Fire </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Corellian_Gunboat </Starting_Forces>
@@ -4092,7 +4092,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Fresia, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Quasar_Fire </Starting_Forces>
-		<Starting_Forces> Rebel, Fresia, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Fresia, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Corellian_Corvette </Starting_Forces>
@@ -5244,8 +5244,8 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Contruum, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Contruum, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Contruum, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Contruum, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Contruum, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Contruum, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Contruum, Rebel_Outpost </Starting_Forces>
@@ -5285,8 +5285,8 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_3 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Venator_Rebel </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
@@ -5329,7 +5329,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Talasea, Rebel_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Rebel, Talasea, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Talasea, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Talasea, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Talasea, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Talasea, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
@@ -5343,7 +5343,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Orocco, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Orocco, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Orocco, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Orocco, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Orocco, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Orocco, Corellian_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
@@ -5357,9 +5357,9 @@
 		<Starting_Forces> Rebel, Chandrila, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Chandrila, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Chandrila, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Chandrila, Corellian_Gunboat </Starting_Forces>
@@ -5385,9 +5385,9 @@
 		<Starting_Forces> Rebel, Alderaan, Mc75 </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Alderaan, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Alderaan, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Alderaan, Corellian_Gunboat </Starting_Forces>
@@ -5411,9 +5411,9 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Brentaal, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Mc40a </Starting_Forces>
-		<Starting_Forces> Rebel, Brentaal, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Brentaal, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Brentaal, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Brentaal, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Brentaal, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Brentaal, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Brentaal, Corellian_Corvette </Starting_Forces>
@@ -5429,12 +5429,12 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Shola, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Quasar_Fire </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Shola, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Shola, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Shola, Corellian_Gunboat </Starting_Forces>
@@ -5460,7 +5460,7 @@
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Fresia, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Quasar_Fire </Starting_Forces>
-		<Starting_Forces> Rebel, Fresia, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Fresia, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Corellian_Gunboat </Starting_Forces>
 		<Starting_Forces> Rebel, Fresia, Corellian_Corvette </Starting_Forces>
@@ -6577,7 +6577,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hoth, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
@@ -6595,7 +6595,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Belsavis, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Belsavis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
@@ -6621,7 +6621,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Atravis, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Atravis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atravis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
@@ -6634,7 +6634,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
@@ -6647,7 +6647,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Bakura, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Bakura, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bakura, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
@@ -6660,7 +6660,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Elrood, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Elrood, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Elrood, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
@@ -6673,7 +6673,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Utapau, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Utapau, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Utapau, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
@@ -6714,9 +6714,9 @@
 		<Starting_Forces> Rebel, Sullust, Rebel_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Calamari_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Hammerhead_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Outpost </Starting_Forces>
@@ -6727,7 +6727,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Eiattu, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Eiattu, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Eiattu, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Corellian_Corvette </Starting_Forces>
@@ -6740,7 +6740,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Vondarc, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Vondarc, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vondarc, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
@@ -6753,7 +6753,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Sanrafsix, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Sanrafsix, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sanrafsix, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
@@ -6766,7 +6766,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Naboo, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
@@ -6779,7 +6779,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, GlomTho, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, GlomTho, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, GlomTho, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
@@ -6792,7 +6792,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Kamino, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Kamino, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
@@ -6805,7 +6805,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
@@ -6834,7 +6834,7 @@
 	
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Da_SoochaV, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Da_SoochaV, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Da_SoochaV, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Marauder_Missile_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Corellian_Corvette </Starting_Forces>
@@ -6847,8 +6847,8 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hast, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Hast, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Hast, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Mediator_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
@@ -6867,8 +6867,8 @@
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Calamari_MC80 </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
@@ -6882,7 +6882,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, VergessoAsteroids, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, VergessoAsteroids, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, VergessoAsteroids, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
@@ -7831,7 +7831,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hoth, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
@@ -7849,7 +7849,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Belsavis, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Belsavis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
@@ -7875,7 +7875,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Atravis, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Atravis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atravis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
@@ -7888,7 +7888,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
@@ -7901,7 +7901,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Bakura, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Bakura, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bakura, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
@@ -7914,7 +7914,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Elrood, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Elrood, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Elrood, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
@@ -7927,7 +7927,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Utapau, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Utapau, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Utapau, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
@@ -7968,9 +7968,9 @@
 		<Starting_Forces> Rebel, Sullust, Rebel_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Calamari_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Hammerhead_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Outpost </Starting_Forces>
@@ -7981,7 +7981,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Eiattu, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Eiattu, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Eiattu, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Corellian_Corvette </Starting_Forces>
@@ -7994,7 +7994,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Vondarc, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Vondarc, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vondarc, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
@@ -8007,7 +8007,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Sanrafsix, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Sanrafsix, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sanrafsix, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
@@ -8020,7 +8020,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Naboo, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
@@ -8033,7 +8033,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, GlomTho, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, GlomTho, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, GlomTho, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
@@ -8046,7 +8046,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Kamino, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Kamino, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
@@ -8059,7 +8059,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
@@ -8088,7 +8088,7 @@
 	
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Da_SoochaV, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Da_SoochaV, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Da_SoochaV, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Marauder_Missile_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Corellian_Corvette </Starting_Forces>
@@ -8101,8 +8101,8 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hast, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Hast, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Hast, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Mediator_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
@@ -8121,8 +8121,8 @@
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Calamari_MC80 </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
@@ -8136,7 +8136,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, VergessoAsteroids, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, VergessoAsteroids, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, VergessoAsteroids, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
@@ -9084,7 +9084,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hoth, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
@@ -9102,7 +9102,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Belsavis, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Belsavis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
@@ -9128,7 +9128,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Atravis, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Atravis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atravis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
@@ -9141,7 +9141,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
@@ -9154,7 +9154,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Bakura, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Bakura, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bakura, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
@@ -9167,7 +9167,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Elrood, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Elrood, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Elrood, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
@@ -9180,7 +9180,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Utapau, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Utapau, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Utapau, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
@@ -9221,9 +9221,9 @@
 		<Starting_Forces> Rebel, Sullust, Rebel_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Calamari_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Hammerhead_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Outpost </Starting_Forces>
@@ -9234,7 +9234,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Eiattu, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Eiattu, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Eiattu, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Corellian_Corvette </Starting_Forces>
@@ -9247,7 +9247,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Vondarc, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Vondarc, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vondarc, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
@@ -9260,7 +9260,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Sanrafsix, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Sanrafsix, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sanrafsix, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
@@ -9273,7 +9273,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Naboo, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
@@ -9286,7 +9286,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, GlomTho, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, GlomTho, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, GlomTho, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
@@ -9299,7 +9299,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Kamino, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Kamino, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
@@ -9312,7 +9312,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
@@ -9341,7 +9341,7 @@
 	
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Da_SoochaV, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Da_SoochaV, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Da_SoochaV, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Marauder_Missile_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Corellian_Corvette </Starting_Forces>
@@ -9354,8 +9354,8 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hast, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Hast, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Hast, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Mediator_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
@@ -9374,8 +9374,8 @@
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Calamari_MC80 </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
@@ -9389,7 +9389,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, VergessoAsteroids, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, VergessoAsteroids, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, VergessoAsteroids, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
@@ -10337,7 +10337,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hoth, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hoth, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Corellian_Corvette </Starting_Forces>
@@ -10355,7 +10355,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Belsavis, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Belsavis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Belsavis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Belsavis, Corellian_Corvette </Starting_Forces>
@@ -10381,7 +10381,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Atravis, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Atravis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Atravis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Atravis, Corellian_Corvette </Starting_Forces>
@@ -10394,7 +10394,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Endor, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Endor, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Endor, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Endor, Corellian_Corvette </Starting_Forces>
@@ -10407,7 +10407,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Bakura, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Bakura, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bakura, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Bakura, Corellian_Corvette </Starting_Forces>
@@ -10420,7 +10420,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Elrood, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Elrood, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Elrood, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Elrood, Corellian_Corvette </Starting_Forces>
@@ -10433,7 +10433,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Utapau, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Utapau, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Utapau, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Utapau, Corellian_Corvette </Starting_Forces>
@@ -10474,9 +10474,9 @@
 		<Starting_Forces> Rebel, Sullust, Rebel_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Calamari_Cruiser </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Sullust, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Sullust, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sullust, Hammerhead_Corvette </Starting_Forces>
 		<!-- Rebel Land Forces -->
 		<Starting_Forces> Rebel, Sullust, Rebel_Outpost </Starting_Forces>
@@ -10487,7 +10487,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Eiattu, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Eiattu, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Eiattu, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Eiattu, Corellian_Corvette </Starting_Forces>
@@ -10500,7 +10500,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Vondarc, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Vondarc, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Vondarc, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Vondarc, Corellian_Corvette </Starting_Forces>
@@ -10513,7 +10513,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Sanrafsix, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Sanrafsix, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Sanrafsix, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Sanrafsix, Corellian_Corvette </Starting_Forces>
@@ -10526,7 +10526,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Naboo, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Naboo, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Naboo, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Naboo, Corellian_Corvette </Starting_Forces>
@@ -10539,7 +10539,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, GlomTho, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, GlomTho, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, GlomTho, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, GlomTho, Corellian_Corvette </Starting_Forces>
@@ -10552,7 +10552,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Kamino, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Kamino, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Kamino, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Kamino, Corellian_Corvette </Starting_Forces>
@@ -10565,7 +10565,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Gyndine, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Gyndine, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Gyndine, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Gyndine, Corellian_Corvette </Starting_Forces>
@@ -10594,7 +10594,7 @@
 	
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Da_SoochaV, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Da_SoochaV, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Da_SoochaV, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Marauder_Missile_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, Da_SoochaV, Corellian_Corvette </Starting_Forces>
@@ -10607,8 +10607,8 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, Hast, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Hast, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Hast, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Mediator_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Hast, Assault_Frigate_Mk1 </Starting_Forces>
@@ -10627,8 +10627,8 @@
 		<Starting_Forces> Rebel, MonCalimari, Rebel_Star_Base_4 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Calamari_MC80 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Calamari_MC80 </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, MonCalimari, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, MonCalimari, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, MonCalimari, Hammerhead_Corvette </Starting_Forces>
@@ -10642,7 +10642,7 @@
 		
 		<!-- Rebel Space Forces -->
 		<Starting_Forces> Rebel, VergessoAsteroids, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, VergessoAsteroids, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, VergessoAsteroids, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
 		<Starting_Forces> Rebel, VergessoAsteroids, Corellian_Corvette </Starting_Forces>
@@ -11591,7 +11591,7 @@
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Venator_Rebel </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		
@@ -11607,9 +11607,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Ithor, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Quasar_Fire </Starting_Forces>
@@ -11660,9 +11660,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Axxila, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Quasar_Fire </Starting_Forces>
@@ -11679,7 +11679,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, AetenII, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, AetenII, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, AetenII, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Calamari_Cruiser </Starting_Forces>
@@ -11698,8 +11698,8 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Dathomir, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Dathomir, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Dathomir, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Quasar_Fire </Starting_Forces>
@@ -11717,16 +11717,16 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Selaggis, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Selaggis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Selaggis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Bandomeer, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, MC30_Frigate </Starting_Forces>
@@ -11741,7 +11741,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Junction, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Junction, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Junction, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, Dauntless_Cruiser </Starting_Forces>
@@ -11758,7 +11758,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Phind, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Phind, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Phind, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Quasar_Fire </Starting_Forces>
@@ -11792,9 +11792,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Korriban, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, MC30_Frigate </Starting_Forces>
@@ -11809,9 +11809,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Wayland, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Quasar_Fire </Starting_Forces>
@@ -11827,9 +11827,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Myrkr, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Nebulon_B_Frigate </Starting_Forces>
@@ -12566,7 +12566,7 @@
 		<Starting_Forces> Corporate_Sector, Bonadan, Nebulon_B-2_Frigate_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Victory_II_Destroyer_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Victory_II_Destroyer_CSA </Starting_Forces>
-		<Starting_Forces> Corporate_Sector, Bonadan, Alliance_Assault_Frigate_CSA </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Bonadan, Assault_Frigate_Mk1_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Quasar_Fire_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Recusant_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Recusant_CSA </Starting_Forces>
@@ -13024,7 +13024,7 @@
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Venator_Rebel </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		
@@ -13040,9 +13040,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Ithor, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Quasar_Fire </Starting_Forces>
@@ -13093,9 +13093,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Axxila, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Quasar_Fire </Starting_Forces>
@@ -13112,7 +13112,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, AetenII, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, AetenII, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, AetenII, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Calamari_Cruiser </Starting_Forces>
@@ -13131,8 +13131,8 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Dathomir, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Dathomir, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Dathomir, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Quasar_Fire </Starting_Forces>
@@ -13150,16 +13150,16 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Selaggis, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Selaggis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Selaggis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Bandomeer, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, MC30_Frigate </Starting_Forces>
@@ -13174,7 +13174,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Junction, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Junction, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Junction, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, Dauntless_Cruiser </Starting_Forces>
@@ -13191,7 +13191,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Phind, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Phind, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Phind, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Quasar_Fire </Starting_Forces>
@@ -13225,9 +13225,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Korriban, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, MC30_Frigate </Starting_Forces>
@@ -13242,9 +13242,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Wayland, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Quasar_Fire </Starting_Forces>
@@ -13260,9 +13260,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Myrkr, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Nebulon_B_Frigate </Starting_Forces>
@@ -13999,7 +13999,7 @@
 		<Starting_Forces> Corporate_Sector, Bonadan, Nebulon_B-2_Frigate_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Victory_II_Destroyer_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Victory_II_Destroyer_CSA </Starting_Forces>
-		<Starting_Forces> Corporate_Sector, Bonadan, Alliance_Assault_Frigate_CSA </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Bonadan, Assault_Frigate_Mk1_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Quasar_Fire_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Recusant_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Recusant_CSA </Starting_Forces>
@@ -14457,7 +14457,7 @@
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Venator_Rebel </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		
@@ -14473,9 +14473,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Ithor, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Quasar_Fire </Starting_Forces>
@@ -14526,9 +14526,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Axxila, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Quasar_Fire </Starting_Forces>
@@ -14545,7 +14545,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, AetenII, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, AetenII, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, AetenII, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Calamari_Cruiser </Starting_Forces>
@@ -14564,8 +14564,8 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Dathomir, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Dathomir, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Dathomir, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Quasar_Fire </Starting_Forces>
@@ -14583,16 +14583,16 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Selaggis, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Selaggis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Selaggis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Bandomeer, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, MC30_Frigate </Starting_Forces>
@@ -14607,7 +14607,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Junction, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Junction, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Junction, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, Dauntless_Cruiser </Starting_Forces>
@@ -14624,7 +14624,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Phind, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Phind, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Phind, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Quasar_Fire </Starting_Forces>
@@ -14658,9 +14658,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Korriban, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, MC30_Frigate </Starting_Forces>
@@ -14675,9 +14675,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Wayland, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Quasar_Fire </Starting_Forces>
@@ -14693,9 +14693,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Myrkr, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Nebulon_B_Frigate </Starting_Forces>
@@ -15432,7 +15432,7 @@
 		<Starting_Forces> Corporate_Sector, Bonadan, Nebulon_B-2_Frigate_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Victory_II_Destroyer_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Victory_II_Destroyer_CSA </Starting_Forces>
-		<Starting_Forces> Corporate_Sector, Bonadan, Alliance_Assault_Frigate_CSA </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Bonadan, Assault_Frigate_Mk1_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Quasar_Fire_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Recusant_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Recusant_CSA </Starting_Forces>
@@ -15891,7 +15891,7 @@
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Yavin, Rebel_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Venator_Rebel </Starting_Forces>
-		<Starting_Forces> Rebel, Yavin, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Yavin, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Yavin, Calamari_Cruiser </Starting_Forces>
 		
@@ -15907,9 +15907,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Ithor, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Ithor, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Ithor, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Ithor, Quasar_Fire </Starting_Forces>
@@ -15960,9 +15960,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Axxila, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Axxila, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Axxila, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Axxila, Quasar_Fire </Starting_Forces>
@@ -15979,7 +15979,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, AetenII, Rebel_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Rebel, AetenII, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, AetenII, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, AetenII, Calamari_Cruiser </Starting_Forces>
@@ -15998,8 +15998,8 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Dathomir, Rebel_Star_Base_3 </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Dathomir, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Dathomir, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Dathomir, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Calamari_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Dathomir, Quasar_Fire </Starting_Forces>
@@ -16017,16 +16017,16 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Selaggis, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Selaggis, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Selaggis, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Selaggis, Mc40a </Starting_Forces>
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Bandomeer, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Bandomeer, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Bandomeer, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, Dauntless_Cruiser </Starting_Forces>
 		<Starting_Forces> Rebel, Bandomeer, MC30_Frigate </Starting_Forces>
@@ -16041,7 +16041,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Junction, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Junction, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Junction, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Junction, Dauntless_Cruiser </Starting_Forces>
@@ -16058,7 +16058,7 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Phind, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Phind, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Phind, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Phind, Quasar_Fire </Starting_Forces>
@@ -16092,9 +16092,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Korriban, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Korriban, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Korriban, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, Mc40a </Starting_Forces>
 		<Starting_Forces> Rebel, Korriban, MC30_Frigate </Starting_Forces>
@@ -16109,9 +16109,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Wayland, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Wayland, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Wayland, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, MC30_Frigate </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Wayland, Quasar_Fire </Starting_Forces>
@@ -16127,9 +16127,9 @@
 		
 		<!-- Space Forces -->
 		<Starting_Forces> Rebel, Myrkr, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, Myrkr, Alliance_Assault_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
+		<Starting_Forces> Rebel, Myrkr, Assault_Frigate_Mk1 </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Quasar_Fire </Starting_Forces>
 		<Starting_Forces> Rebel, Myrkr, Nebulon_B_Frigate </Starting_Forces>
@@ -16866,7 +16866,7 @@
 		<Starting_Forces> Corporate_Sector, Bonadan, Nebulon_B-2_Frigate_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Victory_II_Destroyer_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Victory_II_Destroyer_CSA </Starting_Forces>
-		<Starting_Forces> Corporate_Sector, Bonadan, Alliance_Assault_Frigate_CSA </Starting_Forces>
+		<Starting_Forces> Corporate_Sector, Bonadan, Assault_Frigate_Mk1_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Quasar_Fire_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Recusant_CSA </Starting_Forces>
 		<Starting_Forces> Corporate_Sector, Bonadan, Recusant_CSA </Starting_Forces>

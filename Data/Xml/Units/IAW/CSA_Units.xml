@@ -240,22 +240,6 @@
 		
 	</SpaceUnit>
 
-	<!-- Assault Mk 2 -->
-	<SpaceUnit Name="Alliance_Assault_Frigate_CSA">
-		<Variant_Of_Existing_Type>Template_Alliance_Assault_Frigate</Variant_Of_Existing_Type>
-		
-		<GUI_Row>1</GUI_Row>
-	
-		<Affiliation>Corporate_Sector</Affiliation>
-		
-		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron_Double, 1</Starting_Spawned_Units_Tech_0>
-		
-		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		
-		<Tech_Level>2</Tech_Level>
-		
-	</SpaceUnit>
 
 	<!-- Corellian Corvette-->
 	<SpaceUnit Name="Corellian_Corvette_CSA">

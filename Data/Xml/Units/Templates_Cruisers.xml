@@ -232,7 +232,7 @@
 		<Damage>40</Damage>
 		<Autoresolve_Health>4260</Autoresolve_Health>
 		<Shield_Points>2362</Shield_Points>
-		<Tactical_Health>2100</Tactical_Health> <!-- was 2800 -->
+		<Tactical_Health>1950</Tactical_Health> <!-- was 2800 -->
 		<Shield_Refresh_Rate>53</Shield_Refresh_Rate> <!-- was 50 -->
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
